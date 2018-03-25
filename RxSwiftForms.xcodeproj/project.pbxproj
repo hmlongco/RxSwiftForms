@@ -10,6 +10,57 @@
 		4CD09ED62067E08E00A7FBB0 /* RxSwiftForms.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CD09ECC2067E08E00A7FBB0 /* RxSwiftForms.framework */; };
 		4CD09EDB2067E08E00A7FBB0 /* RxSwiftFormsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD09EDA2067E08E00A7FBB0 /* RxSwiftFormsTests.swift */; };
 		4CD09EDD2067E08E00A7FBB0 /* RxSwiftForms.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CD09ECF2067E08E00A7FBB0 /* RxSwiftForms.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4CD09F242067E4E300A7FBB0 /* FxElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD09EE82067E4E300A7FBB0 /* FxElement.swift */; };
+		4CD09F252067E4E300A7FBB0 /* FxValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD09EEA2067E4E300A7FBB0 /* FxValues.swift */; };
+		4CD09F262067E4E300A7FBB0 /* FxValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD09EEB2067E4E300A7FBB0 /* FxValue.swift */; };
+		4CD09F272067E4E300A7FBB0 /* FxValueGeneric.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD09EEC2067E4E300A7FBB0 /* FxValueGeneric.swift */; };
+		4CD09F282067E4E300A7FBB0 /* FxValueNil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD09EED2067E4E300A7FBB0 /* FxValueNil.swift */; };
+		4CD09F292067E4E300A7FBB0 /* FxValueBool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD09EEE2067E4E300A7FBB0 /* FxValueBool.swift */; };
+		4CD09F2A2067E4E300A7FBB0 /* FxValueText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD09EEF2067E4E300A7FBB0 /* FxValueText.swift */; };
+		4CD09F2B2067E4E300A7FBB0 /* FxFields+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD09EF12067E4E300A7FBB0 /* FxFields+Rx.swift */; };
+		4CD09F2C2067E4E300A7FBB0 /* FxFields+Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD09EF22067E4E300A7FBB0 /* FxFields+Validation.swift */; };
+		4CD09F2D2067E4E300A7FBB0 /* FxFields.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD09EF32067E4E300A7FBB0 /* FxFields.swift */; };
+		4CD09F2E2067E4E300A7FBB0 /* FxValidationRules.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD09EF52067E4E300A7FBB0 /* FxValidationRules.swift */; };
+		4CD09F2F2067E4E300A7FBB0 /* FxField+Values.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD09EF72067E4E300A7FBB0 /* FxField+Values.swift */; };
+		4CD09F302067E4E300A7FBB0 /* FxField+Formatting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD09EF82067E4E300A7FBB0 /* FxField+Formatting.swift */; };
+		4CD09F312067E4E300A7FBB0 /* FxField+Keyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD09EF92067E4E300A7FBB0 /* FxField+Keyboard.swift */; };
+		4CD09F322067E4E300A7FBB0 /* FxField+Enabled.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD09EFA2067E4E300A7FBB0 /* FxField+Enabled.swift */; };
+		4CD09F332067E4E300A7FBB0 /* FxField+Binding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD09EFB2067E4E300A7FBB0 /* FxField+Binding.swift */; };
+		4CD09F342067E4E300A7FBB0 /* FxField+Placeholder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD09EFC2067E4E300A7FBB0 /* FxField+Placeholder.swift */; };
+		4CD09F352067E4E300A7FBB0 /* FxField+MaxLength.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD09EFD2067E4E300A7FBB0 /* FxField+MaxLength.swift */; };
+		4CD09F362067E4E300A7FBB0 /* FxField+Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD09EFE2067E4E300A7FBB0 /* FxField+Error.swift */; };
+		4CD09F372067E4E300A7FBB0 /* FxField+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD09EFF2067E4E300A7FBB0 /* FxField+Rx.swift */; };
+		4CD09F382067E4E300A7FBB0 /* FxField+Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD09F002067E4E300A7FBB0 /* FxField+Validation.swift */; };
+		4CD09F392067E4E300A7FBB0 /* FxField+Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD09F012067E4E300A7FBB0 /* FxField+Message.swift */; };
+		4CD09F3A2067E4E300A7FBB0 /* FxField+Hidden.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD09F022067E4E300A7FBB0 /* FxField+Hidden.swift */; };
+		4CD09F3B2067E4E300A7FBB0 /* FxField+MinLength.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD09F032067E4E300A7FBB0 /* FxField+MinLength.swift */; };
+		4CD09F3C2067E4E300A7FBB0 /* FxField+Required.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD09F042067E4E300A7FBB0 /* FxField+Required.swift */; };
+		4CD09F3D2067E4E300A7FBB0 /* FxField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD09F052067E4E300A7FBB0 /* FxField.swift */; };
+		4CD09F3E2067E4E300A7FBB0 /* FxField+Title.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD09F062067E4E300A7FBB0 /* FxField+Title.swift */; };
+		4CD09F3F2067E4E300A7FBB0 /* FxForm+Keyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD09F082067E4E300A7FBB0 /* FxForm+Keyboard.swift */; };
+		4CD09F402067E4E300A7FBB0 /* FxForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD09F092067E4E300A7FBB0 /* FxForm.swift */; };
+		4CD09F412067E4E300A7FBB0 /* FxForm+Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD09F0A2067E4E300A7FBB0 /* FxForm+Validation.swift */; };
+		4CD09F422067E4E300A7FBB0 /* FxForm+Binding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD09F0B2067E4E300A7FBB0 /* FxForm+Binding.swift */; };
+		4CD09F432067E4E300A7FBB0 /* FxForm+Tabbing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD09F0C2067E4E300A7FBB0 /* FxForm+Tabbing.swift */; };
+		4CD09F442067E4E300A7FBB0 /* FxForm+Auto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD09F0D2067E4E300A7FBB0 /* FxForm+Auto.swift */; };
+		4CD09F452067E4E300A7FBB0 /* FxForm+InputAccessoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD09F0E2067E4E300A7FBB0 /* FxForm+InputAccessoryView.swift */; };
+		4CD09F462067E4E300A7FBB0 /* FxBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD09F102067E4E300A7FBB0 /* FxBase.swift */; };
+		4CD09F472067E4E300A7FBB0 /* FxViewScrolling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD09F112067E4E300A7FBB0 /* FxViewScrolling.swift */; };
+		4CD09F482067E4E300A7FBB0 /* FxResourceTracking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD09F122067E4E300A7FBB0 /* FxResourceTracking.swift */; };
+		4CD09F492067E4E300A7FBB0 /* FxAttributeKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD09F132067E4E300A7FBB0 /* FxAttributeKeys.swift */; };
+		4CD09F4A2067E4E300A7FBB0 /* FxAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD09F142067E4E300A7FBB0 /* FxAttributes.swift */; };
+		4CD09F4B2067E4E300A7FBB0 /* FxWeakBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD09F152067E4E300A7FBB0 /* FxWeakBox.swift */; };
+		4CD09F4C2067E4E300A7FBB0 /* FxTextFormating.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD09F162067E4E300A7FBB0 /* FxTextFormating.swift */; };
+		4CD09F4D2067E4E300A7FBB0 /* FxInputAccessoryViewHideNext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD09F182067E4E300A7FBB0 /* FxInputAccessoryViewHideNext.swift */; };
+		4CD09F4E2067E4E300A7FBB0 /* UITextView+Fx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD09F192067E4E300A7FBB0 /* UITextView+Fx.swift */; };
+		4CD09F4F2067E4E300A7FBB0 /* UISegmentedControl+Fx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD09F1A2067E4E300A7FBB0 /* UISegmentedControl+Fx.swift */; };
+		4CD09F512067E4E300A7FBB0 /* FxInputAccessoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD09F1C2067E4E300A7FBB0 /* FxInputAccessoryView.swift */; };
+		4CD09F522067E4E300A7FBB0 /* UITextField+Fx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD09F1D2067E4E300A7FBB0 /* UITextField+Fx.swift */; };
+		4CD09F532067E4E300A7FBB0 /* FxCheckbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD09F1E2067E4E300A7FBB0 /* FxCheckbox.swift */; };
+		4CD09F542067E4E300A7FBB0 /* UISlider+Fx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD09F1F2067E4E300A7FBB0 /* UISlider+Fx.swift */; };
+		4CD09F562067E4E300A7FBB0 /* UIView+Fx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD09F212067E4E300A7FBB0 /* UIView+Fx.swift */; };
+		4CD09F572067E4E300A7FBB0 /* UISwitch+Fx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD09F222067E4E300A7FBB0 /* UISwitch+Fx.swift */; };
+		4CD09F582067E4E300A7FBB0 /* FxDisclosureButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD09F232067E4E300A7FBB0 /* FxDisclosureButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +80,57 @@
 		4CD09ED52067E08E00A7FBB0 /* RxSwiftFormsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RxSwiftFormsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CD09EDA2067E08E00A7FBB0 /* RxSwiftFormsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwiftFormsTests.swift; sourceTree = "<group>"; };
 		4CD09EDC2067E08E00A7FBB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CD09EE82067E4E300A7FBB0 /* FxElement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FxElement.swift; sourceTree = "<group>"; };
+		4CD09EEA2067E4E300A7FBB0 /* FxValues.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FxValues.swift; sourceTree = "<group>"; };
+		4CD09EEB2067E4E300A7FBB0 /* FxValue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FxValue.swift; sourceTree = "<group>"; };
+		4CD09EEC2067E4E300A7FBB0 /* FxValueGeneric.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FxValueGeneric.swift; sourceTree = "<group>"; };
+		4CD09EED2067E4E300A7FBB0 /* FxValueNil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FxValueNil.swift; sourceTree = "<group>"; };
+		4CD09EEE2067E4E300A7FBB0 /* FxValueBool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FxValueBool.swift; sourceTree = "<group>"; };
+		4CD09EEF2067E4E300A7FBB0 /* FxValueText.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FxValueText.swift; sourceTree = "<group>"; };
+		4CD09EF12067E4E300A7FBB0 /* FxFields+Rx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FxFields+Rx.swift"; sourceTree = "<group>"; };
+		4CD09EF22067E4E300A7FBB0 /* FxFields+Validation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FxFields+Validation.swift"; sourceTree = "<group>"; };
+		4CD09EF32067E4E300A7FBB0 /* FxFields.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FxFields.swift; sourceTree = "<group>"; };
+		4CD09EF52067E4E300A7FBB0 /* FxValidationRules.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FxValidationRules.swift; sourceTree = "<group>"; };
+		4CD09EF72067E4E300A7FBB0 /* FxField+Values.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FxField+Values.swift"; sourceTree = "<group>"; };
+		4CD09EF82067E4E300A7FBB0 /* FxField+Formatting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FxField+Formatting.swift"; sourceTree = "<group>"; };
+		4CD09EF92067E4E300A7FBB0 /* FxField+Keyboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FxField+Keyboard.swift"; sourceTree = "<group>"; };
+		4CD09EFA2067E4E300A7FBB0 /* FxField+Enabled.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FxField+Enabled.swift"; sourceTree = "<group>"; };
+		4CD09EFB2067E4E300A7FBB0 /* FxField+Binding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FxField+Binding.swift"; sourceTree = "<group>"; };
+		4CD09EFC2067E4E300A7FBB0 /* FxField+Placeholder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FxField+Placeholder.swift"; sourceTree = "<group>"; };
+		4CD09EFD2067E4E300A7FBB0 /* FxField+MaxLength.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FxField+MaxLength.swift"; sourceTree = "<group>"; };
+		4CD09EFE2067E4E300A7FBB0 /* FxField+Error.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FxField+Error.swift"; sourceTree = "<group>"; };
+		4CD09EFF2067E4E300A7FBB0 /* FxField+Rx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FxField+Rx.swift"; sourceTree = "<group>"; };
+		4CD09F002067E4E300A7FBB0 /* FxField+Validation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FxField+Validation.swift"; sourceTree = "<group>"; };
+		4CD09F012067E4E300A7FBB0 /* FxField+Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FxField+Message.swift"; sourceTree = "<group>"; };
+		4CD09F022067E4E300A7FBB0 /* FxField+Hidden.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FxField+Hidden.swift"; sourceTree = "<group>"; };
+		4CD09F032067E4E300A7FBB0 /* FxField+MinLength.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FxField+MinLength.swift"; sourceTree = "<group>"; };
+		4CD09F042067E4E300A7FBB0 /* FxField+Required.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FxField+Required.swift"; sourceTree = "<group>"; };
+		4CD09F052067E4E300A7FBB0 /* FxField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FxField.swift; sourceTree = "<group>"; };
+		4CD09F062067E4E300A7FBB0 /* FxField+Title.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FxField+Title.swift"; sourceTree = "<group>"; };
+		4CD09F082067E4E300A7FBB0 /* FxForm+Keyboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FxForm+Keyboard.swift"; sourceTree = "<group>"; };
+		4CD09F092067E4E300A7FBB0 /* FxForm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FxForm.swift; sourceTree = "<group>"; };
+		4CD09F0A2067E4E300A7FBB0 /* FxForm+Validation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FxForm+Validation.swift"; sourceTree = "<group>"; };
+		4CD09F0B2067E4E300A7FBB0 /* FxForm+Binding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FxForm+Binding.swift"; sourceTree = "<group>"; };
+		4CD09F0C2067E4E300A7FBB0 /* FxForm+Tabbing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FxForm+Tabbing.swift"; sourceTree = "<group>"; };
+		4CD09F0D2067E4E300A7FBB0 /* FxForm+Auto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FxForm+Auto.swift"; sourceTree = "<group>"; };
+		4CD09F0E2067E4E300A7FBB0 /* FxForm+InputAccessoryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FxForm+InputAccessoryView.swift"; sourceTree = "<group>"; };
+		4CD09F102067E4E300A7FBB0 /* FxBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FxBase.swift; sourceTree = "<group>"; };
+		4CD09F112067E4E300A7FBB0 /* FxViewScrolling.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FxViewScrolling.swift; sourceTree = "<group>"; };
+		4CD09F122067E4E300A7FBB0 /* FxResourceTracking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FxResourceTracking.swift; sourceTree = "<group>"; };
+		4CD09F132067E4E300A7FBB0 /* FxAttributeKeys.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FxAttributeKeys.swift; sourceTree = "<group>"; };
+		4CD09F142067E4E300A7FBB0 /* FxAttributes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FxAttributes.swift; sourceTree = "<group>"; };
+		4CD09F152067E4E300A7FBB0 /* FxWeakBox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FxWeakBox.swift; sourceTree = "<group>"; };
+		4CD09F162067E4E300A7FBB0 /* FxTextFormating.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FxTextFormating.swift; sourceTree = "<group>"; };
+		4CD09F182067E4E300A7FBB0 /* FxInputAccessoryViewHideNext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FxInputAccessoryViewHideNext.swift; sourceTree = "<group>"; };
+		4CD09F192067E4E300A7FBB0 /* UITextView+Fx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextView+Fx.swift"; sourceTree = "<group>"; };
+		4CD09F1A2067E4E300A7FBB0 /* UISegmentedControl+Fx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UISegmentedControl+Fx.swift"; sourceTree = "<group>"; };
+		4CD09F1C2067E4E300A7FBB0 /* FxInputAccessoryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FxInputAccessoryView.swift; sourceTree = "<group>"; };
+		4CD09F1D2067E4E300A7FBB0 /* UITextField+Fx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextField+Fx.swift"; sourceTree = "<group>"; };
+		4CD09F1E2067E4E300A7FBB0 /* FxCheckbox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FxCheckbox.swift; sourceTree = "<group>"; };
+		4CD09F1F2067E4E300A7FBB0 /* UISlider+Fx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UISlider+Fx.swift"; sourceTree = "<group>"; };
+		4CD09F212067E4E300A7FBB0 /* UIView+Fx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Fx.swift"; sourceTree = "<group>"; };
+		4CD09F222067E4E300A7FBB0 /* UISwitch+Fx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UISwitch+Fx.swift"; sourceTree = "<group>"; };
+		4CD09F232067E4E300A7FBB0 /* FxDisclosureButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FxDisclosureButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +173,7 @@
 		4CD09ECE2067E08E00A7FBB0 /* RxSwiftForms */ = {
 			isa = PBXGroup;
 			children = (
+				4CD09EE62067E48A00A7FBB0 /* RxSwiftForms */,
 				4CD09ECF2067E08E00A7FBB0 /* RxSwiftForms.h */,
 				4CD09ED02067E08E00A7FBB0 /* Info.plist */,
 			);
@@ -85,6 +188,136 @@
 			);
 			path = RxSwiftFormsTests;
 			sourceTree = "<group>";
+		};
+		4CD09EE62067E48A00A7FBB0 /* RxSwiftForms */ = {
+			isa = PBXGroup;
+			children = (
+				4CD09F0F2067E4E300A7FBB0 /* Components */,
+				4CD09EE72067E4E300A7FBB0 /* Element */,
+				4CD09EF62067E4E300A7FBB0 /* Field */,
+				4CD09EF02067E4E300A7FBB0 /* Fields */,
+				4CD09F072067E4E300A7FBB0 /* Form */,
+				4CD09EF42067E4E300A7FBB0 /* Validation */,
+				4CD09EE92067E4E300A7FBB0 /* Values */,
+				4CD09F172067E4E300A7FBB0 /* Views */,
+			);
+			path = RxSwiftForms;
+			sourceTree = "<group>";
+		};
+		4CD09EE72067E4E300A7FBB0 /* Element */ = {
+			isa = PBXGroup;
+			children = (
+				4CD09EE82067E4E300A7FBB0 /* FxElement.swift */,
+			);
+			name = Element;
+			path = Sources/RxSwiftForms/Element;
+			sourceTree = SOURCE_ROOT;
+		};
+		4CD09EE92067E4E300A7FBB0 /* Values */ = {
+			isa = PBXGroup;
+			children = (
+				4CD09EEB2067E4E300A7FBB0 /* FxValue.swift */,
+				4CD09EEE2067E4E300A7FBB0 /* FxValueBool.swift */,
+				4CD09EEC2067E4E300A7FBB0 /* FxValueGeneric.swift */,
+				4CD09EED2067E4E300A7FBB0 /* FxValueNil.swift */,
+				4CD09EEA2067E4E300A7FBB0 /* FxValues.swift */,
+				4CD09EEF2067E4E300A7FBB0 /* FxValueText.swift */,
+			);
+			name = Values;
+			path = Sources/RxSwiftForms/Values;
+			sourceTree = SOURCE_ROOT;
+		};
+		4CD09EF02067E4E300A7FBB0 /* Fields */ = {
+			isa = PBXGroup;
+			children = (
+				4CD09EF32067E4E300A7FBB0 /* FxFields.swift */,
+				4CD09EF12067E4E300A7FBB0 /* FxFields+Rx.swift */,
+				4CD09EF22067E4E300A7FBB0 /* FxFields+Validation.swift */,
+			);
+			name = Fields;
+			path = Sources/RxSwiftForms/Fields;
+			sourceTree = SOURCE_ROOT;
+		};
+		4CD09EF42067E4E300A7FBB0 /* Validation */ = {
+			isa = PBXGroup;
+			children = (
+				4CD09EF52067E4E300A7FBB0 /* FxValidationRules.swift */,
+			);
+			name = Validation;
+			path = Sources/RxSwiftForms/Validation;
+			sourceTree = SOURCE_ROOT;
+		};
+		4CD09EF62067E4E300A7FBB0 /* Field */ = {
+			isa = PBXGroup;
+			children = (
+				4CD09F052067E4E300A7FBB0 /* FxField.swift */,
+				4CD09EFB2067E4E300A7FBB0 /* FxField+Binding.swift */,
+				4CD09EFA2067E4E300A7FBB0 /* FxField+Enabled.swift */,
+				4CD09EFE2067E4E300A7FBB0 /* FxField+Error.swift */,
+				4CD09EF82067E4E300A7FBB0 /* FxField+Formatting.swift */,
+				4CD09F022067E4E300A7FBB0 /* FxField+Hidden.swift */,
+				4CD09EF92067E4E300A7FBB0 /* FxField+Keyboard.swift */,
+				4CD09EFD2067E4E300A7FBB0 /* FxField+MaxLength.swift */,
+				4CD09F012067E4E300A7FBB0 /* FxField+Message.swift */,
+				4CD09F032067E4E300A7FBB0 /* FxField+MinLength.swift */,
+				4CD09EFC2067E4E300A7FBB0 /* FxField+Placeholder.swift */,
+				4CD09F042067E4E300A7FBB0 /* FxField+Required.swift */,
+				4CD09EFF2067E4E300A7FBB0 /* FxField+Rx.swift */,
+				4CD09F062067E4E300A7FBB0 /* FxField+Title.swift */,
+				4CD09F002067E4E300A7FBB0 /* FxField+Validation.swift */,
+				4CD09EF72067E4E300A7FBB0 /* FxField+Values.swift */,
+			);
+			name = Field;
+			path = Sources/RxSwiftForms/Field;
+			sourceTree = SOURCE_ROOT;
+		};
+		4CD09F072067E4E300A7FBB0 /* Form */ = {
+			isa = PBXGroup;
+			children = (
+				4CD09F092067E4E300A7FBB0 /* FxForm.swift */,
+				4CD09F0D2067E4E300A7FBB0 /* FxForm+Auto.swift */,
+				4CD09F0B2067E4E300A7FBB0 /* FxForm+Binding.swift */,
+				4CD09F0E2067E4E300A7FBB0 /* FxForm+InputAccessoryView.swift */,
+				4CD09F082067E4E300A7FBB0 /* FxForm+Keyboard.swift */,
+				4CD09F0C2067E4E300A7FBB0 /* FxForm+Tabbing.swift */,
+				4CD09F0A2067E4E300A7FBB0 /* FxForm+Validation.swift */,
+			);
+			name = Form;
+			path = Sources/RxSwiftForms/Form;
+			sourceTree = SOURCE_ROOT;
+		};
+		4CD09F0F2067E4E300A7FBB0 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				4CD09F132067E4E300A7FBB0 /* FxAttributeKeys.swift */,
+				4CD09F142067E4E300A7FBB0 /* FxAttributes.swift */,
+				4CD09F102067E4E300A7FBB0 /* FxBase.swift */,
+				4CD09F122067E4E300A7FBB0 /* FxResourceTracking.swift */,
+				4CD09F162067E4E300A7FBB0 /* FxTextFormating.swift */,
+				4CD09F112067E4E300A7FBB0 /* FxViewScrolling.swift */,
+				4CD09F152067E4E300A7FBB0 /* FxWeakBox.swift */,
+			);
+			name = Components;
+			path = Sources/RxSwiftForms/Components;
+			sourceTree = SOURCE_ROOT;
+		};
+		4CD09F172067E4E300A7FBB0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4CD09F1E2067E4E300A7FBB0 /* FxCheckbox.swift */,
+				4CD09F232067E4E300A7FBB0 /* FxDisclosureButton.swift */,
+				4CD09F1C2067E4E300A7FBB0 /* FxInputAccessoryView.swift */,
+				4CD09F182067E4E300A7FBB0 /* FxInputAccessoryViewHideNext.swift */,
+				4CD09F1A2067E4E300A7FBB0 /* UISegmentedControl+Fx.swift */,
+				4CD09F1F2067E4E300A7FBB0 /* UISlider+Fx.swift */,
+				4CD09F222067E4E300A7FBB0 /* UISwitch+Fx.swift */,
+				4CD09F1D2067E4E300A7FBB0 /* UITextField+Fx.swift */,
+				4CD09F192067E4E300A7FBB0 /* UITextView+Fx.swift */,
+				4CD09F212067E4E300A7FBB0 /* UIView+Fx.swift */,
+			);
+			name = Views;
+			path = Sources/RxSwiftForms/Views;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -196,6 +429,57 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CD09F402067E4E300A7FBB0 /* FxForm.swift in Sources */,
+				4CD09F572067E4E300A7FBB0 /* UISwitch+Fx.swift in Sources */,
+				4CD09F4B2067E4E300A7FBB0 /* FxWeakBox.swift in Sources */,
+				4CD09F2D2067E4E300A7FBB0 /* FxFields.swift in Sources */,
+				4CD09F262067E4E300A7FBB0 /* FxValue.swift in Sources */,
+				4CD09F432067E4E300A7FBB0 /* FxForm+Tabbing.swift in Sources */,
+				4CD09F292067E4E300A7FBB0 /* FxValueBool.swift in Sources */,
+				4CD09F3E2067E4E300A7FBB0 /* FxField+Title.swift in Sources */,
+				4CD09F382067E4E300A7FBB0 /* FxField+Validation.swift in Sources */,
+				4CD09F4E2067E4E300A7FBB0 /* UITextView+Fx.swift in Sources */,
+				4CD09F522067E4E300A7FBB0 /* UITextField+Fx.swift in Sources */,
+				4CD09F302067E4E300A7FBB0 /* FxField+Formatting.swift in Sources */,
+				4CD09F3F2067E4E300A7FBB0 /* FxForm+Keyboard.swift in Sources */,
+				4CD09F3B2067E4E300A7FBB0 /* FxField+MinLength.swift in Sources */,
+				4CD09F242067E4E300A7FBB0 /* FxElement.swift in Sources */,
+				4CD09F412067E4E300A7FBB0 /* FxForm+Validation.swift in Sources */,
+				4CD09F4F2067E4E300A7FBB0 /* UISegmentedControl+Fx.swift in Sources */,
+				4CD09F4D2067E4E300A7FBB0 /* FxInputAccessoryViewHideNext.swift in Sources */,
+				4CD09F462067E4E300A7FBB0 /* FxBase.swift in Sources */,
+				4CD09F2F2067E4E300A7FBB0 /* FxField+Values.swift in Sources */,
+				4CD09F4C2067E4E300A7FBB0 /* FxTextFormating.swift in Sources */,
+				4CD09F512067E4E300A7FBB0 /* FxInputAccessoryView.swift in Sources */,
+				4CD09F562067E4E300A7FBB0 /* UIView+Fx.swift in Sources */,
+				4CD09F472067E4E300A7FBB0 /* FxViewScrolling.swift in Sources */,
+				4CD09F362067E4E300A7FBB0 /* FxField+Error.swift in Sources */,
+				4CD09F2C2067E4E300A7FBB0 /* FxFields+Validation.swift in Sources */,
+				4CD09F482067E4E300A7FBB0 /* FxResourceTracking.swift in Sources */,
+				4CD09F322067E4E300A7FBB0 /* FxField+Enabled.swift in Sources */,
+				4CD09F3A2067E4E300A7FBB0 /* FxField+Hidden.swift in Sources */,
+				4CD09F582067E4E300A7FBB0 /* FxDisclosureButton.swift in Sources */,
+				4CD09F332067E4E300A7FBB0 /* FxField+Binding.swift in Sources */,
+				4CD09F422067E4E300A7FBB0 /* FxForm+Binding.swift in Sources */,
+				4CD09F352067E4E300A7FBB0 /* FxField+MaxLength.swift in Sources */,
+				4CD09F3D2067E4E300A7FBB0 /* FxField.swift in Sources */,
+				4CD09F532067E4E300A7FBB0 /* FxCheckbox.swift in Sources */,
+				4CD09F492067E4E300A7FBB0 /* FxAttributeKeys.swift in Sources */,
+				4CD09F4A2067E4E300A7FBB0 /* FxAttributes.swift in Sources */,
+				4CD09F3C2067E4E300A7FBB0 /* FxField+Required.swift in Sources */,
+				4CD09F442067E4E300A7FBB0 /* FxForm+Auto.swift in Sources */,
+				4CD09F252067E4E300A7FBB0 /* FxValues.swift in Sources */,
+				4CD09F452067E4E300A7FBB0 /* FxForm+InputAccessoryView.swift in Sources */,
+				4CD09F2A2067E4E300A7FBB0 /* FxValueText.swift in Sources */,
+				4CD09F272067E4E300A7FBB0 /* FxValueGeneric.swift in Sources */,
+				4CD09F542067E4E300A7FBB0 /* UISlider+Fx.swift in Sources */,
+				4CD09F2B2067E4E300A7FBB0 /* FxFields+Rx.swift in Sources */,
+				4CD09F2E2067E4E300A7FBB0 /* FxValidationRules.swift in Sources */,
+				4CD09F282067E4E300A7FBB0 /* FxValueNil.swift in Sources */,
+				4CD09F342067E4E300A7FBB0 /* FxField+Placeholder.swift in Sources */,
+				4CD09F372067E4E300A7FBB0 /* FxField+Rx.swift in Sources */,
+				4CD09F392067E4E300A7FBB0 /* FxField+Message.swift in Sources */,
+				4CD09F312067E4E300A7FBB0 /* FxField+Keyboard.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -376,6 +660,7 @@
 		4CD09EE42067E08E00A7FBB0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9ZVHDWC4WU;
 				INFOPLIST_FILE = RxSwiftFormsTests/Info.plist;
@@ -390,6 +675,7 @@
 		4CD09EE52067E08E00A7FBB0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9ZVHDWC4WU;
 				INFOPLIST_FILE = RxSwiftFormsTests/Info.plist;
