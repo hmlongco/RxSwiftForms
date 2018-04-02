@@ -1542,6 +1542,13 @@
     },
     {
       "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Components/FxAttributes.swift",
+      "line": 13,
+      "symbol": "FxAttributes.FxAttributeHandler",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Components/FxAttributes.swift",
       "line": 31,
       "symbol": "FxAttributes.removeValue(forKey:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
@@ -1552,6 +1559,13 @@
       "line": 35,
       "symbol": "FxAttributes.updateValue(_:forKey:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Components/FxAttributes.swift",
+      "line": 44,
+      "symbol": "FxAttributes.subscript(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.subscript",
       "warning": "undocumented"
     },
     {
@@ -1671,6 +1685,20 @@
       "line": 55,
       "symbol": "FxScrollingService.scrollIntoView(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Element/FxElement.swift",
+      "line": 13,
+      "symbol": "FxAttributeBindingStrategy",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Element/FxElement.swift",
+      "line": 14,
+      "symbol": "FxReactiveBindingStrategy",
+      "symbol_kind": "source.lang.swift.decl.typealias",
       "warning": "undocumented"
     },
     {
@@ -1842,10 +1870,24 @@
       "warning": "undocumented"
     },
     {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Field/FxField.swift",
+      "line": 13,
+      "symbol": "FxKeyField",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
       "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Fields/FxFields+Rx.swift",
       "line": 32,
       "symbol": "FxFieldsReactiveBase",
       "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Fields/FxFields.swift",
+      "line": 12,
+      "symbol": "FxKeyFields",
+      "symbol_kind": "source.lang.swift.decl.typealias",
       "warning": "undocumented"
     },
     {
@@ -1892,9 +1934,23 @@
     },
     {
       "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Form/FxForm.swift",
+      "line": 13,
+      "symbol": "FxKeyForm",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Form/FxForm.swift",
       "line": 121,
       "symbol": "FxFormIterator",
       "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Validation/FxValidationRules.swift",
+      "line": 11,
+      "symbol": "FxFieldValidationFunction",
+      "symbol_kind": "source.lang.swift.decl.typealias",
       "warning": "undocumented"
     },
     {
@@ -2609,6 +2665,13 @@
       "line": 22,
       "symbol": "UITextView.bindViewToField(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Views/UIView+Fx.swift",
+      "line": null,
+      "symbol": "FxViewAttributes",
+      "symbol_kind": "source.lang.swift.decl.extension",
       "warning": "undocumented"
     },
     {

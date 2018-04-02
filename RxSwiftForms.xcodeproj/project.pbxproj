@@ -367,7 +367,9 @@
 		4CD4F952207281C60090669A /* FxErrorMessageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FxErrorMessageView.swift; sourceTree = "<group>"; };
 		4CD4F9592072830C0090669A /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		4CD4F95B2072833F0090669A /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
-		4CD4F95D207299330090669A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		4CD4F95F2072A29B0090669A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
+		4CD4F9602072A9C80090669A /* RxSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RxSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CD4F9622072A9CE0090669A /* RxCocoa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RxCocoa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D95BF64A96A81978DAA2268 /* Pods_RxSwiftFormsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxSwiftFormsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		951B7B498DE39F91F7B89036 /* Pods-RxSwiftFormsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwiftFormsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RxSwiftFormsTests/Pods-RxSwiftFormsTests.debug.xcconfig"; sourceTree = "<group>"; };
 		AFD14E54FDD4601C7601CC31 /* Pods-RsSwiftFormsDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RsSwiftFormsDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RsSwiftFormsDemo/Pods-RsSwiftFormsDemo.debug.xcconfig"; sourceTree = "<group>"; };
@@ -410,6 +412,8 @@
 		0F1BC84C72AB48FDC5A26BD7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4CD4F9622072A9CE0090669A /* RxCocoa.framework */,
+				4CD4F9602072A9C80090669A /* RxSwift.framework */,
 				FB37A299971F040653261124 /* Pods_RxSwiftForms.framework */,
 				7D95BF64A96A81978DAA2268 /* Pods_RxSwiftFormsTests.framework */,
 				DDCD48B3DD8C86F914ABD93E /* Pods_RsSwiftFormsDemo.framework */,
@@ -433,7 +437,6 @@
 		4CD09EC22067E08E00A7FBB0 = {
 			isa = PBXGroup;
 			children = (
-				4CD4F95D207299330090669A /* README.md */,
 				4CD09ECE2067E08E00A7FBB0 /* RxSwiftForms */,
 				4CD4F84A20727C8D0090669A /* RsSwiftFormsDemo */,
 				4CD09ED92067E08E00A7FBB0 /* RxSwiftFormsTests */,
@@ -456,6 +459,7 @@
 		4CD09ECE2067E08E00A7FBB0 /* RxSwiftForms */ = {
 			isa = PBXGroup;
 			children = (
+				4CD4F95E2072A24B0090669A /* Documentation */,
 				4CD4F85D207280810090669A /* MetaTextField */,
 				4CD09EE62067E48A00A7FBB0 /* RxSwiftForms */,
 				4CD09ECF2067E08E00A7FBB0 /* RxSwiftForms.h */,
@@ -982,6 +986,15 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		4CD4F95E2072A24B0090669A /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+				4CD4F95F2072A29B0090669A /* README.md */,
+			);
+			name = Documentation;
+			path = ../Documentation;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -1064,7 +1077,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = "Michael Long";
 				TargetAttributes = {
 					4CD09ECB2067E08E00A7FBB0 = {
@@ -1481,6 +1494,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -1488,6 +1502,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -1541,6 +1556,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -1548,6 +1564,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
