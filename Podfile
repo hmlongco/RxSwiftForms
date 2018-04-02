@@ -6,11 +6,11 @@ def common
     pod 'RxCocoa', '~> 4.0'
 end
 
-target 'RsSwiftFormsDemo' do
+target 'RxSwiftForms' do
     common
 end
 
-target 'RxSwiftForms' do
+target 'RsSwiftFormsDemo' do
     common
 end
 
