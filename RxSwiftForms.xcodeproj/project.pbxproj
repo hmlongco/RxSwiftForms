@@ -367,6 +367,7 @@
 		4CD4F952207281C60090669A /* FxErrorMessageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FxErrorMessageView.swift; sourceTree = "<group>"; };
 		4CD4F9592072830C0090669A /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		4CD4F95B2072833F0090669A /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4CD4F95D207299330090669A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		7D95BF64A96A81978DAA2268 /* Pods_RxSwiftFormsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxSwiftFormsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		951B7B498DE39F91F7B89036 /* Pods-RxSwiftFormsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwiftFormsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RxSwiftFormsTests/Pods-RxSwiftFormsTests.debug.xcconfig"; sourceTree = "<group>"; };
 		AFD14E54FDD4601C7601CC31 /* Pods-RsSwiftFormsDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RsSwiftFormsDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RsSwiftFormsDemo/Pods-RsSwiftFormsDemo.debug.xcconfig"; sourceTree = "<group>"; };
@@ -432,6 +433,7 @@
 		4CD09EC22067E08E00A7FBB0 = {
 			isa = PBXGroup;
 			children = (
+				4CD4F95D207299330090669A /* README.md */,
 				4CD09ECE2067E08E00A7FBB0 /* RxSwiftForms */,
 				4CD4F84A20727C8D0090669A /* RsSwiftFormsDemo */,
 				4CD09ED92067E08E00A7FBB0 /* RxSwiftFormsTests */,
