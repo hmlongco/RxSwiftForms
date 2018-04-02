@@ -1,0 +1,6 @@
+framework module Pods_RxSwiftForms {
+  umbrella header "Pods-RxSwiftForms-umbrella.h"
+
+  export *
+  module * { export * }
+}

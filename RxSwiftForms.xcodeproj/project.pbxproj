@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		19E8A11E91946CF282BC9DE0 /* Pods_RxSwiftFormsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D95BF64A96A81978DAA2268 /* Pods_RxSwiftFormsTests.framework */; };
 		4CD09ED62067E08E00A7FBB0 /* RxSwiftForms.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CD09ECC2067E08E00A7FBB0 /* RxSwiftForms.framework */; };
 		4CD09EDB2067E08E00A7FBB0 /* RxSwiftFormsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD09EDA2067E08E00A7FBB0 /* RxSwiftFormsTests.swift */; };
 		4CD09EDD2067E08E00A7FBB0 /* RxSwiftForms.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CD09ECF2067E08E00A7FBB0 /* RxSwiftForms.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -61,6 +62,123 @@
 		4CD09F562067E4E300A7FBB0 /* UIView+Fx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD09F212067E4E300A7FBB0 /* UIView+Fx.swift */; };
 		4CD09F572067E4E300A7FBB0 /* UISwitch+Fx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD09F222067E4E300A7FBB0 /* UISwitch+Fx.swift */; };
 		4CD09F582067E4E300A7FBB0 /* FxDisclosureButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD09F232067E4E300A7FBB0 /* FxDisclosureButton.swift */; };
+		4CD4F84C20727C8D0090669A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD4F84B20727C8D0090669A /* AppDelegate.swift */; };
+		4CD4F84E20727C8D0090669A /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD4F84D20727C8D0090669A /* MasterViewController.swift */; };
+		4CD4F85520727C8F0090669A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CD4F85420727C8F0090669A /* Assets.xcassets */; };
+		4CD4F872207280810090669A /* MetaTextBecameFirstResponderHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD4F85F207280810090669A /* MetaTextBecameFirstResponderHandler.swift */; };
+		4CD4F873207280810090669A /* MetaTextResignedFirstResponderHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD4F860207280810090669A /* MetaTextResignedFirstResponderHandler.swift */; };
+		4CD4F874207280810090669A /* MetaTextDecoratorBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD4F862207280810090669A /* MetaTextDecoratorBorder.swift */; };
+		4CD4F875207280810090669A /* MetaTextDecoratorTintClearImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD4F863207280810090669A /* MetaTextDecoratorTintClearImage.swift */; };
+		4CD4F876207280810090669A /* MetaTextDecoratorDisclosure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD4F864207280810090669A /* MetaTextDecoratorDisclosure.swift */; };
+		4CD4F877207280810090669A /* MetaTextDecoratorTintPlaceholder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD4F865207280810090669A /* MetaTextDecoratorTintPlaceholder.swift */; };
+		4CD4F878207280810090669A /* MetaTextDecoratorShowPassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD4F866207280810090669A /* MetaTextDecoratorShowPassword.swift */; };
+		4CD4F879207280810090669A /* MetaTextDecoratorUnderline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD4F867207280810090669A /* MetaTextDecoratorUnderline.swift */; };
+		4CD4F87A207280810090669A /* MetaTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD4F868207280810090669A /* MetaTextField.swift */; };
+		4CD4F87B207280810090669A /* MetaTextBehaviorFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD4F86A207280810090669A /* MetaTextBehaviorFilter.swift */; };
+		4CD4F87C207280810090669A /* MetaTextBehaviorMaxLength.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD4F86B207280810090669A /* MetaTextBehaviorMaxLength.swift */; };
+		4CD4F87D207280810090669A /* MetaTextBehaviorMaskedNumeric.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD4F86C207280810090669A /* MetaTextBehaviorMaskedNumeric.swift */; };
+		4CD4F87E207280810090669A /* MetaTextErrorMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD4F86E207280810090669A /* MetaTextErrorMessage.swift */; };
+		4CD4F87F207280810090669A /* MetaTextErrorBackgoundColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD4F86F207280810090669A /* MetaTextErrorBackgoundColor.swift */; };
+		4CD4F880207280810090669A /* MetaTextErrorHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD4F870207280810090669A /* MetaTextErrorHandler.swift */; };
+		4CD4F881207280810090669A /* MetaText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD4F871207280810090669A /* MetaText.swift */; };
+		4CD4F8A0207281190090669A /* CreditCard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CD4F884207281190090669A /* CreditCard.storyboard */; };
+		4CD4F8A1207281190090669A /* CreditCardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD4F885207281190090669A /* CreditCardViewModel.swift */; };
+		4CD4F8A2207281190090669A /* CreditCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD4F886207281190090669A /* CreditCardViewController.swift */; };
+		4CD4F8A3207281190090669A /* Empty.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CD4F888207281190090669A /* Empty.storyboard */; };
+		4CD4F8A4207281190090669A /* EmptyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD4F889207281190090669A /* EmptyViewController.swift */; };
+		4CD4F8A5207281190090669A /* ContactForm.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CD4F88B207281190090669A /* ContactForm.storyboard */; };
+		4CD4F8A6207281190090669A /* ContactFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD4F88C207281190090669A /* ContactFormViewController.swift */; };
+		4CD4F8A7207281190090669A /* ContactFormViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD4F88D207281190090669A /* ContactFormViewModel.swift */; };
+		4CD4F8A8207281190090669A /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD4F88E207281190090669A /* Contact.swift */; };
+		4CD4F8A9207281190090669A /* LoginFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD4F890207281190090669A /* LoginFormViewController.swift */; };
+		4CD4F8AA207281190090669A /* LoginForm.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CD4F891207281190090669A /* LoginForm.storyboard */; };
+		4CD4F8AB207281190090669A /* LoginFormViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD4F892207281190090669A /* LoginFormViewModel.swift */; };
+		4CD4F8AC207281190090669A /* MaterialFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD4F894207281190090669A /* MaterialFormViewController.swift */; };
+		4CD4F8AD207281190090669A /* MaterialReflectionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD4F895207281190090669A /* MaterialReflectionViewModel.swift */; };
+		4CD4F8AE207281190090669A /* MaterialViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD4F896207281190090669A /* MaterialViewModel.swift */; };
+		4CD4F8AF207281190090669A /* MaterialForm.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CD4F897207281190090669A /* MaterialForm.storyboard */; };
+		4CD4F8B0207281190090669A /* ContactFormReactiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD4F899207281190090669A /* ContactFormReactiveViewController.swift */; };
+		4CD4F8B1207281190090669A /* ContactFormReactiveViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD4F89A207281190090669A /* ContactFormReactiveViewModel.swift */; };
+		4CD4F8B2207281190090669A /* ValidationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD4F89D207281190090669A /* ValidationViewModel.swift */; };
+		4CD4F8B3207281190090669A /* Validation.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CD4F89E207281190090669A /* Validation.storyboard */; };
+		4CD4F8B4207281190090669A /* ValidationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD4F89F207281190090669A /* ValidationViewController.swift */; };
+		4CD4F907207281500090669A /* FxForm+Keyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD4F8B82072814F0090669A /* FxForm+Keyboard.swift */; };
+		4CD4F908207281500090669A /* FxForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD4F8B92072814F0090669A /* FxForm.swift */; };
+		4CD4F909207281500090669A /* FxForm+Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD4F8BA2072814F0090669A /* FxForm+Validation.swift */; };
+		4CD4F90A207281500090669A /* FxForm+Binding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD4F8BB2072814F0090669A /* FxForm+Binding.swift */; };
+		4CD4F90B207281500090669A /* FxForm+Tabbing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD4F8BC2072814F0090669A /* FxForm+Tabbing.swift */; };
+		4CD4F90C207281500090669A /* FxForm+Auto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD4F8BD2072814F0090669A /* FxForm+Auto.swift */; };
+		4CD4F90D207281500090669A /* FxForm+InputAccessoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD4F8BE2072814F0090669A /* FxForm+InputAccessoryView.swift */; };
+		4CD4F90E207281500090669A /* FxElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD4F8C02072814F0090669A /* FxElement.swift */; };
+		4CD4F90F207281500090669A /* FxValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD4F8C22072814F0090669A /* FxValues.swift */; };
+		4CD4F910207281500090669A /* FxValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD4F8C32072814F0090669A /* FxValue.swift */; };
+		4CD4F911207281500090669A /* FxValueGeneric.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD4F8C42072814F0090669A /* FxValueGeneric.swift */; };
+		4CD4F912207281500090669A /* FxValueNil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD4F8C52072814F0090669A /* FxValueNil.swift */; };
+		4CD4F913207281500090669A /* FxValueBool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD4F8C62072814F0090669A /* FxValueBool.swift */; };
+		4CD4F914207281500090669A /* FxValueText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD4F8C72072814F0090669A /* FxValueText.swift */; };
+		4CD4F915207281500090669A /* FxField+Values.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD4F8C92072814F0090669A /* FxField+Values.swift */; };
+		4CD4F916207281500090669A /* FxField+Formatting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD4F8CA2072814F0090669A /* FxField+Formatting.swift */; };
+		4CD4F917207281500090669A /* FxField+Keyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD4F8CB2072814F0090669A /* FxField+Keyboard.swift */; };
+		4CD4F918207281500090669A /* FxField+Enabled.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD4F8CC2072814F0090669A /* FxField+Enabled.swift */; };
+		4CD4F919207281500090669A /* FxField+Binding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD4F8CD2072814F0090669A /* FxField+Binding.swift */; };
+		4CD4F91A207281500090669A /* FxField+Placeholder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD4F8CE2072814F0090669A /* FxField+Placeholder.swift */; };
+		4CD4F91B207281500090669A /* FxField+MaxLength.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD4F8CF2072814F0090669A /* FxField+MaxLength.swift */; };
+		4CD4F91C207281500090669A /* FxField+Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD4F8D02072814F0090669A /* FxField+Error.swift */; };
+		4CD4F91D207281500090669A /* FxField+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD4F8D12072814F0090669A /* FxField+Rx.swift */; };
+		4CD4F91E207281500090669A /* FxField+Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD4F8D22072814F0090669A /* FxField+Validation.swift */; };
+		4CD4F91F207281500090669A /* FxField+Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD4F8D32072814F0090669A /* FxField+Message.swift */; };
+		4CD4F920207281500090669A /* FxField+Hidden.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD4F8D42072814F0090669A /* FxField+Hidden.swift */; };
+		4CD4F921207281500090669A /* FxField+MinLength.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD4F8D52072814F0090669A /* FxField+MinLength.swift */; };
+		4CD4F922207281500090669A /* FxField+Required.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD4F8D62072814F0090669A /* FxField+Required.swift */; };
+		4CD4F923207281500090669A /* FxField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD4F8D72072814F0090669A /* FxField.swift */; };
+		4CD4F924207281500090669A /* FxField+Title.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD4F8D82072814F0090669A /* FxField+Title.swift */; };
+		4CD4F925207281500090669A /* FxBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD4F8DA2072814F0090669A /* FxBase.swift */; };
+		4CD4F926207281500090669A /* FxViewScrolling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD4F8DB2072814F0090669A /* FxViewScrolling.swift */; };
+		4CD4F927207281500090669A /* FxResourceTracking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD4F8DC2072814F0090669A /* FxResourceTracking.swift */; };
+		4CD4F928207281500090669A /* FxAttributeKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD4F8DD2072814F0090669A /* FxAttributeKeys.swift */; };
+		4CD4F929207281500090669A /* FxAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD4F8DE2072814F0090669A /* FxAttributes.swift */; };
+		4CD4F92A207281500090669A /* FxWeakBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD4F8DF2072814F0090669A /* FxWeakBox.swift */; };
+		4CD4F92B207281500090669A /* FxTextFormating.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD4F8E02072814F0090669A /* FxTextFormating.swift */; };
+		4CD4F92C207281500090669A /* FxFields+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD4F8E22072814F0090669A /* FxFields+Rx.swift */; };
+		4CD4F92D207281500090669A /* FxFields+Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD4F8E32072814F0090669A /* FxFields+Validation.swift */; };
+		4CD4F92E207281500090669A /* FxFields.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD4F8E42072814F0090669A /* FxFields.swift */; };
+		4CD4F92F207281500090669A /* FxInputAccessoryViewHideNext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD4F8E62072814F0090669A /* FxInputAccessoryViewHideNext.swift */; };
+		4CD4F930207281500090669A /* UITextView+Fx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD4F8E72072814F0090669A /* UITextView+Fx.swift */; };
+		4CD4F931207281500090669A /* UISegmentedControl+Fx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD4F8E82072814F0090669A /* UISegmentedControl+Fx.swift */; };
+		4CD4F932207281500090669A /* FxInputAccessoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD4F8E92072814F0090669A /* FxInputAccessoryView.swift */; };
+		4CD4F933207281500090669A /* UITextField+Fx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD4F8EA2072814F0090669A /* UITextField+Fx.swift */; };
+		4CD4F934207281500090669A /* FxCheckbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD4F8EB2072814F0090669A /* FxCheckbox.swift */; };
+		4CD4F935207281500090669A /* UISlider+Fx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD4F8EC2072814F0090669A /* UISlider+Fx.swift */; };
+		4CD4F936207281500090669A /* UIView+Fx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD4F8ED2072814F0090669A /* UIView+Fx.swift */; };
+		4CD4F937207281500090669A /* UISwitch+Fx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD4F8EE2072814F0090669A /* UISwitch+Fx.swift */; };
+		4CD4F938207281500090669A /* FxDisclosureButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD4F8EF2072814F0090669A /* FxDisclosureButton.swift */; };
+		4CD4F939207281500090669A /* FxValidationRules.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD4F8F12072814F0090669A /* FxValidationRules.swift */; };
+		4CD4F93A207281500090669A /* MetaTextBecameFirstResponderHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD4F8F42072814F0090669A /* MetaTextBecameFirstResponderHandler.swift */; };
+		4CD4F93B207281500090669A /* MetaTextResignedFirstResponderHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD4F8F52072814F0090669A /* MetaTextResignedFirstResponderHandler.swift */; };
+		4CD4F93C207281500090669A /* MetaTextDecoratorBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD4F8F72072814F0090669A /* MetaTextDecoratorBorder.swift */; };
+		4CD4F93D207281500090669A /* MetaTextDecoratorTintClearImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD4F8F82072814F0090669A /* MetaTextDecoratorTintClearImage.swift */; };
+		4CD4F93E207281500090669A /* MetaTextDecoratorDisclosure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD4F8F92072814F0090669A /* MetaTextDecoratorDisclosure.swift */; };
+		4CD4F93F207281500090669A /* MetaTextDecoratorTintPlaceholder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD4F8FA2072814F0090669A /* MetaTextDecoratorTintPlaceholder.swift */; };
+		4CD4F940207281500090669A /* MetaTextDecoratorShowPassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD4F8FB2072814F0090669A /* MetaTextDecoratorShowPassword.swift */; };
+		4CD4F941207281500090669A /* MetaTextDecoratorUnderline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD4F8FC2072814F0090669A /* MetaTextDecoratorUnderline.swift */; };
+		4CD4F942207281500090669A /* MetaTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD4F8FD2072814F0090669A /* MetaTextField.swift */; };
+		4CD4F943207281500090669A /* MetaTextBehaviorFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD4F8FF2072814F0090669A /* MetaTextBehaviorFilter.swift */; };
+		4CD4F944207281500090669A /* MetaTextBehaviorMaxLength.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD4F9002072814F0090669A /* MetaTextBehaviorMaxLength.swift */; };
+		4CD4F945207281500090669A /* MetaTextBehaviorMaskedNumeric.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD4F9012072814F0090669A /* MetaTextBehaviorMaskedNumeric.swift */; };
+		4CD4F946207281500090669A /* MetaTextErrorMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD4F9032072814F0090669A /* MetaTextErrorMessage.swift */; };
+		4CD4F947207281500090669A /* MetaTextErrorBackgoundColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD4F9042072814F0090669A /* MetaTextErrorBackgoundColor.swift */; };
+		4CD4F948207281500090669A /* MetaTextErrorHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD4F9052072814F0090669A /* MetaTextErrorHandler.swift */; };
+		4CD4F949207281500090669A /* MetaText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD4F9062072814F0090669A /* MetaText.swift */; };
+		4CD4F953207281C60090669A /* RxSwift+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD4F94B207281C60090669A /* RxSwift+Extensions.swift */; };
+		4CD4F954207281C60090669A /* UIViewController+Dismissible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD4F94C207281C60090669A /* UIViewController+Dismissible.swift */; };
+		4CD4F955207281C60090669A /* States.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD4F94E207281C60090669A /* States.swift */; };
+		4CD4F956207281C60090669A /* FxMaterialTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD4F950207281C60090669A /* FxMaterialTextField.swift */; };
+		4CD4F957207281C60090669A /* FxTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD4F951207281C60090669A /* FxTextField.swift */; };
+		4CD4F958207281C60090669A /* FxErrorMessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD4F952207281C60090669A /* FxErrorMessageView.swift */; };
+		4CD4F95A2072830C0090669A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CD4F9592072830C0090669A /* Main.storyboard */; };
+		4CD4F95C2072833F0090669A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CD4F95B2072833F0090669A /* LaunchScreen.storyboard */; };
+		563A94F5DBDD5C1BF973610F /* Pods_RsSwiftFormsDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDCD48B3DD8C86F914ABD93E /* Pods_RsSwiftFormsDemo.framework */; };
+		5AF026D0FF35070D2F6D07A5 /* Pods_RxSwiftForms.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB37A299971F040653261124 /* Pods_RxSwiftForms.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,6 +192,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		491432E8F71DC4754BA6B3C5 /* Pods-RxSwiftFormsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwiftFormsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RxSwiftFormsTests/Pods-RxSwiftFormsTests.release.xcconfig"; sourceTree = "<group>"; };
 		4CD09ECC2067E08E00A7FBB0 /* RxSwiftForms.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxSwiftForms.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CD09ECF2067E08E00A7FBB0 /* RxSwiftForms.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RxSwiftForms.h; sourceTree = "<group>"; };
 		4CD09ED02067E08E00A7FBB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -131,6 +250,131 @@
 		4CD09F212067E4E300A7FBB0 /* UIView+Fx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Fx.swift"; sourceTree = "<group>"; };
 		4CD09F222067E4E300A7FBB0 /* UISwitch+Fx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UISwitch+Fx.swift"; sourceTree = "<group>"; };
 		4CD09F232067E4E300A7FBB0 /* FxDisclosureButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FxDisclosureButton.swift; sourceTree = "<group>"; };
+		4CD4F84920727C8D0090669A /* RsSwiftFormsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RsSwiftFormsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CD4F84B20727C8D0090669A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4CD4F84D20727C8D0090669A /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		4CD4F85420727C8F0090669A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4CD4F85920727C8F0090669A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CD4F85F207280810090669A /* MetaTextBecameFirstResponderHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetaTextBecameFirstResponderHandler.swift; sourceTree = "<group>"; };
+		4CD4F860207280810090669A /* MetaTextResignedFirstResponderHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetaTextResignedFirstResponderHandler.swift; sourceTree = "<group>"; };
+		4CD4F862207280810090669A /* MetaTextDecoratorBorder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetaTextDecoratorBorder.swift; sourceTree = "<group>"; };
+		4CD4F863207280810090669A /* MetaTextDecoratorTintClearImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetaTextDecoratorTintClearImage.swift; sourceTree = "<group>"; };
+		4CD4F864207280810090669A /* MetaTextDecoratorDisclosure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetaTextDecoratorDisclosure.swift; sourceTree = "<group>"; };
+		4CD4F865207280810090669A /* MetaTextDecoratorTintPlaceholder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetaTextDecoratorTintPlaceholder.swift; sourceTree = "<group>"; };
+		4CD4F866207280810090669A /* MetaTextDecoratorShowPassword.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetaTextDecoratorShowPassword.swift; sourceTree = "<group>"; };
+		4CD4F867207280810090669A /* MetaTextDecoratorUnderline.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetaTextDecoratorUnderline.swift; sourceTree = "<group>"; };
+		4CD4F868207280810090669A /* MetaTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetaTextField.swift; sourceTree = "<group>"; };
+		4CD4F86A207280810090669A /* MetaTextBehaviorFilter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetaTextBehaviorFilter.swift; sourceTree = "<group>"; };
+		4CD4F86B207280810090669A /* MetaTextBehaviorMaxLength.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetaTextBehaviorMaxLength.swift; sourceTree = "<group>"; };
+		4CD4F86C207280810090669A /* MetaTextBehaviorMaskedNumeric.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetaTextBehaviorMaskedNumeric.swift; sourceTree = "<group>"; };
+		4CD4F86E207280810090669A /* MetaTextErrorMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetaTextErrorMessage.swift; sourceTree = "<group>"; };
+		4CD4F86F207280810090669A /* MetaTextErrorBackgoundColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetaTextErrorBackgoundColor.swift; sourceTree = "<group>"; };
+		4CD4F870207280810090669A /* MetaTextErrorHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetaTextErrorHandler.swift; sourceTree = "<group>"; };
+		4CD4F871207280810090669A /* MetaText.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetaText.swift; sourceTree = "<group>"; };
+		4CD4F884207281190090669A /* CreditCard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = CreditCard.storyboard; sourceTree = "<group>"; };
+		4CD4F885207281190090669A /* CreditCardViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreditCardViewModel.swift; sourceTree = "<group>"; };
+		4CD4F886207281190090669A /* CreditCardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreditCardViewController.swift; sourceTree = "<group>"; };
+		4CD4F888207281190090669A /* Empty.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Empty.storyboard; sourceTree = "<group>"; };
+		4CD4F889207281190090669A /* EmptyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmptyViewController.swift; sourceTree = "<group>"; };
+		4CD4F88B207281190090669A /* ContactForm.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ContactForm.storyboard; sourceTree = "<group>"; };
+		4CD4F88C207281190090669A /* ContactFormViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactFormViewController.swift; sourceTree = "<group>"; };
+		4CD4F88D207281190090669A /* ContactFormViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactFormViewModel.swift; sourceTree = "<group>"; };
+		4CD4F88E207281190090669A /* Contact.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		4CD4F890207281190090669A /* LoginFormViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginFormViewController.swift; sourceTree = "<group>"; };
+		4CD4F891207281190090669A /* LoginForm.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LoginForm.storyboard; sourceTree = "<group>"; };
+		4CD4F892207281190090669A /* LoginFormViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginFormViewModel.swift; sourceTree = "<group>"; };
+		4CD4F894207281190090669A /* MaterialFormViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialFormViewController.swift; sourceTree = "<group>"; };
+		4CD4F895207281190090669A /* MaterialReflectionViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialReflectionViewModel.swift; sourceTree = "<group>"; };
+		4CD4F896207281190090669A /* MaterialViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialViewModel.swift; sourceTree = "<group>"; };
+		4CD4F897207281190090669A /* MaterialForm.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MaterialForm.storyboard; sourceTree = "<group>"; };
+		4CD4F899207281190090669A /* ContactFormReactiveViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactFormReactiveViewController.swift; sourceTree = "<group>"; };
+		4CD4F89A207281190090669A /* ContactFormReactiveViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactFormReactiveViewModel.swift; sourceTree = "<group>"; };
+		4CD4F89D207281190090669A /* ValidationViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValidationViewModel.swift; sourceTree = "<group>"; };
+		4CD4F89E207281190090669A /* Validation.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Validation.storyboard; sourceTree = "<group>"; };
+		4CD4F89F207281190090669A /* ValidationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValidationViewController.swift; sourceTree = "<group>"; };
+		4CD4F8B82072814F0090669A /* FxForm+Keyboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FxForm+Keyboard.swift"; sourceTree = "<group>"; };
+		4CD4F8B92072814F0090669A /* FxForm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FxForm.swift; sourceTree = "<group>"; };
+		4CD4F8BA2072814F0090669A /* FxForm+Validation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FxForm+Validation.swift"; sourceTree = "<group>"; };
+		4CD4F8BB2072814F0090669A /* FxForm+Binding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FxForm+Binding.swift"; sourceTree = "<group>"; };
+		4CD4F8BC2072814F0090669A /* FxForm+Tabbing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FxForm+Tabbing.swift"; sourceTree = "<group>"; };
+		4CD4F8BD2072814F0090669A /* FxForm+Auto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FxForm+Auto.swift"; sourceTree = "<group>"; };
+		4CD4F8BE2072814F0090669A /* FxForm+InputAccessoryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FxForm+InputAccessoryView.swift"; sourceTree = "<group>"; };
+		4CD4F8C02072814F0090669A /* FxElement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FxElement.swift; sourceTree = "<group>"; };
+		4CD4F8C22072814F0090669A /* FxValues.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FxValues.swift; sourceTree = "<group>"; };
+		4CD4F8C32072814F0090669A /* FxValue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FxValue.swift; sourceTree = "<group>"; };
+		4CD4F8C42072814F0090669A /* FxValueGeneric.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FxValueGeneric.swift; sourceTree = "<group>"; };
+		4CD4F8C52072814F0090669A /* FxValueNil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FxValueNil.swift; sourceTree = "<group>"; };
+		4CD4F8C62072814F0090669A /* FxValueBool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FxValueBool.swift; sourceTree = "<group>"; };
+		4CD4F8C72072814F0090669A /* FxValueText.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FxValueText.swift; sourceTree = "<group>"; };
+		4CD4F8C92072814F0090669A /* FxField+Values.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FxField+Values.swift"; sourceTree = "<group>"; };
+		4CD4F8CA2072814F0090669A /* FxField+Formatting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FxField+Formatting.swift"; sourceTree = "<group>"; };
+		4CD4F8CB2072814F0090669A /* FxField+Keyboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FxField+Keyboard.swift"; sourceTree = "<group>"; };
+		4CD4F8CC2072814F0090669A /* FxField+Enabled.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FxField+Enabled.swift"; sourceTree = "<group>"; };
+		4CD4F8CD2072814F0090669A /* FxField+Binding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FxField+Binding.swift"; sourceTree = "<group>"; };
+		4CD4F8CE2072814F0090669A /* FxField+Placeholder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FxField+Placeholder.swift"; sourceTree = "<group>"; };
+		4CD4F8CF2072814F0090669A /* FxField+MaxLength.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FxField+MaxLength.swift"; sourceTree = "<group>"; };
+		4CD4F8D02072814F0090669A /* FxField+Error.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FxField+Error.swift"; sourceTree = "<group>"; };
+		4CD4F8D12072814F0090669A /* FxField+Rx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FxField+Rx.swift"; sourceTree = "<group>"; };
+		4CD4F8D22072814F0090669A /* FxField+Validation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FxField+Validation.swift"; sourceTree = "<group>"; };
+		4CD4F8D32072814F0090669A /* FxField+Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FxField+Message.swift"; sourceTree = "<group>"; };
+		4CD4F8D42072814F0090669A /* FxField+Hidden.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FxField+Hidden.swift"; sourceTree = "<group>"; };
+		4CD4F8D52072814F0090669A /* FxField+MinLength.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FxField+MinLength.swift"; sourceTree = "<group>"; };
+		4CD4F8D62072814F0090669A /* FxField+Required.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FxField+Required.swift"; sourceTree = "<group>"; };
+		4CD4F8D72072814F0090669A /* FxField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FxField.swift; sourceTree = "<group>"; };
+		4CD4F8D82072814F0090669A /* FxField+Title.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FxField+Title.swift"; sourceTree = "<group>"; };
+		4CD4F8DA2072814F0090669A /* FxBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FxBase.swift; sourceTree = "<group>"; };
+		4CD4F8DB2072814F0090669A /* FxViewScrolling.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FxViewScrolling.swift; sourceTree = "<group>"; };
+		4CD4F8DC2072814F0090669A /* FxResourceTracking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FxResourceTracking.swift; sourceTree = "<group>"; };
+		4CD4F8DD2072814F0090669A /* FxAttributeKeys.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FxAttributeKeys.swift; sourceTree = "<group>"; };
+		4CD4F8DE2072814F0090669A /* FxAttributes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FxAttributes.swift; sourceTree = "<group>"; };
+		4CD4F8DF2072814F0090669A /* FxWeakBox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FxWeakBox.swift; sourceTree = "<group>"; };
+		4CD4F8E02072814F0090669A /* FxTextFormating.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FxTextFormating.swift; sourceTree = "<group>"; };
+		4CD4F8E22072814F0090669A /* FxFields+Rx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FxFields+Rx.swift"; sourceTree = "<group>"; };
+		4CD4F8E32072814F0090669A /* FxFields+Validation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FxFields+Validation.swift"; sourceTree = "<group>"; };
+		4CD4F8E42072814F0090669A /* FxFields.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FxFields.swift; sourceTree = "<group>"; };
+		4CD4F8E62072814F0090669A /* FxInputAccessoryViewHideNext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FxInputAccessoryViewHideNext.swift; sourceTree = "<group>"; };
+		4CD4F8E72072814F0090669A /* UITextView+Fx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextView+Fx.swift"; sourceTree = "<group>"; };
+		4CD4F8E82072814F0090669A /* UISegmentedControl+Fx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UISegmentedControl+Fx.swift"; sourceTree = "<group>"; };
+		4CD4F8E92072814F0090669A /* FxInputAccessoryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FxInputAccessoryView.swift; sourceTree = "<group>"; };
+		4CD4F8EA2072814F0090669A /* UITextField+Fx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextField+Fx.swift"; sourceTree = "<group>"; };
+		4CD4F8EB2072814F0090669A /* FxCheckbox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FxCheckbox.swift; sourceTree = "<group>"; };
+		4CD4F8EC2072814F0090669A /* UISlider+Fx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UISlider+Fx.swift"; sourceTree = "<group>"; };
+		4CD4F8ED2072814F0090669A /* UIView+Fx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Fx.swift"; sourceTree = "<group>"; };
+		4CD4F8EE2072814F0090669A /* UISwitch+Fx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UISwitch+Fx.swift"; sourceTree = "<group>"; };
+		4CD4F8EF2072814F0090669A /* FxDisclosureButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FxDisclosureButton.swift; sourceTree = "<group>"; };
+		4CD4F8F12072814F0090669A /* FxValidationRules.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FxValidationRules.swift; sourceTree = "<group>"; };
+		4CD4F8F42072814F0090669A /* MetaTextBecameFirstResponderHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetaTextBecameFirstResponderHandler.swift; sourceTree = "<group>"; };
+		4CD4F8F52072814F0090669A /* MetaTextResignedFirstResponderHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetaTextResignedFirstResponderHandler.swift; sourceTree = "<group>"; };
+		4CD4F8F72072814F0090669A /* MetaTextDecoratorBorder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetaTextDecoratorBorder.swift; sourceTree = "<group>"; };
+		4CD4F8F82072814F0090669A /* MetaTextDecoratorTintClearImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetaTextDecoratorTintClearImage.swift; sourceTree = "<group>"; };
+		4CD4F8F92072814F0090669A /* MetaTextDecoratorDisclosure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetaTextDecoratorDisclosure.swift; sourceTree = "<group>"; };
+		4CD4F8FA2072814F0090669A /* MetaTextDecoratorTintPlaceholder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetaTextDecoratorTintPlaceholder.swift; sourceTree = "<group>"; };
+		4CD4F8FB2072814F0090669A /* MetaTextDecoratorShowPassword.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetaTextDecoratorShowPassword.swift; sourceTree = "<group>"; };
+		4CD4F8FC2072814F0090669A /* MetaTextDecoratorUnderline.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetaTextDecoratorUnderline.swift; sourceTree = "<group>"; };
+		4CD4F8FD2072814F0090669A /* MetaTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetaTextField.swift; sourceTree = "<group>"; };
+		4CD4F8FF2072814F0090669A /* MetaTextBehaviorFilter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetaTextBehaviorFilter.swift; sourceTree = "<group>"; };
+		4CD4F9002072814F0090669A /* MetaTextBehaviorMaxLength.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetaTextBehaviorMaxLength.swift; sourceTree = "<group>"; };
+		4CD4F9012072814F0090669A /* MetaTextBehaviorMaskedNumeric.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetaTextBehaviorMaskedNumeric.swift; sourceTree = "<group>"; };
+		4CD4F9032072814F0090669A /* MetaTextErrorMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetaTextErrorMessage.swift; sourceTree = "<group>"; };
+		4CD4F9042072814F0090669A /* MetaTextErrorBackgoundColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetaTextErrorBackgoundColor.swift; sourceTree = "<group>"; };
+		4CD4F9052072814F0090669A /* MetaTextErrorHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetaTextErrorHandler.swift; sourceTree = "<group>"; };
+		4CD4F9062072814F0090669A /* MetaText.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetaText.swift; sourceTree = "<group>"; };
+		4CD4F94B207281C60090669A /* RxSwift+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "RxSwift+Extensions.swift"; sourceTree = "<group>"; };
+		4CD4F94C207281C60090669A /* UIViewController+Dismissible.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Dismissible.swift"; sourceTree = "<group>"; };
+		4CD4F94E207281C60090669A /* States.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = States.swift; sourceTree = "<group>"; };
+		4CD4F950207281C60090669A /* FxMaterialTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FxMaterialTextField.swift; sourceTree = "<group>"; };
+		4CD4F951207281C60090669A /* FxTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FxTextField.swift; sourceTree = "<group>"; };
+		4CD4F952207281C60090669A /* FxErrorMessageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FxErrorMessageView.swift; sourceTree = "<group>"; };
+		4CD4F9592072830C0090669A /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		4CD4F95B2072833F0090669A /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7D95BF64A96A81978DAA2268 /* Pods_RxSwiftFormsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxSwiftFormsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		951B7B498DE39F91F7B89036 /* Pods-RxSwiftFormsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwiftFormsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RxSwiftFormsTests/Pods-RxSwiftFormsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AFD14E54FDD4601C7601CC31 /* Pods-RsSwiftFormsDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RsSwiftFormsDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RsSwiftFormsDemo/Pods-RsSwiftFormsDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		CCAA4133F550D5E278D5A44A /* Pods-RsSwiftFormsDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RsSwiftFormsDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-RsSwiftFormsDemo/Pods-RsSwiftFormsDemo.release.xcconfig"; sourceTree = "<group>"; };
+		DDCD48B3DD8C86F914ABD93E /* Pods_RsSwiftFormsDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RsSwiftFormsDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB441327D009F8D95AACDF50 /* Pods-RxSwiftForms.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwiftForms.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RxSwiftForms/Pods-RxSwiftForms.debug.xcconfig"; sourceTree = "<group>"; };
+		F15F6A1F4C52BF6718140B86 /* Pods-RxSwiftForms.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwiftForms.release.xcconfig"; path = "Pods/Target Support Files/Pods-RxSwiftForms/Pods-RxSwiftForms.release.xcconfig"; sourceTree = "<group>"; };
+		FB37A299971F040653261124 /* Pods_RxSwiftForms.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxSwiftForms.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +382,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5AF026D0FF35070D2F6D07A5 /* Pods_RxSwiftForms.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,18 +391,53 @@
 			buildActionMask = 2147483647;
 			files = (
 				4CD09ED62067E08E00A7FBB0 /* RxSwiftForms.framework in Frameworks */,
+				19E8A11E91946CF282BC9DE0 /* Pods_RxSwiftFormsTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CD4F84620727C8D0090669A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				563A94F5DBDD5C1BF973610F /* Pods_RsSwiftFormsDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0F1BC84C72AB48FDC5A26BD7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FB37A299971F040653261124 /* Pods_RxSwiftForms.framework */,
+				7D95BF64A96A81978DAA2268 /* Pods_RxSwiftFormsTests.framework */,
+				DDCD48B3DD8C86F914ABD93E /* Pods_RsSwiftFormsDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		374FC216CF2C5CC4E2DF7336 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EB441327D009F8D95AACDF50 /* Pods-RxSwiftForms.debug.xcconfig */,
+				F15F6A1F4C52BF6718140B86 /* Pods-RxSwiftForms.release.xcconfig */,
+				951B7B498DE39F91F7B89036 /* Pods-RxSwiftFormsTests.debug.xcconfig */,
+				491432E8F71DC4754BA6B3C5 /* Pods-RxSwiftFormsTests.release.xcconfig */,
+				AFD14E54FDD4601C7601CC31 /* Pods-RsSwiftFormsDemo.debug.xcconfig */,
+				CCAA4133F550D5E278D5A44A /* Pods-RsSwiftFormsDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		4CD09EC22067E08E00A7FBB0 = {
 			isa = PBXGroup;
 			children = (
 				4CD09ECE2067E08E00A7FBB0 /* RxSwiftForms */,
+				4CD4F84A20727C8D0090669A /* RsSwiftFormsDemo */,
 				4CD09ED92067E08E00A7FBB0 /* RxSwiftFormsTests */,
 				4CD09ECD2067E08E00A7FBB0 /* Products */,
+				374FC216CF2C5CC4E2DF7336 /* Pods */,
+				0F1BC84C72AB48FDC5A26BD7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -166,6 +446,7 @@
 			children = (
 				4CD09ECC2067E08E00A7FBB0 /* RxSwiftForms.framework */,
 				4CD09ED52067E08E00A7FBB0 /* RxSwiftFormsTests.xctest */,
+				4CD4F84920727C8D0090669A /* RsSwiftFormsDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -173,6 +454,7 @@
 		4CD09ECE2067E08E00A7FBB0 /* RxSwiftForms */ = {
 			isa = PBXGroup;
 			children = (
+				4CD4F85D207280810090669A /* MetaTextField */,
 				4CD09EE62067E48A00A7FBB0 /* RxSwiftForms */,
 				4CD09ECF2067E08E00A7FBB0 /* RxSwiftForms.h */,
 				4CD09ED02067E08E00A7FBB0 /* Info.plist */,
@@ -319,6 +601,385 @@
 			path = Sources/RxSwiftForms/Views;
 			sourceTree = SOURCE_ROOT;
 		};
+		4CD4F84A20727C8D0090669A /* RsSwiftFormsDemo */ = {
+			isa = PBXGroup;
+			children = (
+				4CD4F94A207281C60090669A /* Extensions */,
+				4CD4F882207281190090669A /* Samples */,
+				4CD4F94D207281C60090669A /* Services */,
+				4CD4F8B52072814F0090669A /* Sources */,
+				4CD4F94F207281C60090669A /* Views */,
+				4CD4F84B20727C8D0090669A /* AppDelegate.swift */,
+				4CD4F84D20727C8D0090669A /* MasterViewController.swift */,
+				4CD4F85420727C8F0090669A /* Assets.xcassets */,
+				4CD4F9592072830C0090669A /* Main.storyboard */,
+				4CD4F95B2072833F0090669A /* LaunchScreen.storyboard */,
+				4CD4F85920727C8F0090669A /* Info.plist */,
+			);
+			path = RsSwiftFormsDemo;
+			sourceTree = "<group>";
+		};
+		4CD4F85D207280810090669A /* MetaTextField */ = {
+			isa = PBXGroup;
+			children = (
+				4CD4F85E207280810090669A /* Responders */,
+				4CD4F861207280810090669A /* Decorators */,
+				4CD4F868207280810090669A /* MetaTextField.swift */,
+				4CD4F869207280810090669A /* Behaviors */,
+				4CD4F86D207280810090669A /* Errors */,
+				4CD4F871207280810090669A /* MetaText.swift */,
+			);
+			name = MetaTextField;
+			path = Sources/MetaTextField;
+			sourceTree = SOURCE_ROOT;
+		};
+		4CD4F85E207280810090669A /* Responders */ = {
+			isa = PBXGroup;
+			children = (
+				4CD4F85F207280810090669A /* MetaTextBecameFirstResponderHandler.swift */,
+				4CD4F860207280810090669A /* MetaTextResignedFirstResponderHandler.swift */,
+			);
+			path = Responders;
+			sourceTree = "<group>";
+		};
+		4CD4F861207280810090669A /* Decorators */ = {
+			isa = PBXGroup;
+			children = (
+				4CD4F862207280810090669A /* MetaTextDecoratorBorder.swift */,
+				4CD4F863207280810090669A /* MetaTextDecoratorTintClearImage.swift */,
+				4CD4F864207280810090669A /* MetaTextDecoratorDisclosure.swift */,
+				4CD4F865207280810090669A /* MetaTextDecoratorTintPlaceholder.swift */,
+				4CD4F866207280810090669A /* MetaTextDecoratorShowPassword.swift */,
+				4CD4F867207280810090669A /* MetaTextDecoratorUnderline.swift */,
+			);
+			path = Decorators;
+			sourceTree = "<group>";
+		};
+		4CD4F869207280810090669A /* Behaviors */ = {
+			isa = PBXGroup;
+			children = (
+				4CD4F86A207280810090669A /* MetaTextBehaviorFilter.swift */,
+				4CD4F86B207280810090669A /* MetaTextBehaviorMaxLength.swift */,
+				4CD4F86C207280810090669A /* MetaTextBehaviorMaskedNumeric.swift */,
+			);
+			path = Behaviors;
+			sourceTree = "<group>";
+		};
+		4CD4F86D207280810090669A /* Errors */ = {
+			isa = PBXGroup;
+			children = (
+				4CD4F86E207280810090669A /* MetaTextErrorMessage.swift */,
+				4CD4F86F207280810090669A /* MetaTextErrorBackgoundColor.swift */,
+				4CD4F870207280810090669A /* MetaTextErrorHandler.swift */,
+			);
+			path = Errors;
+			sourceTree = "<group>";
+		};
+		4CD4F882207281190090669A /* Samples */ = {
+			isa = PBXGroup;
+			children = (
+				4CD4F883207281190090669A /* CreditcardForm */,
+				4CD4F887207281190090669A /* Empty */,
+				4CD4F88A207281190090669A /* Contacts */,
+				4CD4F88F207281190090669A /* LoginForm */,
+				4CD4F893207281190090669A /* New Group */,
+				4CD4F898207281190090669A /* ContactsReactive */,
+				4CD4F89B207281190090669A /* MirrorForm */,
+				4CD4F89C207281190090669A /* Validation */,
+			);
+			path = Samples;
+			sourceTree = "<group>";
+		};
+		4CD4F883207281190090669A /* CreditcardForm */ = {
+			isa = PBXGroup;
+			children = (
+				4CD4F884207281190090669A /* CreditCard.storyboard */,
+				4CD4F885207281190090669A /* CreditCardViewModel.swift */,
+				4CD4F886207281190090669A /* CreditCardViewController.swift */,
+			);
+			path = CreditcardForm;
+			sourceTree = "<group>";
+		};
+		4CD4F887207281190090669A /* Empty */ = {
+			isa = PBXGroup;
+			children = (
+				4CD4F888207281190090669A /* Empty.storyboard */,
+				4CD4F889207281190090669A /* EmptyViewController.swift */,
+			);
+			path = Empty;
+			sourceTree = "<group>";
+		};
+		4CD4F88A207281190090669A /* Contacts */ = {
+			isa = PBXGroup;
+			children = (
+				4CD4F88B207281190090669A /* ContactForm.storyboard */,
+				4CD4F88C207281190090669A /* ContactFormViewController.swift */,
+				4CD4F88D207281190090669A /* ContactFormViewModel.swift */,
+				4CD4F88E207281190090669A /* Contact.swift */,
+			);
+			path = Contacts;
+			sourceTree = "<group>";
+		};
+		4CD4F88F207281190090669A /* LoginForm */ = {
+			isa = PBXGroup;
+			children = (
+				4CD4F890207281190090669A /* LoginFormViewController.swift */,
+				4CD4F891207281190090669A /* LoginForm.storyboard */,
+				4CD4F892207281190090669A /* LoginFormViewModel.swift */,
+			);
+			path = LoginForm;
+			sourceTree = "<group>";
+		};
+		4CD4F893207281190090669A /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				4CD4F894207281190090669A /* MaterialFormViewController.swift */,
+				4CD4F895207281190090669A /* MaterialReflectionViewModel.swift */,
+				4CD4F896207281190090669A /* MaterialViewModel.swift */,
+				4CD4F897207281190090669A /* MaterialForm.storyboard */,
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		4CD4F898207281190090669A /* ContactsReactive */ = {
+			isa = PBXGroup;
+			children = (
+				4CD4F899207281190090669A /* ContactFormReactiveViewController.swift */,
+				4CD4F89A207281190090669A /* ContactFormReactiveViewModel.swift */,
+			);
+			path = ContactsReactive;
+			sourceTree = "<group>";
+		};
+		4CD4F89B207281190090669A /* MirrorForm */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MirrorForm;
+			sourceTree = "<group>";
+		};
+		4CD4F89C207281190090669A /* Validation */ = {
+			isa = PBXGroup;
+			children = (
+				4CD4F89D207281190090669A /* ValidationViewModel.swift */,
+				4CD4F89E207281190090669A /* Validation.storyboard */,
+				4CD4F89F207281190090669A /* ValidationViewController.swift */,
+			);
+			path = Validation;
+			sourceTree = "<group>";
+		};
+		4CD4F8B52072814F0090669A /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				4CD4F8B62072814F0090669A /* RxSwiftForms */,
+				4CD4F8F22072814F0090669A /* MetaTextField */,
+			);
+			path = Sources;
+			sourceTree = SOURCE_ROOT;
+		};
+		4CD4F8B62072814F0090669A /* RxSwiftForms */ = {
+			isa = PBXGroup;
+			children = (
+				4CD4F8B72072814F0090669A /* Form */,
+				4CD4F8BF2072814F0090669A /* Element */,
+				4CD4F8C12072814F0090669A /* Values */,
+				4CD4F8C82072814F0090669A /* Field */,
+				4CD4F8D92072814F0090669A /* Components */,
+				4CD4F8E12072814F0090669A /* Fields */,
+				4CD4F8E52072814F0090669A /* Views */,
+				4CD4F8F02072814F0090669A /* Validation */,
+			);
+			path = RxSwiftForms;
+			sourceTree = "<group>";
+		};
+		4CD4F8B72072814F0090669A /* Form */ = {
+			isa = PBXGroup;
+			children = (
+				4CD4F8B82072814F0090669A /* FxForm+Keyboard.swift */,
+				4CD4F8B92072814F0090669A /* FxForm.swift */,
+				4CD4F8BA2072814F0090669A /* FxForm+Validation.swift */,
+				4CD4F8BB2072814F0090669A /* FxForm+Binding.swift */,
+				4CD4F8BC2072814F0090669A /* FxForm+Tabbing.swift */,
+				4CD4F8BD2072814F0090669A /* FxForm+Auto.swift */,
+				4CD4F8BE2072814F0090669A /* FxForm+InputAccessoryView.swift */,
+			);
+			path = Form;
+			sourceTree = "<group>";
+		};
+		4CD4F8BF2072814F0090669A /* Element */ = {
+			isa = PBXGroup;
+			children = (
+				4CD4F8C02072814F0090669A /* FxElement.swift */,
+			);
+			path = Element;
+			sourceTree = "<group>";
+		};
+		4CD4F8C12072814F0090669A /* Values */ = {
+			isa = PBXGroup;
+			children = (
+				4CD4F8C22072814F0090669A /* FxValues.swift */,
+				4CD4F8C32072814F0090669A /* FxValue.swift */,
+				4CD4F8C42072814F0090669A /* FxValueGeneric.swift */,
+				4CD4F8C52072814F0090669A /* FxValueNil.swift */,
+				4CD4F8C62072814F0090669A /* FxValueBool.swift */,
+				4CD4F8C72072814F0090669A /* FxValueText.swift */,
+			);
+			path = Values;
+			sourceTree = "<group>";
+		};
+		4CD4F8C82072814F0090669A /* Field */ = {
+			isa = PBXGroup;
+			children = (
+				4CD4F8C92072814F0090669A /* FxField+Values.swift */,
+				4CD4F8CA2072814F0090669A /* FxField+Formatting.swift */,
+				4CD4F8CB2072814F0090669A /* FxField+Keyboard.swift */,
+				4CD4F8CC2072814F0090669A /* FxField+Enabled.swift */,
+				4CD4F8CD2072814F0090669A /* FxField+Binding.swift */,
+				4CD4F8CE2072814F0090669A /* FxField+Placeholder.swift */,
+				4CD4F8CF2072814F0090669A /* FxField+MaxLength.swift */,
+				4CD4F8D02072814F0090669A /* FxField+Error.swift */,
+				4CD4F8D12072814F0090669A /* FxField+Rx.swift */,
+				4CD4F8D22072814F0090669A /* FxField+Validation.swift */,
+				4CD4F8D32072814F0090669A /* FxField+Message.swift */,
+				4CD4F8D42072814F0090669A /* FxField+Hidden.swift */,
+				4CD4F8D52072814F0090669A /* FxField+MinLength.swift */,
+				4CD4F8D62072814F0090669A /* FxField+Required.swift */,
+				4CD4F8D72072814F0090669A /* FxField.swift */,
+				4CD4F8D82072814F0090669A /* FxField+Title.swift */,
+			);
+			path = Field;
+			sourceTree = "<group>";
+		};
+		4CD4F8D92072814F0090669A /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				4CD4F8DA2072814F0090669A /* FxBase.swift */,
+				4CD4F8DB2072814F0090669A /* FxViewScrolling.swift */,
+				4CD4F8DC2072814F0090669A /* FxResourceTracking.swift */,
+				4CD4F8DD2072814F0090669A /* FxAttributeKeys.swift */,
+				4CD4F8DE2072814F0090669A /* FxAttributes.swift */,
+				4CD4F8DF2072814F0090669A /* FxWeakBox.swift */,
+				4CD4F8E02072814F0090669A /* FxTextFormating.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		4CD4F8E12072814F0090669A /* Fields */ = {
+			isa = PBXGroup;
+			children = (
+				4CD4F8E22072814F0090669A /* FxFields+Rx.swift */,
+				4CD4F8E32072814F0090669A /* FxFields+Validation.swift */,
+				4CD4F8E42072814F0090669A /* FxFields.swift */,
+			);
+			path = Fields;
+			sourceTree = "<group>";
+		};
+		4CD4F8E52072814F0090669A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4CD4F8E62072814F0090669A /* FxInputAccessoryViewHideNext.swift */,
+				4CD4F8E72072814F0090669A /* UITextView+Fx.swift */,
+				4CD4F8E82072814F0090669A /* UISegmentedControl+Fx.swift */,
+				4CD4F8E92072814F0090669A /* FxInputAccessoryView.swift */,
+				4CD4F8EA2072814F0090669A /* UITextField+Fx.swift */,
+				4CD4F8EB2072814F0090669A /* FxCheckbox.swift */,
+				4CD4F8EC2072814F0090669A /* UISlider+Fx.swift */,
+				4CD4F8ED2072814F0090669A /* UIView+Fx.swift */,
+				4CD4F8EE2072814F0090669A /* UISwitch+Fx.swift */,
+				4CD4F8EF2072814F0090669A /* FxDisclosureButton.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4CD4F8F02072814F0090669A /* Validation */ = {
+			isa = PBXGroup;
+			children = (
+				4CD4F8F12072814F0090669A /* FxValidationRules.swift */,
+			);
+			path = Validation;
+			sourceTree = "<group>";
+		};
+		4CD4F8F22072814F0090669A /* MetaTextField */ = {
+			isa = PBXGroup;
+			children = (
+				4CD4F8F32072814F0090669A /* Responders */,
+				4CD4F8F62072814F0090669A /* Decorators */,
+				4CD4F8FD2072814F0090669A /* MetaTextField.swift */,
+				4CD4F8FE2072814F0090669A /* Behaviors */,
+				4CD4F9022072814F0090669A /* Errors */,
+				4CD4F9062072814F0090669A /* MetaText.swift */,
+			);
+			path = MetaTextField;
+			sourceTree = "<group>";
+		};
+		4CD4F8F32072814F0090669A /* Responders */ = {
+			isa = PBXGroup;
+			children = (
+				4CD4F8F42072814F0090669A /* MetaTextBecameFirstResponderHandler.swift */,
+				4CD4F8F52072814F0090669A /* MetaTextResignedFirstResponderHandler.swift */,
+			);
+			path = Responders;
+			sourceTree = "<group>";
+		};
+		4CD4F8F62072814F0090669A /* Decorators */ = {
+			isa = PBXGroup;
+			children = (
+				4CD4F8F72072814F0090669A /* MetaTextDecoratorBorder.swift */,
+				4CD4F8F82072814F0090669A /* MetaTextDecoratorTintClearImage.swift */,
+				4CD4F8F92072814F0090669A /* MetaTextDecoratorDisclosure.swift */,
+				4CD4F8FA2072814F0090669A /* MetaTextDecoratorTintPlaceholder.swift */,
+				4CD4F8FB2072814F0090669A /* MetaTextDecoratorShowPassword.swift */,
+				4CD4F8FC2072814F0090669A /* MetaTextDecoratorUnderline.swift */,
+			);
+			path = Decorators;
+			sourceTree = "<group>";
+		};
+		4CD4F8FE2072814F0090669A /* Behaviors */ = {
+			isa = PBXGroup;
+			children = (
+				4CD4F8FF2072814F0090669A /* MetaTextBehaviorFilter.swift */,
+				4CD4F9002072814F0090669A /* MetaTextBehaviorMaxLength.swift */,
+				4CD4F9012072814F0090669A /* MetaTextBehaviorMaskedNumeric.swift */,
+			);
+			path = Behaviors;
+			sourceTree = "<group>";
+		};
+		4CD4F9022072814F0090669A /* Errors */ = {
+			isa = PBXGroup;
+			children = (
+				4CD4F9032072814F0090669A /* MetaTextErrorMessage.swift */,
+				4CD4F9042072814F0090669A /* MetaTextErrorBackgoundColor.swift */,
+				4CD4F9052072814F0090669A /* MetaTextErrorHandler.swift */,
+			);
+			path = Errors;
+			sourceTree = "<group>";
+		};
+		4CD4F94A207281C60090669A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				4CD4F94B207281C60090669A /* RxSwift+Extensions.swift */,
+				4CD4F94C207281C60090669A /* UIViewController+Dismissible.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		4CD4F94D207281C60090669A /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				4CD4F94E207281C60090669A /* States.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		4CD4F94F207281C60090669A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4CD4F950207281C60090669A /* FxMaterialTextField.swift */,
+				4CD4F951207281C60090669A /* FxTextField.swift */,
+				4CD4F952207281C60090669A /* FxErrorMessageView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -337,10 +998,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4CD09EE02067E08E00A7FBB0 /* Build configuration list for PBXNativeTarget "RxSwiftForms" */;
 			buildPhases = (
+				322F51CDBDD9AA78D600DC35 /* [CP] Check Pods Manifest.lock */,
 				4CD09EC72067E08E00A7FBB0 /* Sources */,
 				4CD09EC82067E08E00A7FBB0 /* Frameworks */,
 				4CD09EC92067E08E00A7FBB0 /* Headers */,
 				4CD09ECA2067E08E00A7FBB0 /* Resources */,
+				CCE0386E06565F5D295621ED /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -355,9 +1018,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4CD09EE32067E08E00A7FBB0 /* Build configuration list for PBXNativeTarget "RxSwiftFormsTests" */;
 			buildPhases = (
+				320994F2F770A1E9D371D50B /* [CP] Check Pods Manifest.lock */,
 				4CD09ED12067E08E00A7FBB0 /* Sources */,
 				4CD09ED22067E08E00A7FBB0 /* Frameworks */,
 				4CD09ED32067E08E00A7FBB0 /* Resources */,
+				E6779FDD2B6B0791A401EDC1 /* [CP] Embed Pods Frameworks */,
+				BB76BA6D3378C454C1F4768E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -369,13 +1035,33 @@
 			productReference = 4CD09ED52067E08E00A7FBB0 /* RxSwiftFormsTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		4CD4F84820727C8D0090669A /* RsSwiftFormsDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CD4F85A20727C8F0090669A /* Build configuration list for PBXNativeTarget "RsSwiftFormsDemo" */;
+			buildPhases = (
+				C09B6CCBEAF2E298C5D7ABB7 /* [CP] Check Pods Manifest.lock */,
+				4CD4F84520727C8D0090669A /* Sources */,
+				4CD4F84620727C8D0090669A /* Frameworks */,
+				4CD4F84720727C8D0090669A /* Resources */,
+				A4BF4555613B63BBA5C45D34 /* [CP] Embed Pods Frameworks */,
+				8FAC7EF10EC54FAF41782B39 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RsSwiftFormsDemo;
+			productName = RsSwiftFormsDemo;
+			productReference = 4CD4F84920727C8D0090669A /* RsSwiftFormsDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		4CD09EC32067E08E00A7FBB0 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0920;
+				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = "Michael Long";
 				TargetAttributes = {
@@ -387,6 +1073,10 @@
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
 					};
+					4CD4F84820727C8D0090669A = {
+						CreatedOnToolsVersion = 9.3;
+						ProvisioningStyle = Automatic;
+					};
 				};
 			};
 			buildConfigurationList = 4CD09EC62067E08E00A7FBB0 /* Build configuration list for PBXProject "RxSwiftForms" */;
@@ -395,6 +1085,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 4CD09EC22067E08E00A7FBB0;
 			productRefGroup = 4CD09ECD2067E08E00A7FBB0 /* Products */;
@@ -402,6 +1093,7 @@
 			projectRoot = "";
 			targets = (
 				4CD09ECB2067E08E00A7FBB0 /* RxSwiftForms */,
+				4CD4F84820727C8D0090669A /* RsSwiftFormsDemo */,
 				4CD09ED42067E08E00A7FBB0 /* RxSwiftFormsTests */,
 			);
 		};
@@ -422,21 +1114,185 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		4CD4F84720727C8D0090669A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CD4F95C2072833F0090669A /* LaunchScreen.storyboard in Resources */,
+				4CD4F8B3207281190090669A /* Validation.storyboard in Resources */,
+				4CD4F8AF207281190090669A /* MaterialForm.storyboard in Resources */,
+				4CD4F8A0207281190090669A /* CreditCard.storyboard in Resources */,
+				4CD4F85520727C8F0090669A /* Assets.xcassets in Resources */,
+				4CD4F8AA207281190090669A /* LoginForm.storyboard in Resources */,
+				4CD4F95A2072830C0090669A /* Main.storyboard in Resources */,
+				4CD4F8A3207281190090669A /* Empty.storyboard in Resources */,
+				4CD4F8A5207281190090669A /* ContactForm.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		320994F2F770A1E9D371D50B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RxSwiftFormsTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		322F51CDBDD9AA78D600DC35 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RxSwiftForms-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8FAC7EF10EC54FAF41782B39 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RsSwiftFormsDemo/Pods-RsSwiftFormsDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A4BF4555613B63BBA5C45D34 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-RsSwiftFormsDemo/Pods-RsSwiftFormsDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RsSwiftFormsDemo/Pods-RsSwiftFormsDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB76BA6D3378C454C1F4768E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RxSwiftFormsTests/Pods-RxSwiftFormsTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C09B6CCBEAF2E298C5D7ABB7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RsSwiftFormsDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CCE0386E06565F5D295621ED /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RxSwiftForms/Pods-RxSwiftForms-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E6779FDD2B6B0791A401EDC1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-RxSwiftFormsTests/Pods-RxSwiftFormsTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RxSwiftFormsTests/Pods-RxSwiftFormsTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4CD09EC72067E08E00A7FBB0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CD4F876207280810090669A /* MetaTextDecoratorDisclosure.swift in Sources */,
 				4CD09F402067E4E300A7FBB0 /* FxForm.swift in Sources */,
 				4CD09F572067E4E300A7FBB0 /* UISwitch+Fx.swift in Sources */,
+				4CD4F879207280810090669A /* MetaTextDecoratorUnderline.swift in Sources */,
 				4CD09F4B2067E4E300A7FBB0 /* FxWeakBox.swift in Sources */,
 				4CD09F2D2067E4E300A7FBB0 /* FxFields.swift in Sources */,
+				4CD4F87A207280810090669A /* MetaTextField.swift in Sources */,
 				4CD09F262067E4E300A7FBB0 /* FxValue.swift in Sources */,
 				4CD09F432067E4E300A7FBB0 /* FxForm+Tabbing.swift in Sources */,
+				4CD4F875207280810090669A /* MetaTextDecoratorTintClearImage.swift in Sources */,
 				4CD09F292067E4E300A7FBB0 /* FxValueBool.swift in Sources */,
 				4CD09F3E2067E4E300A7FBB0 /* FxField+Title.swift in Sources */,
+				4CD4F87C207280810090669A /* MetaTextBehaviorMaxLength.swift in Sources */,
+				4CD4F87F207280810090669A /* MetaTextErrorBackgoundColor.swift in Sources */,
 				4CD09F382067E4E300A7FBB0 /* FxField+Validation.swift in Sources */,
 				4CD09F4E2067E4E300A7FBB0 /* UITextView+Fx.swift in Sources */,
 				4CD09F522067E4E300A7FBB0 /* UITextField+Fx.swift in Sources */,
@@ -448,6 +1304,8 @@
 				4CD09F4F2067E4E300A7FBB0 /* UISegmentedControl+Fx.swift in Sources */,
 				4CD09F4D2067E4E300A7FBB0 /* FxInputAccessoryViewHideNext.swift in Sources */,
 				4CD09F462067E4E300A7FBB0 /* FxBase.swift in Sources */,
+				4CD4F87B207280810090669A /* MetaTextBehaviorFilter.swift in Sources */,
+				4CD4F881207280810090669A /* MetaText.swift in Sources */,
 				4CD09F2F2067E4E300A7FBB0 /* FxField+Values.swift in Sources */,
 				4CD09F4C2067E4E300A7FBB0 /* FxTextFormating.swift in Sources */,
 				4CD09F512067E4E300A7FBB0 /* FxInputAccessoryView.swift in Sources */,
@@ -458,6 +1316,8 @@
 				4CD09F482067E4E300A7FBB0 /* FxResourceTracking.swift in Sources */,
 				4CD09F322067E4E300A7FBB0 /* FxField+Enabled.swift in Sources */,
 				4CD09F3A2067E4E300A7FBB0 /* FxField+Hidden.swift in Sources */,
+				4CD4F878207280810090669A /* MetaTextDecoratorShowPassword.swift in Sources */,
+				4CD4F87D207280810090669A /* MetaTextBehaviorMaskedNumeric.swift in Sources */,
 				4CD09F582067E4E300A7FBB0 /* FxDisclosureButton.swift in Sources */,
 				4CD09F332067E4E300A7FBB0 /* FxField+Binding.swift in Sources */,
 				4CD09F422067E4E300A7FBB0 /* FxForm+Binding.swift in Sources */,
@@ -465,16 +1325,22 @@
 				4CD09F3D2067E4E300A7FBB0 /* FxField.swift in Sources */,
 				4CD09F532067E4E300A7FBB0 /* FxCheckbox.swift in Sources */,
 				4CD09F492067E4E300A7FBB0 /* FxAttributeKeys.swift in Sources */,
+				4CD4F873207280810090669A /* MetaTextResignedFirstResponderHandler.swift in Sources */,
 				4CD09F4A2067E4E300A7FBB0 /* FxAttributes.swift in Sources */,
+				4CD4F880207280810090669A /* MetaTextErrorHandler.swift in Sources */,
 				4CD09F3C2067E4E300A7FBB0 /* FxField+Required.swift in Sources */,
+				4CD4F874207280810090669A /* MetaTextDecoratorBorder.swift in Sources */,
+				4CD4F87E207280810090669A /* MetaTextErrorMessage.swift in Sources */,
 				4CD09F442067E4E300A7FBB0 /* FxForm+Auto.swift in Sources */,
 				4CD09F252067E4E300A7FBB0 /* FxValues.swift in Sources */,
 				4CD09F452067E4E300A7FBB0 /* FxForm+InputAccessoryView.swift in Sources */,
+				4CD4F872207280810090669A /* MetaTextBecameFirstResponderHandler.swift in Sources */,
 				4CD09F2A2067E4E300A7FBB0 /* FxValueText.swift in Sources */,
 				4CD09F272067E4E300A7FBB0 /* FxValueGeneric.swift in Sources */,
 				4CD09F542067E4E300A7FBB0 /* UISlider+Fx.swift in Sources */,
 				4CD09F2B2067E4E300A7FBB0 /* FxFields+Rx.swift in Sources */,
 				4CD09F2E2067E4E300A7FBB0 /* FxValidationRules.swift in Sources */,
+				4CD4F877207280810090669A /* MetaTextDecoratorTintPlaceholder.swift in Sources */,
 				4CD09F282067E4E300A7FBB0 /* FxValueNil.swift in Sources */,
 				4CD09F342067E4E300A7FBB0 /* FxField+Placeholder.swift in Sources */,
 				4CD09F372067E4E300A7FBB0 /* FxField+Rx.swift in Sources */,
@@ -488,6 +1354,103 @@
 			buildActionMask = 2147483647;
 			files = (
 				4CD09EDB2067E08E00A7FBB0 /* RxSwiftFormsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CD4F84520727C8D0090669A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CD4F925207281500090669A /* FxBase.swift in Sources */,
+				4CD4F8AC207281190090669A /* MaterialFormViewController.swift in Sources */,
+				4CD4F8AB207281190090669A /* LoginFormViewModel.swift in Sources */,
+				4CD4F920207281500090669A /* FxField+Hidden.swift in Sources */,
+				4CD4F91C207281500090669A /* FxField+Error.swift in Sources */,
+				4CD4F84E20727C8D0090669A /* MasterViewController.swift in Sources */,
+				4CD4F91A207281500090669A /* FxField+Placeholder.swift in Sources */,
+				4CD4F953207281C60090669A /* RxSwift+Extensions.swift in Sources */,
+				4CD4F90E207281500090669A /* FxElement.swift in Sources */,
+				4CD4F93C207281500090669A /* MetaTextDecoratorBorder.swift in Sources */,
+				4CD4F947207281500090669A /* MetaTextErrorBackgoundColor.swift in Sources */,
+				4CD4F957207281C60090669A /* FxTextField.swift in Sources */,
+				4CD4F92C207281500090669A /* FxFields+Rx.swift in Sources */,
+				4CD4F8A2207281190090669A /* CreditCardViewController.swift in Sources */,
+				4CD4F90A207281500090669A /* FxForm+Binding.swift in Sources */,
+				4CD4F946207281500090669A /* MetaTextErrorMessage.swift in Sources */,
+				4CD4F8B0207281190090669A /* ContactFormReactiveViewController.swift in Sources */,
+				4CD4F913207281500090669A /* FxValueBool.swift in Sources */,
+				4CD4F90D207281500090669A /* FxForm+InputAccessoryView.swift in Sources */,
+				4CD4F93A207281500090669A /* MetaTextBecameFirstResponderHandler.swift in Sources */,
+				4CD4F93D207281500090669A /* MetaTextDecoratorTintClearImage.swift in Sources */,
+				4CD4F8AE207281190090669A /* MaterialViewModel.swift in Sources */,
+				4CD4F945207281500090669A /* MetaTextBehaviorMaskedNumeric.swift in Sources */,
+				4CD4F927207281500090669A /* FxResourceTracking.swift in Sources */,
+				4CD4F907207281500090669A /* FxForm+Keyboard.swift in Sources */,
+				4CD4F941207281500090669A /* MetaTextDecoratorUnderline.swift in Sources */,
+				4CD4F90C207281500090669A /* FxForm+Auto.swift in Sources */,
+				4CD4F930207281500090669A /* UITextView+Fx.swift in Sources */,
+				4CD4F91E207281500090669A /* FxField+Validation.swift in Sources */,
+				4CD4F934207281500090669A /* FxCheckbox.swift in Sources */,
+				4CD4F92F207281500090669A /* FxInputAccessoryViewHideNext.swift in Sources */,
+				4CD4F935207281500090669A /* UISlider+Fx.swift in Sources */,
+				4CD4F915207281500090669A /* FxField+Values.swift in Sources */,
+				4CD4F921207281500090669A /* FxField+MinLength.swift in Sources */,
+				4CD4F937207281500090669A /* UISwitch+Fx.swift in Sources */,
+				4CD4F92E207281500090669A /* FxFields.swift in Sources */,
+				4CD4F917207281500090669A /* FxField+Keyboard.swift in Sources */,
+				4CD4F8A4207281190090669A /* EmptyViewController.swift in Sources */,
+				4CD4F943207281500090669A /* MetaTextBehaviorFilter.swift in Sources */,
+				4CD4F93F207281500090669A /* MetaTextDecoratorTintPlaceholder.swift in Sources */,
+				4CD4F8B1207281190090669A /* ContactFormReactiveViewModel.swift in Sources */,
+				4CD4F932207281500090669A /* FxInputAccessoryView.swift in Sources */,
+				4CD4F91D207281500090669A /* FxField+Rx.swift in Sources */,
+				4CD4F8B4207281190090669A /* ValidationViewController.swift in Sources */,
+				4CD4F918207281500090669A /* FxField+Enabled.swift in Sources */,
+				4CD4F909207281500090669A /* FxForm+Validation.swift in Sources */,
+				4CD4F911207281500090669A /* FxValueGeneric.swift in Sources */,
+				4CD4F910207281500090669A /* FxValue.swift in Sources */,
+				4CD4F8A9207281190090669A /* LoginFormViewController.swift in Sources */,
+				4CD4F936207281500090669A /* UIView+Fx.swift in Sources */,
+				4CD4F933207281500090669A /* UITextField+Fx.swift in Sources */,
+				4CD4F956207281C60090669A /* FxMaterialTextField.swift in Sources */,
+				4CD4F949207281500090669A /* MetaText.swift in Sources */,
+				4CD4F912207281500090669A /* FxValueNil.swift in Sources */,
+				4CD4F922207281500090669A /* FxField+Required.swift in Sources */,
+				4CD4F958207281C60090669A /* FxErrorMessageView.swift in Sources */,
+				4CD4F939207281500090669A /* FxValidationRules.swift in Sources */,
+				4CD4F90B207281500090669A /* FxForm+Tabbing.swift in Sources */,
+				4CD4F919207281500090669A /* FxField+Binding.swift in Sources */,
+				4CD4F8AD207281190090669A /* MaterialReflectionViewModel.swift in Sources */,
+				4CD4F91F207281500090669A /* FxField+Message.swift in Sources */,
+				4CD4F926207281500090669A /* FxViewScrolling.swift in Sources */,
+				4CD4F923207281500090669A /* FxField.swift in Sources */,
+				4CD4F931207281500090669A /* UISegmentedControl+Fx.swift in Sources */,
+				4CD4F929207281500090669A /* FxAttributes.swift in Sources */,
+				4CD4F916207281500090669A /* FxField+Formatting.swift in Sources */,
+				4CD4F8A6207281190090669A /* ContactFormViewController.swift in Sources */,
+				4CD4F940207281500090669A /* MetaTextDecoratorShowPassword.swift in Sources */,
+				4CD4F914207281500090669A /* FxValueText.swift in Sources */,
+				4CD4F938207281500090669A /* FxDisclosureButton.swift in Sources */,
+				4CD4F93E207281500090669A /* MetaTextDecoratorDisclosure.swift in Sources */,
+				4CD4F90F207281500090669A /* FxValues.swift in Sources */,
+				4CD4F908207281500090669A /* FxForm.swift in Sources */,
+				4CD4F8B2207281190090669A /* ValidationViewModel.swift in Sources */,
+				4CD4F928207281500090669A /* FxAttributeKeys.swift in Sources */,
+				4CD4F92B207281500090669A /* FxTextFormating.swift in Sources */,
+				4CD4F91B207281500090669A /* FxField+MaxLength.swift in Sources */,
+				4CD4F8A8207281190090669A /* Contact.swift in Sources */,
+				4CD4F954207281C60090669A /* UIViewController+Dismissible.swift in Sources */,
+				4CD4F8A1207281190090669A /* CreditCardViewModel.swift in Sources */,
+				4CD4F944207281500090669A /* MetaTextBehaviorMaxLength.swift in Sources */,
+				4CD4F92A207281500090669A /* FxWeakBox.swift in Sources */,
+				4CD4F948207281500090669A /* MetaTextErrorHandler.swift in Sources */,
+				4CD4F924207281500090669A /* FxField+Title.swift in Sources */,
+				4CD4F955207281C60090669A /* States.swift in Sources */,
+				4CD4F8A7207281190090669A /* ContactFormViewModel.swift in Sources */,
+				4CD4F942207281500090669A /* MetaTextField.swift in Sources */,
+				4CD4F93B207281500090669A /* MetaTextResignedFirstResponderHandler.swift in Sources */,
+				4CD4F84C20727C8D0090669A /* AppDelegate.swift in Sources */,
+				4CD4F92D207281500090669A /* FxFields+Validation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -551,7 +1514,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -605,7 +1568,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -617,6 +1580,7 @@
 		};
 		4CD09EE12067E08E00A7FBB0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB441327D009F8D95AACDF50 /* Pods-RxSwiftForms.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
@@ -638,6 +1602,7 @@
 		};
 		4CD09EE22067E08E00A7FBB0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F15F6A1F4C52BF6718140B86 /* Pods-RxSwiftForms.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
@@ -659,6 +1624,7 @@
 		};
 		4CD09EE42067E08E00A7FBB0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 951B7B498DE39F91F7B89036 /* Pods-RxSwiftFormsTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -674,6 +1640,7 @@
 		};
 		4CD09EE52067E08E00A7FBB0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 491432E8F71DC4754BA6B3C5 /* Pods-RxSwiftFormsTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -681,6 +1648,46 @@
 				INFOPLIST_FILE = RxSwiftFormsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hmlong.RxSwiftFormsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4CD4F85B20727C8F0090669A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFD14E54FDD4601C7601CC31 /* Pods-RsSwiftFormsDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9ZVHDWC4WU;
+				INFOPLIST_FILE = RsSwiftFormsDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hmlong.RsSwiftFormsDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4CD4F85C20727C8F0090669A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCAA4133F550D5E278D5A44A /* Pods-RsSwiftFormsDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9ZVHDWC4WU;
+				INFOPLIST_FILE = RsSwiftFormsDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hmlong.RsSwiftFormsDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -713,6 +1720,15 @@
 			buildConfigurations = (
 				4CD09EE42067E08E00A7FBB0 /* Debug */,
 				4CD09EE52067E08E00A7FBB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CD4F85A20727C8F0090669A /* Build configuration list for PBXNativeTarget "RsSwiftFormsDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CD4F85B20727C8F0090669A /* Debug */,
+				4CD4F85C20727C8F0090669A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
