@@ -1,0 +1,2630 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/Behaviors/MetaTextBehaviorFilter.swift",
+      "line": 11,
+      "symbol": "MetaTextBehaviorFilter",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/Behaviors/MetaTextBehaviorFilter.swift",
+      "line": 13,
+      "symbol": "MetaTextBehaviorFilter.name",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/Behaviors/MetaTextBehaviorFilter.swift",
+      "line": 15,
+      "symbol": "MetaTextBehaviorFilter.name",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/Behaviors/MetaTextBehaviorFilter.swift",
+      "line": 16,
+      "symbol": "MetaTextBehaviorFilter.priority",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/Behaviors/MetaTextBehaviorFilter.swift",
+      "line": 18,
+      "symbol": "MetaTextBehaviorFilter.set",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/Behaviors/MetaTextBehaviorFilter.swift",
+      "line": 20,
+      "symbol": "MetaTextBehaviorFilter.init(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/Behaviors/MetaTextBehaviorFilter.swift",
+      "line": 24,
+      "symbol": "MetaTextBehaviorFilter.add(to:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/Behaviors/MetaTextBehaviorFilter.swift",
+      "line": 28,
+      "symbol": "MetaTextBehaviorFilter.shouldChangeText(_:_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/Behaviors/MetaTextBehaviorMaskedNumeric.swift",
+      "line": 11,
+      "symbol": "MetaTextBehaviorMaskedNumeric",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/Behaviors/MetaTextBehaviorMaskedNumeric.swift",
+      "line": 13,
+      "symbol": "MetaTextBehaviorMaskedNumeric.name",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/Behaviors/MetaTextBehaviorMaskedNumeric.swift",
+      "line": 15,
+      "symbol": "MetaTextBehaviorMaskedNumeric.name",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/Behaviors/MetaTextBehaviorMaskedNumeric.swift",
+      "line": 16,
+      "symbol": "MetaTextBehaviorMaskedNumeric.priority",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/Behaviors/MetaTextBehaviorMaskedNumeric.swift",
+      "line": 18,
+      "symbol": "MetaTextBehaviorMaskedNumeric.maskFormat",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/Behaviors/MetaTextBehaviorMaskedNumeric.swift",
+      "line": 20,
+      "symbol": "MetaTextBehaviorMaskedNumeric.init(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/Behaviors/MetaTextBehaviorMaskedNumeric.swift",
+      "line": 24,
+      "symbol": "MetaTextBehaviorMaskedNumeric.add(to:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/Behaviors/MetaTextBehaviorMaskedNumeric.swift",
+      "line": 28,
+      "symbol": "MetaTextBehaviorMaskedNumeric.shouldChangeText(_:_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/Behaviors/MetaTextBehaviorMaxLength.swift",
+      "line": 11,
+      "symbol": "MetaTextBehaviorMaxLength",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/Behaviors/MetaTextBehaviorMaxLength.swift",
+      "line": 13,
+      "symbol": "MetaTextBehaviorMaxLength.name",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/Behaviors/MetaTextBehaviorMaxLength.swift",
+      "line": 15,
+      "symbol": "MetaTextBehaviorMaxLength.name",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/Behaviors/MetaTextBehaviorMaxLength.swift",
+      "line": 16,
+      "symbol": "MetaTextBehaviorMaxLength.priority",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/Behaviors/MetaTextBehaviorMaxLength.swift",
+      "line": 18,
+      "symbol": "MetaTextBehaviorMaxLength.maxWidth",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/Behaviors/MetaTextBehaviorMaxLength.swift",
+      "line": 20,
+      "symbol": "MetaTextBehaviorMaxLength.init(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/Behaviors/MetaTextBehaviorMaxLength.swift",
+      "line": 24,
+      "symbol": "MetaTextBehaviorMaxLength.add(to:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/Behaviors/MetaTextBehaviorMaxLength.swift",
+      "line": 28,
+      "symbol": "MetaTextBehaviorMaxLength.shouldChangeText(_:_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/Decorators/MetaTextDecoratorBorder.swift",
+      "line": 11,
+      "symbol": "MetaTextDecoratorBorder",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/Decorators/MetaTextDecoratorBorder.swift",
+      "line": 14,
+      "symbol": "MetaTextDecoratorBorder.name",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/Decorators/MetaTextDecoratorBorder.swift",
+      "line": 16,
+      "symbol": "MetaTextDecoratorBorder.color",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/Decorators/MetaTextDecoratorBorder.swift",
+      "line": 22,
+      "symbol": "MetaTextDecoratorBorder.editingColor",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/Decorators/MetaTextDecoratorBorder.swift",
+      "line": 28,
+      "symbol": "MetaTextDecoratorBorder.errorColor",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/Decorators/MetaTextDecoratorBorder.swift",
+      "line": 34,
+      "symbol": "MetaTextDecoratorBorder.radius",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/Decorators/MetaTextDecoratorBorder.swift",
+      "line": 40,
+      "symbol": "MetaTextDecoratorBorder.width",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/Decorators/MetaTextDecoratorBorder.swift",
+      "line": 46,
+      "symbol": "MetaTextDecoratorBorder.name",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/Decorators/MetaTextDecoratorBorder.swift",
+      "line": 47,
+      "symbol": "MetaTextDecoratorBorder.priority",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/Decorators/MetaTextDecoratorBorder.swift",
+      "line": 58,
+      "symbol": "MetaTextDecoratorBorder.init(color:editingColor:errorColor:padding:width:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/Decorators/MetaTextDecoratorBorder.swift",
+      "line": 70,
+      "symbol": "MetaTextDecoratorBorder.add(to:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/Decorators/MetaTextDecoratorBorder.swift",
+      "line": 76,
+      "symbol": "MetaTextDecoratorBorder.removed(from:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/Decorators/MetaTextDecoratorBorder.swift",
+      "line": 92,
+      "symbol": "MetaTextDecoratorBorder.layoutSubviews()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/Decorators/MetaTextDecoratorBorder.swift",
+      "line": 97,
+      "symbol": "MetaTextDecoratorBorder.layoutBorder()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/Decorators/MetaTextDecoratorBorder.swift",
+      "line": 107,
+      "symbol": "MetaTextDecoratorBorder.intrinsicContentSize(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/Decorators/MetaTextDecoratorBorder.swift",
+      "line": 111,
+      "symbol": "MetaTextDecoratorBorder.caretRect(for:current:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/Decorators/MetaTextDecoratorBorder.swift",
+      "line": 115,
+      "symbol": "MetaTextDecoratorBorder.rect(_:bounds:current:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/Decorators/MetaTextDecoratorBorder.swift",
+      "line": 153,
+      "symbol": "MetaTextDecoratorBorder.selectionRects(for:current:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/Decorators/MetaTextDecoratorBorder.swift",
+      "line": 209,
+      "symbol": "MetaTextDecoratorBorder.handleErrorMessage(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/Decorators/MetaTextDecoratorDisclosure.swift",
+      "line": 11,
+      "symbol": "MetaTextDecoratorDisclosure",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/Decorators/MetaTextDecoratorDisclosure.swift",
+      "line": 13,
+      "symbol": "MetaTextDecoratorDisclosure.name",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/Decorators/MetaTextDecoratorDisclosure.swift",
+      "line": 15,
+      "symbol": "MetaTextDecoratorDisclosure.name",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/Decorators/MetaTextDecoratorDisclosure.swift",
+      "line": 16,
+      "symbol": "MetaTextDecoratorDisclosure.priority",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/Decorators/MetaTextDecoratorDisclosure.swift",
+      "line": 27,
+      "symbol": "MetaTextDecoratorDisclosure.add(to:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/Decorators/MetaTextDecoratorDisclosure.swift",
+      "line": 43,
+      "symbol": "MetaTextDecoratorDisclosure.caretRect(for:current:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/Decorators/MetaTextDecoratorDisclosure.swift",
+      "line": 47,
+      "symbol": "MetaTextDecoratorDisclosure.rect(_:bounds:current:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/Decorators/MetaTextDecoratorDisclosure.swift",
+      "line": 51,
+      "symbol": "MetaTextDecoratorDisclosure.selectionRects(for:current:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/Decorators/MetaTextDecoratorDisclosure.swift",
+      "line": 57,
+      "symbol": "MetaTextDecoratorDisclosure.canPerformAction(_:withSender:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/Decorators/MetaTextDecoratorDisclosure.swift",
+      "line": 61,
+      "symbol": "MetaTextDecoratorDisclosure.shouldChangeText(_:_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/Decorators/MetaTextDecoratorDisclosure.swift",
+      "line": 67,
+      "symbol": "MetaTextDecoratorDisclosure.canBecomeFirstResponder",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/Decorators/MetaTextDecoratorDisclosure.swift",
+      "line": 69,
+      "symbol": "MetaTextDecoratorDisclosure.responder(status:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/Decorators/MetaTextDecoratorShowPassword.swift",
+      "line": 11,
+      "symbol": "MetaTextDecoratorShowPassword",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/Decorators/MetaTextDecoratorShowPassword.swift",
+      "line": 13,
+      "symbol": "MetaTextDecoratorShowPassword.name",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/Decorators/MetaTextDecoratorShowPassword.swift",
+      "line": 15,
+      "symbol": "MetaTextDecoratorShowPassword.name",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/Decorators/MetaTextDecoratorShowPassword.swift",
+      "line": 16,
+      "symbol": "MetaTextDecoratorShowPassword.priority",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/Decorators/MetaTextDecoratorShowPassword.swift",
+      "line": 27,
+      "symbol": "MetaTextDecoratorShowPassword.add(to:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/Decorators/MetaTextDecoratorShowPassword.swift",
+      "line": 45,
+      "symbol": "MetaTextDecoratorShowPassword.tapped()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/Decorators/MetaTextDecoratorTintClearImage.swift",
+      "line": 10,
+      "symbol": "MetaTextDecoratorTintClearImage",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/Decorators/MetaTextDecoratorTintClearImage.swift",
+      "line": 12,
+      "symbol": "MetaTextDecoratorTintClearImage.name",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/Decorators/MetaTextDecoratorTintClearImage.swift",
+      "line": 14,
+      "symbol": "MetaTextDecoratorTintClearImage.name",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/Decorators/MetaTextDecoratorTintClearImage.swift",
+      "line": 15,
+      "symbol": "MetaTextDecoratorTintClearImage.priority",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/Decorators/MetaTextDecoratorTintClearImage.swift",
+      "line": 19,
+      "symbol": "MetaTextDecoratorTintClearImage.add(to:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/Decorators/MetaTextDecoratorTintClearImage.swift",
+      "line": 26,
+      "symbol": "MetaTextDecoratorTintClearImage.layoutSubviews()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/Decorators/MetaTextDecoratorTintPlaceholder.swift",
+      "line": 10,
+      "symbol": "MetaTextDecoratorTintPlaceholder",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/Decorators/MetaTextDecoratorTintPlaceholder.swift",
+      "line": 12,
+      "symbol": "MetaTextDecoratorTintPlaceholder.name",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/Decorators/MetaTextDecoratorTintPlaceholder.swift",
+      "line": 14,
+      "symbol": "MetaTextDecoratorTintPlaceholder.name",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/Decorators/MetaTextDecoratorTintPlaceholder.swift",
+      "line": 15,
+      "symbol": "MetaTextDecoratorTintPlaceholder.priority",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/Decorators/MetaTextDecoratorTintPlaceholder.swift",
+      "line": 19,
+      "symbol": "MetaTextDecoratorTintPlaceholder.add(to:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/Decorators/MetaTextDecoratorTintPlaceholder.swift",
+      "line": 26,
+      "symbol": "MetaTextDecoratorTintPlaceholder.layoutSubviews()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/Decorators/MetaTextDecoratorUnderline.swift",
+      "line": 11,
+      "symbol": "MetaTextDecoratorUnderline",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/Decorators/MetaTextDecoratorUnderline.swift",
+      "line": 14,
+      "symbol": "MetaTextDecoratorUnderline.name",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/Decorators/MetaTextDecoratorUnderline.swift",
+      "line": 16,
+      "symbol": "MetaTextDecoratorUnderline.color",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/Decorators/MetaTextDecoratorUnderline.swift",
+      "line": 22,
+      "symbol": "MetaTextDecoratorUnderline.errorColor",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/Decorators/MetaTextDecoratorUnderline.swift",
+      "line": 28,
+      "symbol": "MetaTextDecoratorUnderline.width",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/Decorators/MetaTextDecoratorUnderline.swift",
+      "line": 34,
+      "symbol": "MetaTextDecoratorUnderline.editingWidth",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/Decorators/MetaTextDecoratorUnderline.swift",
+      "line": 40,
+      "symbol": "MetaTextDecoratorUnderline.name",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/Decorators/MetaTextDecoratorUnderline.swift",
+      "line": 41,
+      "symbol": "MetaTextDecoratorUnderline.priority",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/Decorators/MetaTextDecoratorUnderline.swift",
+      "line": 51,
+      "symbol": "MetaTextDecoratorUnderline.init(color:errorColor:padding:width:editingWidth:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/Decorators/MetaTextDecoratorUnderline.swift",
+      "line": 63,
+      "symbol": "MetaTextDecoratorUnderline.add(to:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/Decorators/MetaTextDecoratorUnderline.swift",
+      "line": 69,
+      "symbol": "MetaTextDecoratorUnderline.removed(from:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/Decorators/MetaTextDecoratorUnderline.swift",
+      "line": 82,
+      "symbol": "MetaTextDecoratorUnderline.draw(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/Decorators/MetaTextDecoratorUnderline.swift",
+      "line": 86,
+      "symbol": "MetaTextDecoratorUnderline.layoutSubviews()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/Decorators/MetaTextDecoratorUnderline.swift",
+      "line": 91,
+      "symbol": "MetaTextDecoratorUnderline.layoutUnderline()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/Decorators/MetaTextDecoratorUnderline.swift",
+      "line": 98,
+      "symbol": "MetaTextDecoratorUnderline.intrinsicContentSize(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/Decorators/MetaTextDecoratorUnderline.swift",
+      "line": 102,
+      "symbol": "MetaTextDecoratorUnderline.caretRect(for:current:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/Decorators/MetaTextDecoratorUnderline.swift",
+      "line": 106,
+      "symbol": "MetaTextDecoratorUnderline.rect(_:bounds:current:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/Decorators/MetaTextDecoratorUnderline.swift",
+      "line": 117,
+      "symbol": "MetaTextDecoratorUnderline.selectionRects(for:current:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/Decorators/MetaTextDecoratorUnderline.swift",
+      "line": 170,
+      "symbol": "MetaTextDecoratorUnderline.handleErrorMessage(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/Errors/MetaTextErrorBackgoundColor.swift",
+      "line": 11,
+      "symbol": "MetaTextErrorBackgoundColor",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/Errors/MetaTextErrorBackgoundColor.swift",
+      "line": 13,
+      "symbol": "MetaTextErrorBackgoundColor.name",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/Errors/MetaTextErrorBackgoundColor.swift",
+      "line": 15,
+      "symbol": "MetaTextErrorBackgoundColor.name",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/Errors/MetaTextErrorBackgoundColor.swift",
+      "line": 16,
+      "symbol": "MetaTextErrorBackgoundColor.priority",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/Errors/MetaTextErrorBackgoundColor.swift",
+      "line": 26,
+      "symbol": "MetaTextErrorBackgoundColor.add(to:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/Errors/MetaTextErrorBackgoundColor.swift",
+      "line": 32,
+      "symbol": "MetaTextErrorBackgoundColor.handleErrorMessage(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/Errors/MetaTextErrorHandler.swift",
+      "line": 11,
+      "symbol": "MetaTextErrorHandler",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/Errors/MetaTextErrorHandler.swift",
+      "line": 13,
+      "symbol": "MetaTextErrorHandler.name",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/Errors/MetaTextErrorHandler.swift",
+      "line": 15,
+      "symbol": "MetaTextErrorHandler.name",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/Errors/MetaTextErrorHandler.swift",
+      "line": 16,
+      "symbol": "MetaTextErrorHandler.priority",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/Errors/MetaTextErrorHandler.swift",
+      "line": 25,
+      "symbol": "MetaTextErrorHandler.add(to:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/Errors/MetaTextErrorHandler.swift",
+      "line": 30,
+      "symbol": "MetaTextErrorHandler.handleErrorMessage(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/Errors/MetaTextErrorMessage.swift",
+      "line": 11,
+      "symbol": "MetaTextErrorMessage",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/Errors/MetaTextErrorMessage.swift",
+      "line": 13,
+      "symbol": "MetaTextErrorMessage.name",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/Errors/MetaTextErrorMessage.swift",
+      "line": 15,
+      "symbol": "MetaTextErrorMessage.name",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/Errors/MetaTextErrorMessage.swift",
+      "line": 16,
+      "symbol": "MetaTextErrorMessage.priority",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/Errors/MetaTextErrorMessage.swift",
+      "line": 18,
+      "symbol": "MetaTextErrorMessage.errorMessage",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/Errors/MetaTextErrorMessage.swift",
+      "line": 22,
+      "symbol": "MetaTextErrorMessage.errorFont",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/Errors/MetaTextErrorMessage.swift",
+      "line": 26,
+      "symbol": "MetaTextErrorMessage.errorColor",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/Errors/MetaTextErrorMessage.swift",
+      "line": 30,
+      "symbol": "MetaTextErrorMessage.errorPadding",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/Errors/MetaTextErrorMessage.swift",
+      "line": 34,
+      "symbol": "MetaTextErrorMessage.defaultAnimationDuration",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/Errors/MetaTextErrorMessage.swift",
+      "line": 49,
+      "symbol": "MetaTextErrorMessage.add(to:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/Errors/MetaTextErrorMessage.swift",
+      "line": 55,
+      "symbol": "MetaTextErrorMessage.removed(from:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/Errors/MetaTextErrorMessage.swift",
+      "line": 61,
+      "symbol": "MetaTextErrorMessage.handleErrorMessage(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/Errors/MetaTextErrorMessage.swift",
+      "line": 67,
+      "symbol": "MetaTextErrorMessage.intrinsicContentSize(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/MetaText.swift",
+      "line": 11,
+      "symbol": "MetaTextPriority",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/MetaText.swift",
+      "line": 12,
+      "symbol": "MetaTextPriority.highest",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/MetaText.swift",
+      "line": 13,
+      "symbol": "MetaTextPriority.higher",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/MetaText.swift",
+      "line": 14,
+      "symbol": "MetaTextPriority.high",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/MetaText.swift",
+      "line": 15,
+      "symbol": "MetaTextPriority.mediumHigh",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/MetaText.swift",
+      "line": 16,
+      "symbol": "MetaTextPriority.medium",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/MetaText.swift",
+      "line": 17,
+      "symbol": "MetaTextPriority.mediumLow",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/MetaText.swift",
+      "line": 18,
+      "symbol": "MetaTextPriority.low",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/MetaText.swift",
+      "line": 19,
+      "symbol": "MetaTextPriority.lower",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/MetaText.swift",
+      "line": 20,
+      "symbol": "MetaTextPriority.lowest",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/MetaText.swift",
+      "line": 23,
+      "symbol": "MetaTextRectType",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/MetaText.swift",
+      "line": 24,
+      "symbol": "MetaTextRectType.clear",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/MetaText.swift",
+      "line": 25,
+      "symbol": "MetaTextRectType.editing",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/MetaText.swift",
+      "line": 26,
+      "symbol": "MetaTextRectType.left",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/MetaText.swift",
+      "line": 27,
+      "symbol": "MetaTextRectType.placeholder",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/MetaText.swift",
+      "line": 28,
+      "symbol": "MetaTextRectType.right",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/MetaText.swift",
+      "line": 29,
+      "symbol": "MetaTextRectType.selection",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/MetaText.swift",
+      "line": 30,
+      "symbol": "MetaTextRectType.text",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/MetaText.swift",
+      "line": 33,
+      "symbol": "MetaTextResponderStatus",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/MetaText.swift",
+      "line": 34,
+      "symbol": "MetaTextResponderStatus.becameFirst",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/MetaText.swift",
+      "line": 35,
+      "symbol": "MetaTextResponderStatus.resignedFirst",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/MetaText.swift",
+      "line": 38,
+      "symbol": "MetaTextBehavior",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/MetaText.swift",
+      "line": 39,
+      "symbol": "MetaTextBehavior.name",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/MetaText.swift",
+      "line": 40,
+      "symbol": "MetaTextBehavior.priority",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/MetaText.swift",
+      "line": 41,
+      "symbol": "MetaTextBehavior.add(to:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/MetaText.swift",
+      "line": 44,
+      "symbol": "MetaTextBehaviorActionable",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/MetaText.swift",
+      "line": 45,
+      "symbol": "MetaTextBehaviorActionable.canPerformAction(_:withSender:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/MetaText.swift",
+      "line": 48,
+      "symbol": "MetaTextBehaviorChanging",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/MetaText.swift",
+      "line": 49,
+      "symbol": "MetaTextBehaviorChanging.shouldChangeText(_:_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/MetaText.swift",
+      "line": 52,
+      "symbol": "MetaTextBehaviorErrorHandling",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/MetaText.swift",
+      "line": 53,
+      "symbol": "MetaTextBehaviorErrorHandling.handleErrorMessage(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/MetaText.swift",
+      "line": 56,
+      "symbol": "MetaTextBehaviorRemovable",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/MetaText.swift",
+      "line": 57,
+      "symbol": "MetaTextBehaviorRemovable.removed(from:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/MetaText.swift",
+      "line": 60,
+      "symbol": "MetaTextBehaviorResponding",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/MetaText.swift",
+      "line": 61,
+      "symbol": "MetaTextBehaviorResponding.canBecomeFirstResponder",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/MetaText.swift",
+      "line": 62,
+      "symbol": "MetaTextBehaviorResponding.responder(status:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/MetaText.swift",
+      "line": 65,
+      "symbol": "MetaTextDecorating",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/MetaText.swift",
+      "line": 69,
+      "symbol": "MetaTextDecoratingDraw",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/MetaText.swift",
+      "line": 70,
+      "symbol": "MetaTextDecoratingDraw.draw(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/MetaText.swift",
+      "line": 73,
+      "symbol": "MetaTextDecoratingLayout",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/MetaText.swift",
+      "line": 74,
+      "symbol": "MetaTextDecoratingLayout.layoutSubviews()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/MetaText.swift",
+      "line": 77,
+      "symbol": "MetaTextDecoratingSize",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/MetaText.swift",
+      "line": 78,
+      "symbol": "MetaTextDecoratingSize.intrinsicContentSize(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/MetaText.swift",
+      "line": 81,
+      "symbol": "MetaTextDecoratingRects",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/MetaText.swift",
+      "line": 82,
+      "symbol": "MetaTextDecoratingRects.caretRect(for:current:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/MetaText.swift",
+      "line": 83,
+      "symbol": "MetaTextDecoratingRects.rect(_:bounds:current:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/MetaText.swift",
+      "line": 84,
+      "symbol": "MetaTextDecoratingRects.selectionRects(for:current:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/MetaTextField.swift",
+      "line": 11,
+      "symbol": "MetaTextField",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/MetaTextField.swift",
+      "line": 15,
+      "symbol": "MetaTextField.attributes",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/MetaTextField.swift",
+      "line": 16,
+      "symbol": "MetaTextField.behaviors",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/MetaTextField.swift",
+      "line": 20,
+      "symbol": "MetaTextField.init(coder:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/MetaTextField.swift",
+      "line": 25,
+      "symbol": "MetaTextField.init(frame:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/MetaTextField.swift",
+      "line": 36,
+      "symbol": "MetaTextField.canPerformAction(_:withSender:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/MetaTextField.swift",
+      "line": 45,
+      "symbol": "MetaTextField.textField(_:shouldChangeCharactersIn:replacementString:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/MetaTextField.swift",
+      "line": 57,
+      "symbol": "MetaTextField.add(behavior:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/MetaTextField.swift",
+      "line": 73,
+      "symbol": "MetaTextField.removeBehavior(name:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/MetaTextField.swift",
+      "line": 81,
+      "symbol": "MetaTextField.behavior(for:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/MetaTextField.swift",
+      "line": 90,
+      "symbol": "MetaTextField.handleErrorMessage(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/MetaTextField.swift",
+      "line": 96,
+      "symbol": "MetaTextField.draw(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/MetaTextField.swift",
+      "line": 101,
+      "symbol": "MetaTextField.layoutSubviews()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/MetaTextField.swift",
+      "line": 108,
+      "symbol": "MetaTextField.intrinsicContentSize",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/MetaTextField.swift",
+      "line": 120,
+      "symbol": "MetaTextField.caretRect(for:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/MetaTextField.swift",
+      "line": 130,
+      "symbol": "MetaTextField.clearButtonRect(forBounds:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/MetaTextField.swift",
+      "line": 140,
+      "symbol": "MetaTextField.editingRect(forBounds:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/MetaTextField.swift",
+      "line": 150,
+      "symbol": "MetaTextField.leftViewRect(forBounds:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/MetaTextField.swift",
+      "line": 160,
+      "symbol": "MetaTextField.placeholderRect(forBounds:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/MetaTextField.swift",
+      "line": 170,
+      "symbol": "MetaTextField.rightViewRect(forBounds:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/MetaTextField.swift",
+      "line": 180,
+      "symbol": "MetaTextField.selectionRects(for:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/MetaTextField.swift",
+      "line": 190,
+      "symbol": "MetaTextField.textRect(forBounds:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/MetaTextField.swift",
+      "line": 202,
+      "symbol": "MetaTextField.becomeFirstResponder()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/MetaTextField.swift",
+      "line": 210,
+      "symbol": "MetaTextField.resignFirstResponder()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/Responders/MetaTextBecameFirstResponderHandler.swift",
+      "line": 11,
+      "symbol": "MetaTextBecameFirstResponderHandler",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/Responders/MetaTextBecameFirstResponderHandler.swift",
+      "line": 13,
+      "symbol": "MetaTextBecameFirstResponderHandler.name",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/Responders/MetaTextBecameFirstResponderHandler.swift",
+      "line": 15,
+      "symbol": "MetaTextBecameFirstResponderHandler.name",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/Responders/MetaTextBecameFirstResponderHandler.swift",
+      "line": 16,
+      "symbol": "MetaTextBecameFirstResponderHandler.priority",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/Responders/MetaTextBecameFirstResponderHandler.swift",
+      "line": 25,
+      "symbol": "MetaTextBecameFirstResponderHandler.add(to:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/Responders/MetaTextBecameFirstResponderHandler.swift",
+      "line": 30,
+      "symbol": "MetaTextBecameFirstResponderHandler.canBecomeFirstResponder",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/Responders/MetaTextBecameFirstResponderHandler.swift",
+      "line": 34,
+      "symbol": "MetaTextBecameFirstResponderHandler.responder(status:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/Responders/MetaTextResignedFirstResponderHandler.swift",
+      "line": 11,
+      "symbol": "MetaTextResignedFirstResponderHandler",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/Responders/MetaTextResignedFirstResponderHandler.swift",
+      "line": 13,
+      "symbol": "MetaTextResignedFirstResponderHandler.name",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/Responders/MetaTextResignedFirstResponderHandler.swift",
+      "line": 15,
+      "symbol": "MetaTextResignedFirstResponderHandler.name",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/Responders/MetaTextResignedFirstResponderHandler.swift",
+      "line": 16,
+      "symbol": "MetaTextResignedFirstResponderHandler.priority",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/Responders/MetaTextResignedFirstResponderHandler.swift",
+      "line": 25,
+      "symbol": "MetaTextResignedFirstResponderHandler.add(to:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/Responders/MetaTextResignedFirstResponderHandler.swift",
+      "line": 30,
+      "symbol": "MetaTextResignedFirstResponderHandler.canBecomeFirstResponder",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/MetaTextField/Responders/MetaTextResignedFirstResponderHandler.swift",
+      "line": 34,
+      "symbol": "MetaTextResignedFirstResponderHandler.responder(status:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Components/FxAttributeKeys.swift",
+      "line": 11,
+      "symbol": "FxAttribute",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Components/FxAttributeKeys.swift",
+      "line": 15,
+      "symbol": "FxAttribute.FX",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Components/FxAttributeKeys.swift",
+      "line": 16,
+      "symbol": "FxAttribute.BGCOLOR",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Components/FxAttributeKeys.swift",
+      "line": 17,
+      "symbol": "FxAttribute.ELEMENT",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Components/FxAttributeKeys.swift",
+      "line": 18,
+      "symbol": "FxAttribute.ERROR",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Components/FxAttributeKeys.swift",
+      "line": 19,
+      "symbol": "FxAttribute.FORMATTER",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Components/FxAttributeKeys.swift",
+      "line": 20,
+      "symbol": "FxAttribute.ENABLED",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Components/FxAttributeKeys.swift",
+      "line": 21,
+      "symbol": "FxAttribute.HIDDEN",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Components/FxAttributeKeys.swift",
+      "line": 22,
+      "symbol": "FxAttribute.KEYBOARD",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Components/FxAttributeKeys.swift",
+      "line": 23,
+      "symbol": "FxAttribute.MAXLENGTH",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Components/FxAttributeKeys.swift",
+      "line": 24,
+      "symbol": "FxAttribute.MASK",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Components/FxAttributeKeys.swift",
+      "line": 25,
+      "symbol": "FxAttribute.MESSAGE",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Components/FxAttributeKeys.swift",
+      "line": 26,
+      "symbol": "FxAttribute.MINLENGTH",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Components/FxAttributeKeys.swift",
+      "line": 27,
+      "symbol": "FxAttribute.PLACEHOLDER",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Components/FxAttributeKeys.swift",
+      "line": 28,
+      "symbol": "FxAttribute.REQUIRED",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Components/FxAttributeKeys.swift",
+      "line": 29,
+      "symbol": "FxAttribute.TABINDEX",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Components/FxAttributeKeys.swift",
+      "line": 30,
+      "symbol": "FxAttribute.TITLE",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Components/FxAttributes.swift",
+      "line": 11,
+      "symbol": "FxAttributes",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Components/FxAttributes.swift",
+      "line": 31,
+      "symbol": "FxAttributes.removeValue(forKey:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Components/FxAttributes.swift",
+      "line": 35,
+      "symbol": "FxAttributes.updateValue(_:forKey:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Components/FxBase.swift",
+      "line": 13,
+      "symbol": "FxBase",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Components/FxResourceTracking.swift",
+      "line": 16,
+      "symbol": "FxResourceTracking.map",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Components/FxResourceTracking.swift",
+      "line": 17,
+      "symbol": "FxResourceTracking.count",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Components/FxResourceTracking.swift",
+      "line": 18,
+      "symbol": "FxResourceTracking.details",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Components/FxTextFormating.swift",
+      "line": 13,
+      "symbol": "FxTextFormatting.string(from:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Components/FxTextFormating.swift",
+      "line": 19,
+      "symbol": "FxTextFormat.init(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Components/FxTextFormating.swift",
+      "line": 22,
+      "symbol": "FxTextFormat.string(from:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Components/FxTextFormating.swift",
+      "line": 29,
+      "symbol": "FxTextFormatCapitalized.string(from:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Components/FxTextFormating.swift",
+      "line": 36,
+      "symbol": "FxTextFormatLowercased.string(from:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Components/FxTextFormating.swift",
+      "line": 43,
+      "symbol": "FxTextFormatNone.string(from:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Components/FxTextFormating.swift",
+      "line": 50,
+      "symbol": "FxTextFormatUppercased.string(from:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Components/FxViewScrolling.swift",
+      "line": 15,
+      "symbol": "FxViewScrolling.scrollView",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Components/FxViewScrolling.swift",
+      "line": 16,
+      "symbol": "FxViewScrolling.scrollIntoView(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Components/FxViewScrolling.swift",
+      "line": 24,
+      "symbol": "FxScrollingService.scrollView",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Components/FxViewScrolling.swift",
+      "line": 26,
+      "symbol": "FxScrollingService.extraPadding",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Components/FxViewScrolling.swift",
+      "line": 32,
+      "symbol": "FxScrollingService.init(scrollView:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Components/FxViewScrolling.swift",
+      "line": 55,
+      "symbol": "FxScrollingService.scrollIntoView(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Element/FxElement.swift",
+      "line": 16,
+      "symbol": "FxElement",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Field/FxField+Binding.swift",
+      "line": 13,
+      "symbol": "FxFieldBindings",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Field/FxField+Binding.swift",
+      "line": 14,
+      "symbol": "FxFieldBindings.fieldToView",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Field/FxField+Binding.swift",
+      "line": 15,
+      "symbol": "FxFieldBindings.viewToField",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Field/FxField+Binding.swift",
+      "line": 16,
+      "symbol": "FxFieldBindings.error",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Field/FxField+Binding.swift",
+      "line": 17,
+      "symbol": "FxFieldBindings.attributes",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Field/FxField+Error.swift",
+      "line": 13,
+      "symbol": "FxErrorHandling",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Field/FxField+Error.swift",
+      "line": 14,
+      "symbol": "FxErrorHandling.handleErrorMessage(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Field/FxField+Error.swift",
+      "line": 27,
+      "symbol": "FxField.clearError()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Field/FxField+Error.swift",
+      "line": 49,
+      "symbol": "Reactive.fxErrorMessage",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Field/FxField+MaxLength.swift",
+      "line": 11,
+      "symbol": "FxBindableMaxLength",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Field/FxField+MaxLength.swift",
+      "line": 12,
+      "symbol": "FxBindableMaxLength.maxLength",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Field/FxField+Placeholder.swift",
+      "line": 48,
+      "symbol": "FxField.placeholder",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Field/FxField+Required.swift",
+      "line": 47,
+      "symbol": "FxField.isRequired",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Field/FxField+Rx.swift",
+      "line": null,
+      "symbol": "FxFieldReactiveBase",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Field/FxField+Rx.swift",
+      "line": null,
+      "symbol": "FxFieldReactiveBase",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Field/FxField+Rx.swift",
+      "line": null,
+      "symbol": "FxFieldReactiveBase",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Field/FxField+Rx.swift",
+      "line": null,
+      "symbol": "FxFieldReactiveBase",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Field/FxField+Rx.swift",
+      "line": 24,
+      "symbol": "FxFieldReactiveBase",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Field/FxField+Rx.swift",
+      "line": 101,
+      "symbol": "FxFieldReactiveBase.validate",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Field/FxField+Title.swift",
+      "line": 29,
+      "symbol": "FxField.title",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Field/FxField+Values.swift",
+      "line": 13,
+      "symbol": "FxBindableValue",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Field/FxField+Values.swift",
+      "line": 14,
+      "symbol": "FxBindableValue.bindFieldToView(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Field/FxField+Values.swift",
+      "line": 15,
+      "symbol": "FxBindableValue.bindViewToField(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Fields/FxFields+Rx.swift",
+      "line": 32,
+      "symbol": "FxFieldsReactiveBase",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Fields/FxFields.swift",
+      "line": 19,
+      "symbol": "FxFields.list",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Fields/FxFields.swift",
+      "line": 20,
+      "symbol": "FxFields.map",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Fields/FxFields.swift",
+      "line": 24,
+      "symbol": "FxFields.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Fields/FxFields.swift",
+      "line": 104,
+      "symbol": "FxFieldsIterator",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Form/FxForm+Tabbing.swift",
+      "line": 27,
+      "symbol": "FxForm.doneEditing()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Form/FxForm+Validation.swift",
+      "line": 57,
+      "symbol": "FxForm.isValid()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Form/FxForm.swift",
+      "line": 121,
+      "symbol": "FxFormIterator",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Validation/FxValidationRules.swift",
+      "line": 13,
+      "symbol": "FxValidationRule",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Validation/FxValidationRules.swift",
+      "line": 14,
+      "symbol": "FxValidationRule.name",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Validation/FxValidationRules.swift",
+      "line": 15,
+      "symbol": "FxValidationRule.message",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Validation/FxValidationRules.swift",
+      "line": 16,
+      "symbol": "FxValidationRule.valid",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Validation/FxValidationRules.swift",
+      "line": 19,
+      "symbol": "FxStandardValidationRule",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Validation/FxValidationRules.swift",
+      "line": 20,
+      "symbol": "FxStandardValidationRule.name",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Validation/FxValidationRules.swift",
+      "line": 21,
+      "symbol": "FxStandardValidationRule.message",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Validation/FxValidationRules.swift",
+      "line": 22,
+      "symbol": "FxStandardValidationRule.valid",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Validation/FxValidationRules.swift",
+      "line": 23,
+      "symbol": "FxStandardValidationRule.init(_:message:valid:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Validation/FxValidationRules.swift",
+      "line": 30,
+      "symbol": "FxRules",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Validation/FxValidationRules.swift",
+      "line": 32,
+      "symbol": "FxRules.make(_:_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Validation/FxValidationRules.swift",
+      "line": 36,
+      "symbol": "FxRules.creditcard(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Validation/FxValidationRules.swift",
+      "line": 44,
+      "symbol": "FxRules.currency(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Validation/FxValidationRules.swift",
+      "line": 48,
+      "symbol": "FxRules.cvc(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Validation/FxValidationRules.swift",
+      "line": 52,
+      "symbol": "FxRules.decimal(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Validation/FxValidationRules.swift",
+      "line": 56,
+      "symbol": "FxRules.email(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Validation/FxValidationRules.swift",
+      "line": 60,
+      "symbol": "FxRules.expiresYear2(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Validation/FxValidationRules.swift",
+      "line": 64,
+      "symbol": "FxRules.expiresYear4(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Validation/FxValidationRules.swift",
+      "line": 68,
+      "symbol": "FxRules.integer(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Validation/FxValidationRules.swift",
+      "line": 72,
+      "symbol": "FxRules.luhn(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Validation/FxValidationRules.swift",
+      "line": 89,
+      "symbol": "FxRules.phone(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Validation/FxValidationRules.swift",
+      "line": 93,
+      "symbol": "FxRules.ssn(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Validation/FxValidationRules.swift",
+      "line": 97,
+      "symbol": "FxRules.regex(_:_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Validation/FxValidationRules.swift",
+      "line": 103,
+      "symbol": "FxRules.zipcode(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Validation/FxValidationRules.swift",
+      "line": 107,
+      "symbol": "FxRules.zipPlusFour(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Values/FxValue.swift",
+      "line": null,
+      "symbol": "FxValue",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Values/FxValue.swift",
+      "line": 11,
+      "symbol": "FxValue",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Values/FxValue.swift",
+      "line": 12,
+      "symbol": "FxValue.isEmpty",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Values/FxValue.swift",
+      "line": 13,
+      "symbol": "FxValue.asText",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Values/FxValue.swift",
+      "line": 14,
+      "symbol": "FxValue.asType()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Values/FxValue.swift",
+      "line": 15,
+      "symbol": "FxValue.isEqual(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Values/FxValue.swift",
+      "line": 16,
+      "symbol": "FxValue.reset()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Values/FxValue.swift",
+      "line": 20,
+      "symbol": "FxValue.asBool",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Values/FxValue.swift",
+      "line": 26,
+      "symbol": "FxValue.asDouble",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Values/FxValue.swift",
+      "line": 32,
+      "symbol": "FxValue.asInt",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Values/FxValueBool.swift",
+      "line": 11,
+      "symbol": "FxValueBool",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Values/FxValueBool.swift",
+      "line": 13,
+      "symbol": "FxValueBool.init(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Values/FxValueBool.swift",
+      "line": 16,
+      "symbol": "FxValueBool.isEmpty",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Values/FxValueBool.swift",
+      "line": 19,
+      "symbol": "FxValueBool.asText",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Values/FxValueBool.swift",
+      "line": 22,
+      "symbol": "FxValueBool.asType()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Values/FxValueBool.swift",
+      "line": 28,
+      "symbol": "FxValueBool.isEqual(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Values/FxValueBool.swift",
+      "line": 31,
+      "symbol": "FxValueBool.reset()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Values/FxValueGeneric.swift",
+      "line": 11,
+      "symbol": "FxValueGeneric",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Values/FxValueGeneric.swift",
+      "line": 13,
+      "symbol": "FxValueGeneric.init(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Values/FxValueGeneric.swift",
+      "line": 16,
+      "symbol": "FxValueGeneric.isEmpty",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Values/FxValueGeneric.swift",
+      "line": 19,
+      "symbol": "FxValueGeneric.asText",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Values/FxValueGeneric.swift",
+      "line": 25,
+      "symbol": "FxValueGeneric.asType()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Values/FxValueGeneric.swift",
+      "line": 31,
+      "symbol": "FxValueGeneric.isEqual(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Values/FxValueGeneric.swift",
+      "line": 34,
+      "symbol": "FxValueGeneric.reset()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Values/FxValueNil.swift",
+      "line": 11,
+      "symbol": "FxValueNil",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Values/FxValueNil.swift",
+      "line": 12,
+      "symbol": "FxValueNil.isEmpty",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Values/FxValueNil.swift",
+      "line": 15,
+      "symbol": "FxValueNil.asText",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Values/FxValueNil.swift",
+      "line": 18,
+      "symbol": "FxValueNil.asType()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Values/FxValueNil.swift",
+      "line": 21,
+      "symbol": "FxValueNil.isEqual(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Values/FxValueNil.swift",
+      "line": 27,
+      "symbol": "FxValueNil.reset()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Values/FxValueText.swift",
+      "line": 11,
+      "symbol": "FxValueText",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Values/FxValueText.swift",
+      "line": 13,
+      "symbol": "FxValueText.init(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Values/FxValueText.swift",
+      "line": 16,
+      "symbol": "FxValueText.isEmpty",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Values/FxValueText.swift",
+      "line": 19,
+      "symbol": "FxValueText.asText",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Values/FxValueText.swift",
+      "line": 22,
+      "symbol": "FxValueText.asType()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Values/FxValueText.swift",
+      "line": 28,
+      "symbol": "FxValueText.isEqual(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Values/FxValueText.swift",
+      "line": 31,
+      "symbol": "FxValueText.reset()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Values/FxValues.swift",
+      "line": 11,
+      "symbol": "FxValues",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Values/FxValues.swift",
+      "line": 13,
+      "symbol": "FxValues.instance",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Values/FxValues.swift",
+      "line": 15,
+      "symbol": "FxValues.make(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Values/FxValues.swift",
+      "line": 19,
+      "symbol": "FxValues.make(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Views/FxCheckbox.swift",
+      "line": null,
+      "symbol": "FxCheckbox",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Views/FxCheckbox.swift",
+      "line": 15,
+      "symbol": "FxCheckbox",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Views/FxCheckbox.swift",
+      "line": 17,
+      "symbol": "FxCheckbox.isChecked",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Views/FxCheckbox.swift",
+      "line": 33,
+      "symbol": "FxCheckbox.init(frame:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Views/FxCheckbox.swift",
+      "line": 38,
+      "symbol": "FxCheckbox.init(coder:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Views/FxCheckbox.swift",
+      "line": 43,
+      "symbol": "FxCheckbox.initCommon()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Views/FxCheckbox.swift",
+      "line": 49,
+      "symbol": "FxCheckbox.touched(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Views/FxCheckbox.swift",
+      "line": 53,
+      "symbol": "FxCheckbox.toggleState()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Views/FxCheckbox.swift",
+      "line": 57,
+      "symbol": "FxCheckbox.prepareForInterfaceBuilder()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Views/FxDisclosureButton.swift",
+      "line": null,
+      "symbol": "FxDisclosureButton",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Views/FxDisclosureButton.swift",
+      "line": 15,
+      "symbol": "FxDisclosureButton",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Views/FxDisclosureButton.swift",
+      "line": 41,
+      "symbol": "FxDisclosureButton.init(coder:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Views/FxDisclosureButton.swift",
+      "line": 52,
+      "symbol": "FxDisclosureButton.layoutSubviews()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Views/FxDisclosureButton.swift",
+      "line": 126,
+      "symbol": "FxDisclosureButton.bindViewToField(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Views/FxInputAccessoryView.swift",
+      "line": 12,
+      "symbol": "FxInputAccessoryViewDelegate",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Views/FxInputAccessoryView.swift",
+      "line": 13,
+      "symbol": "FxInputAccessoryViewDelegate.tabPrevious()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Views/FxInputAccessoryView.swift",
+      "line": 14,
+      "symbol": "FxInputAccessoryViewDelegate.tabNext()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Views/FxInputAccessoryView.swift",
+      "line": 15,
+      "symbol": "FxInputAccessoryViewDelegate.doneEditing()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Views/FxInputAccessoryView.swift",
+      "line": 18,
+      "symbol": "FxInputAccessoryViewInterface",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Views/FxInputAccessoryView.swift",
+      "line": 19,
+      "symbol": "FxInputAccessoryViewInterface.accessoryDelegate",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Views/FxInputAccessoryView.swift",
+      "line": 20,
+      "symbol": "FxInputAccessoryViewInterface.updateInterface(hasPrevious:hasNext:returnType:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Views/FxInputAccessoryView.swift",
+      "line": 23,
+      "symbol": "FxInputAccessoryView",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Views/FxInputAccessoryView.swift",
+      "line": 25,
+      "symbol": "FxInputAccessoryView.accessoryDelegate",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Views/FxInputAccessoryView.swift",
+      "line": 29,
+      "symbol": "FxInputAccessoryView.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Views/FxInputAccessoryView.swift",
+      "line": 34,
+      "symbol": "FxInputAccessoryView.init(coder:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Views/FxInputAccessoryView.swift",
+      "line": 57,
+      "symbol": "FxInputAccessoryView.updateInterface(hasPrevious:hasNext:returnType:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Views/FxInputAccessoryView.swift",
+      "line": 62,
+      "symbol": "FxInputAccessoryView.tabPrevious()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Views/FxInputAccessoryView.swift",
+      "line": 66,
+      "symbol": "FxInputAccessoryView.tabNext()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Views/FxInputAccessoryView.swift",
+      "line": 70,
+      "symbol": "FxInputAccessoryView.doHide()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Views/FxInputAccessoryViewHideNext.swift",
+      "line": 11,
+      "symbol": "FxInputAccessoryViewHideNext",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Views/FxInputAccessoryViewHideNext.swift",
+      "line": 28,
+      "symbol": "FxInputAccessoryViewHideNext.updateInterface(hasPrevious:hasNext:returnType:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Views/UISegmentedControl+Fx.swift",
+      "line": 22,
+      "symbol": "UISegmentedControl.bindViewToField(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Views/UISlider+Fx.swift",
+      "line": 23,
+      "symbol": "UISlider.bindViewToField(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Views/UISwitch+Fx.swift",
+      "line": 22,
+      "symbol": "UISwitch.bindViewToField(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Views/UITextField+Fx.swift",
+      "line": 22,
+      "symbol": "UITextField.bindViewToField(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Views/UITextView+Fx.swift",
+      "line": 22,
+      "symbol": "UITextView.bindViewToField(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Views/UIView+Fx.swift",
+      "line": 11,
+      "symbol": "FxViewAttributes",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms/Sources/RxSwiftForms/Views/UIView+Fx.swift",
+      "line": 15,
+      "symbol": "UIView.fx",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/michael/Dropbox/Projects/iOS/OSS/RxSwiftForms"
+}
