@@ -1,4 +1,10 @@
-# Change Log
-All notable changes to this project will be documented in this file.
+# RxSwiftForms Changelog
 
----
+### 0.9.1
+
+* Make most public class definitions open for better CocoaPods compatibility.
+
+### 0.9.0
+
+* Initial Open Source Release
+* Initial Cocoapods Release

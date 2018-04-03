@@ -193,6 +193,7 @@
 
 /* Begin PBXFileReference section */
 		491432E8F71DC4754BA6B3C5 /* Pods-RxSwiftFormsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwiftFormsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RxSwiftFormsTests/Pods-RxSwiftFormsTests.release.xcconfig"; sourceTree = "<group>"; };
+		4C76F8A0207408F100F9E784 /* CHANGELOG.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = CHANGELOG.md; sourceTree = SOURCE_ROOT; };
 		4CD09ECC2067E08E00A7FBB0 /* RxSwiftForms.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxSwiftForms.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CD09ECF2067E08E00A7FBB0 /* RxSwiftForms.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RxSwiftForms.h; sourceTree = "<group>"; };
 		4CD09ED02067E08E00A7FBB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -989,6 +990,7 @@
 		4CD4F95E2072A24B0090669A /* Documentation */ = {
 			isa = PBXGroup;
 			children = (
+				4C76F8A0207408F100F9E784 /* CHANGELOG.md */,
 				4CD4F95F2072A29B0090669A /* README.md */,
 			);
 			name = Documentation;
