@@ -7,7 +7,7 @@
 //
 import UIKit
 
-public class MetaTextDecoratorTintPlaceholder: MetaTextDecoratingLayout {
+open class MetaTextDecoratorTintPlaceholder: MetaTextDecoratingLayout {
 
     public static let name = "MetaTextDecoratorTintPlaceholder"
 

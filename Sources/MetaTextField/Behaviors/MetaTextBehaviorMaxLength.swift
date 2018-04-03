@@ -8,7 +8,7 @@
 
 import UIKit
 
-public class MetaTextBehaviorMaxLength: MetaTextBehaviorChanging {
+open class MetaTextBehaviorMaxLength: MetaTextBehaviorChanging {
 
     public static let name = "MetaTextBehaviorMaxLength"
 

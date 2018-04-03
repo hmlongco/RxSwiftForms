@@ -8,7 +8,7 @@
 
 import UIKit
 
-public class FxInputAccessoryViewHideNext: FxInputAccessoryView {
+open class FxInputAccessoryViewHideNext: FxInputAccessoryView {
 
     override func constructAccessoryView() {
         let nextButton = UIBarButtonItem(title: "Next", style: .plain, target: self, action: #selector(tabNext))
@@ -25,7 +25,7 @@ public class FxInputAccessoryViewHideNext: FxInputAccessoryView {
         self.nextButton = nextButton
     }
 
-    override public func updateInterface(hasPrevious:Bool, hasNext:Bool, returnType:UIReturnKeyType) {
+    override open func updateInterface(hasPrevious:Bool, hasNext:Bool, returnType:UIReturnKeyType) {
         switch returnType {
         case .`continue`: nextButton?.title = "Continue"
         case .done: nextButton?.title = "Done"

@@ -16,11 +16,11 @@ public protocol FxInputAccessoryViewDelegate: class {
 }
 
 public protocol FxInputAccessoryViewInterface {
-    weak var accessoryDelegate:FxInputAccessoryViewDelegate? { get set }
+    var accessoryDelegate:FxInputAccessoryViewDelegate? { get set }
     func updateInterface(hasPrevious:Bool, hasNext:Bool, returnType:UIReturnKeyType)
 }
 
-public class FxInputAccessoryView: UIToolbar, FxInputAccessoryViewInterface {
+open class FxInputAccessoryView: UIToolbar, FxInputAccessoryViewInterface {
 
     public weak var accessoryDelegate:FxInputAccessoryViewDelegate?
     weak var previousButton:UIBarButtonItem?

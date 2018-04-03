@@ -8,7 +8,7 @@
 
 import UIKit
 
-public class MetaTextBehaviorFilter: MetaTextBehaviorChanging {
+open class MetaTextBehaviorFilter: MetaTextBehaviorChanging {
 
     public static let name = "MetaTextBehaviorFilter"
 

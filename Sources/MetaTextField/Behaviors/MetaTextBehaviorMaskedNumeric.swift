@@ -8,7 +8,7 @@
 
 import UIKit
 
-public class MetaTextBehaviorMaskedNumeric: MetaTextBehaviorChanging {
+open class MetaTextBehaviorMaskedNumeric: MetaTextBehaviorChanging {
 
     public static let name = "MetaTextBehaviorMaskedNumeric"
 

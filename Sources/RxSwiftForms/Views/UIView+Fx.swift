@@ -8,7 +8,7 @@
 
 import UIKit
 
-public class FxViewAttributes: FxAttributes<UIView> {}
+open class FxViewAttributes: FxAttributes<UIView> {}
 
 /// Extends UIView with associated elements, simplifing field management and lookups for tabbing and other events.
 public extension UIView {

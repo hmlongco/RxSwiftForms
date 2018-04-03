@@ -8,7 +8,7 @@
 
 import UIKit
 
-public class MetaTextErrorMessage: MetaTextBehaviorErrorHandling, MetaTextDecoratingSize, MetaTextBehaviorRemovable {
+open class MetaTextErrorMessage: MetaTextBehaviorErrorHandling, MetaTextDecoratingSize, MetaTextBehaviorRemovable {
 
     public static let name = "MetaTextErrorMessage"
 

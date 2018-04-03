@@ -1,5 +1,6 @@
 platform :ios, '9.0'
 use_frameworks!
+inhibit_all_warnings!
 
 def common
     pod 'RxSwift', '~> 4.0'

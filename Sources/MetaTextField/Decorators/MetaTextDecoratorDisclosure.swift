@@ -8,7 +8,7 @@
 
 import UIKit
 
-public class MetaTextDecoratorDisclosure: MetaTextDecoratingRects, MetaTextBehaviorActionable, MetaTextBehaviorChanging, MetaTextBehaviorResponding {
+open class MetaTextDecoratorDisclosure: MetaTextDecoratingRects, MetaTextBehaviorActionable, MetaTextBehaviorChanging, MetaTextBehaviorResponding {
 
     public static let name = "MetaTextDecoratorDisclosure"
 

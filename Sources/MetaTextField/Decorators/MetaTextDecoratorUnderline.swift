@@ -8,7 +8,7 @@
 
 import UIKit
 
-public class MetaTextDecoratorUnderline: MetaTextDecoratingLayout, MetaTextDecoratingSize, MetaTextDecoratingRects,
+open class MetaTextDecoratorUnderline: MetaTextDecoratingLayout, MetaTextDecoratingSize, MetaTextDecoratingRects,
     MetaTextBehaviorErrorHandling, MetaTextBehaviorRemovable {
 
     public static let name = "MetaTextDecoratorBorderStyle"

@@ -13,7 +13,7 @@ import RxCocoa
 public typealias FxKeyForm = FxForm<String>
 
 /// Reactive class that controls binding specific FxField's to specifc views.
-public class FxForm<E:Hashable> : FxBase, Sequence {
+open class FxForm<E:Hashable> : FxBase, Sequence {
 
     // MARK: - FxForm Properties
 

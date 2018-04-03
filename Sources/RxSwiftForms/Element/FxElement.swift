@@ -13,7 +13,7 @@ import RxCocoa
 public typealias FxAttributeBindingStrategy = (_ view: UIView?, _ value: Any?) -> Void
 public typealias FxReactiveBindingStrategy = (_ view: UIView?, _ value: Any?) -> Disposable?
 
-public class FxElement: FxBase {
+open class FxElement: FxBase {
 
     // MARK: - View Binding
 

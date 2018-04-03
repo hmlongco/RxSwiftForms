@@ -12,7 +12,7 @@ import RxCocoa
 
 @IBDesignable
 
-public class FxDisclosureButton: UIButton {
+open class FxDisclosureButton: UIButton {
 
 //    @IBInspectable public var placeholder: String?
 //
@@ -49,7 +49,7 @@ public class FxDisclosureButton: UIButton {
 //        }
     }
 
-    override public func layoutSubviews() {
+    override open func layoutSubviews() {
         // Allow default layout, then adjust image and label positions
         super.layoutSubviews()
 
@@ -69,7 +69,7 @@ public class FxDisclosureButton: UIButton {
         label.frame = labelFrame
     }
 
-//    override public func becomeFirstResponder() -> Bool {
+//    override open func becomeFirstResponder() -> Bool {
 //        self.fxField?.becameFirstResponder()
 //        OperationQueue.main.addOperation {
 //            self.sendActions(for: .touchUpInside)
@@ -77,12 +77,12 @@ public class FxDisclosureButton: UIButton {
 //       return true
 //    }
 //
-//    override public func resignFirstResponder() -> Bool {
+//    override open func resignFirstResponder() -> Bool {
 //        self.fxField?.resignedFirstResponder()
 //        return true
 //    }
 //
-//    override public func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {
+//    override open func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {
 //        OperationQueue.main.addOperation {
 //            self.fxField?.becameFirstResponder()
 //        }

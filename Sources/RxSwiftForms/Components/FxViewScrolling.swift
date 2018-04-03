@@ -17,7 +17,7 @@ public protocol FxViewScrolling {
 }
 
 /// Manages the scrollview and adjusts the content area for keyboard show/hide events.
-public class FxScrollingService: FxViewScrolling {
+open class FxScrollingService: FxViewScrolling {
 
     // MARK: - Properties
     

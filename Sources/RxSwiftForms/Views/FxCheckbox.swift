@@ -12,7 +12,7 @@ import RxCocoa
 
 @IBDesignable
 
-public class FxCheckbox: UIButton {
+open class FxCheckbox: UIButton {
 
     @IBInspectable public var isChecked: Bool {
         get {
@@ -54,7 +54,7 @@ public class FxCheckbox: UIButton {
         isChecked = !isChecked
     }
 
-    override public func prepareForInterfaceBuilder() {
+    override open func prepareForInterfaceBuilder() {
         setTitle(uncheckedText, for: .normal)
     }
 }

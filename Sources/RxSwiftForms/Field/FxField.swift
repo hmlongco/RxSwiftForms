@@ -13,7 +13,7 @@ import RxCocoa
 public typealias FxKeyField = FxField<String>
 
 /// Reactive class that manages the identity, value, and validation for a specific field or element on the form.
-public class FxField<E:Hashable>: FxElement {
+open class FxField<E:Hashable>: FxElement {
 
     // MARK: - Properties
 

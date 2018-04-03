@@ -8,7 +8,7 @@
 
 import UIKit
 
-public class MetaTextErrorHandler: MetaTextBehaviorErrorHandling {
+open class MetaTextErrorHandler: MetaTextBehaviorErrorHandling {
 
     public static let name = "MetaTextErrorHandler"
 

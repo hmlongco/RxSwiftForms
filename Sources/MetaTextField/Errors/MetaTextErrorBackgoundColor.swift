@@ -8,7 +8,7 @@
 
 import UIKit
 
-public class MetaTextErrorBackgoundColor: MetaTextBehaviorErrorHandling {
+open class MetaTextErrorBackgoundColor: MetaTextBehaviorErrorHandling {
 
     public static let name = "MetaTextErrorBackgoundColor"
 

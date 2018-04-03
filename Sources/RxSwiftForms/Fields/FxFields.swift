@@ -12,7 +12,7 @@ import RxCocoa
 public typealias FxKeyFields = FxFields<String>
 
 /// Reactive class that manages a list of FxFields.
-public class FxFields<E:Hashable>: FxBase, Sequence {
+open class FxFields<E:Hashable>: FxBase, Sequence {
 
     // MARK: - FxFields Properties
 

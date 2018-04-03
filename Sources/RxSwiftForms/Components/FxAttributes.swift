@@ -8,7 +8,7 @@
 
 import UIKit
 
-public class FxAttributes<Base:AnyObject> {
+open class FxAttributes<Base:AnyObject> {
 
     public typealias FxAttributeHandler = (_ base: Base?, _ value: Any?) -> Void
 

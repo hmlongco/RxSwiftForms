@@ -8,7 +8,7 @@
 
 import UIKit
 
-public class MetaTextDecoratorShowPassword: NSObject, MetaTextDecorating {
+open class MetaTextDecoratorShowPassword: NSObject, MetaTextDecorating {
 
     public static let name = "MetaTextDecoratorShowPassword"
 

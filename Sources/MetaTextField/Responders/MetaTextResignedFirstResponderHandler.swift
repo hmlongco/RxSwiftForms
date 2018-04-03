@@ -8,7 +8,7 @@
 
 import UIKit
 
-public class MetaTextResignedFirstResponderHandler: MetaTextBehaviorResponding {
+open class MetaTextResignedFirstResponderHandler: MetaTextBehaviorResponding {
 
     public static let name = "MetaTextResignedFirstResponderHandler"
 

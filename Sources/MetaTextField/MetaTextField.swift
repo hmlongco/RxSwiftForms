@@ -8,7 +8,7 @@
 
 import UIKit
 
-public class MetaTextField: UITextField, UITextFieldDelegate {
+open class MetaTextField: UITextField, UITextFieldDelegate {
 
     // MARK: - Properties
 
@@ -27,7 +27,7 @@ public class MetaTextField: UITextField, UITextFieldDelegate {
         sharedSetup()
     }
 
-    func sharedSetup() {
+    open func sharedSetup() {
         // hook for later overrides
     }
 

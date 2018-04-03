@@ -7,7 +7,7 @@
 //
 import UIKit
 
-public class MetaTextDecoratorTintClearImage: MetaTextDecoratingLayout {
+open class MetaTextDecoratorTintClearImage: MetaTextDecoratingLayout {
 
     public static let name = "MetaTextDecoratorTintClearImage"
 

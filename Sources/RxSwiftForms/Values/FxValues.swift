@@ -8,7 +8,7 @@
 
 import Foundation
 
-public class FxValues {
+open class FxValues {
 
     public static var instance = FxValues()
 

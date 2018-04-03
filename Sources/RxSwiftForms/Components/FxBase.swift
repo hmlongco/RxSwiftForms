@@ -10,7 +10,7 @@ import UIKit
 import RxSwift
 import RxCocoa
 
-public class FxBase {
+open class FxBase {
 
     // MARK: - Attributes
 

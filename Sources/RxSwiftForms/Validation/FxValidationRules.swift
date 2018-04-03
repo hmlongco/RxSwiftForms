@@ -27,7 +27,7 @@ public struct FxStandardValidationRule: FxValidationRule {
     }
 }
 
-public class FxRules {
+open class FxRules {
 
     public static func make(_ name: String, _ message: String?, _ valid: @escaping FxFieldValidationFunction ) -> FxValidationRule {
         return FxStandardValidationRule(name, message: message, valid: valid)
