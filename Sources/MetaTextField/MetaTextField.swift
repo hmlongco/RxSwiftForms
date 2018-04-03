@@ -22,7 +22,7 @@ open class MetaTextField: UITextField, UITextFieldDelegate {
         sharedSetup()
     }
 
-    override init(frame: CGRect) {
+    override public init(frame: CGRect) {
         super.init(frame: frame)
         sharedSetup()
     }

@@ -30,7 +30,7 @@ open class FxCheckbox: UIButton {
 
     fileprivate var _checked = BehaviorRelay(value: false)
 
-    public override init(frame: CGRect) {
+    override public init(frame: CGRect) {
         super.init(frame: frame)
         initCommon()
     }

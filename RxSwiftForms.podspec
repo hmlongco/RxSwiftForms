@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "RxSwiftForms"
-  s.version          = "0.9.2"
+  s.version          = "0.9.3"
   s.summary          = "iOS Form Management, Binding, and Validation using RxSwift."
   s.homepage         = "https://github.com/hmlongco/RxSwiftForms"                      
   s.license          = 'MIT'
