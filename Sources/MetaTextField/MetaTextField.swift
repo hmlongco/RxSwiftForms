@@ -22,7 +22,7 @@ open class MetaTextField: UITextField, UITextFieldDelegate {
         sharedSetup()
     }
 
-    override public init(frame: CGRect) {
+    override init(frame: CGRect) {
         super.init(frame: frame)
         sharedSetup()
     }
@@ -33,7 +33,7 @@ open class MetaTextField: UITextField, UITextFieldDelegate {
 
     // MARK: - Behaviors
 
-    override public func canPerformAction(_ action: Selector, withSender sender: Any?) -> Bool {
+    override open func canPerformAction(_ action: Selector, withSender sender: Any?) -> Bool {
         for item in behaviors {
             if let behavior = item as? MetaTextBehaviorActionable, let result = behavior.canPerformAction(action, withSender: sender) {
                 return result
@@ -93,19 +93,19 @@ open class MetaTextField: UITextField, UITextFieldDelegate {
 
     // MARK: - Decorators
 
-    override public func draw(_ rect: CGRect) {
+    override open func draw(_ rect: CGRect) {
         super.draw(rect)
         behaviors.forEach { ($0 as? MetaTextDecoratingDraw)?.draw(rect) }
     }
 
-    override public func layoutSubviews() {
+    override open func layoutSubviews() {
         super.layoutSubviews()
         behaviors.forEach { ($0 as? MetaTextDecoratingLayout)?.layoutSubviews() }
     }
 
     // MARK: - Decorator Rects
 
-    override public var intrinsicContentSize: CGSize {
+    override open var intrinsicContentSize: CGSize {
         get {
             var intrinsicSize = super.intrinsicContentSize
             for item in behaviors {
@@ -117,7 +117,7 @@ open class MetaTextField: UITextField, UITextFieldDelegate {
         }
     }
 
-   override public func caretRect(for position: UITextPosition) -> CGRect {
+   override open func caretRect(for position: UITextPosition) -> CGRect {
         var rect = super.caretRect(for: position)
         for item in behaviors {
             if let decorator = item as? MetaTextDecoratingRects, let updated = decorator.caretRect(for: position, current: rect) {
@@ -127,7 +127,7 @@ open class MetaTextField: UITextField, UITextFieldDelegate {
         return rect
     }
 
-    override public func clearButtonRect(forBounds bounds: CGRect) -> CGRect {
+    override open func clearButtonRect(forBounds bounds: CGRect) -> CGRect {
         var rect = super.clearButtonRect(forBounds: bounds)
         for item in behaviors {
             if let decorator = item as? MetaTextDecoratingRects, let updated = decorator.rect(.clear, bounds: bounds, current: rect) {
@@ -137,7 +137,7 @@ open class MetaTextField: UITextField, UITextFieldDelegate {
         return rect
     }
 
-    override public func editingRect(forBounds bounds: CGRect) -> CGRect {
+    override open func editingRect(forBounds bounds: CGRect) -> CGRect {
         var rect = super.editingRect(forBounds: bounds)
         for item in behaviors {
             if let decorator = item as? MetaTextDecoratingRects, let updated = decorator.rect(.editing, bounds: bounds, current: rect) {
@@ -147,7 +147,7 @@ open class MetaTextField: UITextField, UITextFieldDelegate {
         return rect
     }
 
-    override public func leftViewRect(forBounds bounds: CGRect) -> CGRect {
+    override open func leftViewRect(forBounds bounds: CGRect) -> CGRect {
         var rect = super.leftViewRect(forBounds: bounds)
         for item in behaviors {
             if let decorator = item as? MetaTextDecoratingRects, let updated = decorator.rect(.left, bounds: bounds, current: rect) {
@@ -157,7 +157,7 @@ open class MetaTextField: UITextField, UITextFieldDelegate {
         return rect
     }
 
-    override public func placeholderRect(forBounds bounds: CGRect) -> CGRect {
+    override open func placeholderRect(forBounds bounds: CGRect) -> CGRect {
         var rect = super.placeholderRect(forBounds: bounds)
         for item in behaviors {
             if let decorator = item as? MetaTextDecoratingRects, let updated = decorator.rect(.placeholder, bounds: bounds, current: rect) {
@@ -167,7 +167,7 @@ open class MetaTextField: UITextField, UITextFieldDelegate {
         return rect
     }
 
-    override public func rightViewRect(forBounds bounds: CGRect) -> CGRect {
+    override open func rightViewRect(forBounds bounds: CGRect) -> CGRect {
         var rect = super.rightViewRect(forBounds: bounds)
         for item in behaviors {
             if let decorator = item as? MetaTextDecoratingRects, let updated = decorator.rect(.right, bounds: bounds, current: rect) {
@@ -177,7 +177,7 @@ open class MetaTextField: UITextField, UITextFieldDelegate {
         return rect
     }
 
-    override public func selectionRects(for range: UITextRange) -> [Any] {
+    override open func selectionRects(for range: UITextRange) -> [Any] {
         var rects = super.selectionRects(for: range)
         for item in behaviors {
             if let decorator = item as? MetaTextDecoratingRects, let updated = decorator.selectionRects(for: range, current: rects) {
@@ -187,7 +187,7 @@ open class MetaTextField: UITextField, UITextFieldDelegate {
         return rects
     }
 
-    override public func textRect(forBounds bounds: CGRect) -> CGRect {
+    override open func textRect(forBounds bounds: CGRect) -> CGRect {
         var rect = super.textRect(forBounds: bounds)
         for item in behaviors {
             if let decorator = item as? MetaTextDecoratingRects, let updated = decorator.rect(.text, bounds: bounds, current: rect) {
@@ -199,7 +199,7 @@ open class MetaTextField: UITextField, UITextFieldDelegate {
 
     // MARK: - Responders
 
-    override public func becomeFirstResponder() -> Bool {
+    override open func becomeFirstResponder() -> Bool {
         if super.becomeFirstResponder() {
             behaviors.forEach { ($0 as? MetaTextBehaviorResponding)?.responder(status: .becameFirst) }
             return true
@@ -207,7 +207,7 @@ open class MetaTextField: UITextField, UITextFieldDelegate {
         return false
     }
 
-    override public func resignFirstResponder() -> Bool {
+    override open func resignFirstResponder() -> Bool {
         if super.resignFirstResponder() {
             behaviors.forEach { ($0 as? MetaTextBehaviorResponding)?.responder(status: .resignedFirst) }
             return true

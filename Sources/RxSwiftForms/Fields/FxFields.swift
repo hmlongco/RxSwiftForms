@@ -21,7 +21,7 @@ open class FxFields<E:Hashable>: FxBase, Sequence {
 
     // MARK: - FxFields Lifecycle
 
-    override public init() {
+    override init() {
         super.init()
         setupObservables()
         
