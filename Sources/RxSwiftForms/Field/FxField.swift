@@ -53,7 +53,7 @@ open class FxField<E:Hashable>: FxElement {
     // MARK: - Internal Variables
 
     /// Allows access to reactive observables and binding points.
-    lazy var rx = FxFieldReactiveBase(self)
+    public lazy var rx = FxFieldReactiveBase(self)
 
     // BehaviorRelays and not pure Observables so that FxForms can also be used with imperitive function calls
     internal lazy var _value = BehaviorRelay<FxValue>(value: FxValueNil())

@@ -39,7 +39,7 @@ open class FxFields<E:Hashable>: FxBase, Sequence {
     // MARK: - Rx Functionality
 
     /// Allows access to reactive observables and binding points.
-    lazy var rx = FxFieldsReactiveBase(self)
+    public lazy var rx = FxFieldsReactiveBase(self)
 
     internal var _changed: Observable<Bool>!
     internal var _valid: Observable<Bool>!
