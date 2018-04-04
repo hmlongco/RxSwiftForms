@@ -169,6 +169,7 @@ open class MetaTextDecoratorUnderline: MetaTextDecoratingLayout, MetaTextDecorat
 
     public func handleErrorMessage(_ message: String?) {
         errorState = !(message?.isEmpty ?? true)
+        textField?.setNeedsLayout()
     }
 
 }

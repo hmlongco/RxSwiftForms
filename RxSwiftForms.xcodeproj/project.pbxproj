@@ -685,12 +685,12 @@
 		4CD4F882207281190090669A /* Samples */ = {
 			isa = PBXGroup;
 			children = (
-				4CD4F883207281190090669A /* CreditcardForm */,
 				4CD4F887207281190090669A /* Empty */,
+				4CD4F883207281190090669A /* CreditcardForm */,
 				4CD4F88A207281190090669A /* Contacts */,
-				4CD4F88F207281190090669A /* LoginForm */,
-				4CD4F893207281190090669A /* New Group */,
+				4CD4F893207281190090669A /* ContactsMaterial */,
 				4CD4F898207281190090669A /* ContactsReactive */,
+				4CD4F88F207281190090669A /* LoginForm */,
 				4CD4F89B207281190090669A /* MirrorForm */,
 				4CD4F89C207281190090669A /* Validation */,
 			);
@@ -737,7 +737,7 @@
 			path = LoginForm;
 			sourceTree = "<group>";
 		};
-		4CD4F893207281190090669A /* New Group */ = {
+		4CD4F893207281190090669A /* ContactsMaterial */ = {
 			isa = PBXGroup;
 			children = (
 				4CD4F894207281190090669A /* MaterialFormViewController.swift */,
@@ -745,7 +745,7 @@
 				4CD4F896207281190090669A /* MaterialViewModel.swift */,
 				4CD4F897207281190090669A /* MaterialForm.storyboard */,
 			);
-			path = "New Group";
+			path = ContactsMaterial;
 			sourceTree = "<group>";
 		};
 		4CD4F898207281190090669A /* ContactsReactive */ = {

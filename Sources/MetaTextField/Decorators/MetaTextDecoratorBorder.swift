@@ -208,6 +208,7 @@ open class MetaTextDecoratorBorder: MetaTextDecoratingLayout, MetaTextDecorating
 
     public func handleErrorMessage(_ message: String?) {
         errorState = !(message?.isEmpty ?? true)
+        textField?.setNeedsLayout()
     }
 
 }
