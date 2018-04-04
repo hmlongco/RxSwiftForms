@@ -9,6 +9,7 @@
 import UIKit
 import RxSwift
 import RxCocoa
+import RxSwiftForms
 
 class EmptyViewController: UIViewController, Dismissible {
 

@@ -13,6 +13,7 @@ end
 
 target 'RsSwiftFormsDemo' do
     common
+    pod 'RxSwiftForms', :path => '.'
 end
 
 target 'RxSwiftFormsTests' do

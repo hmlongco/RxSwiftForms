@@ -2,15 +2,24 @@ PODS:
   - RxCocoa (4.1.2):
     - RxSwift (~> 4.0)
   - RxSwift (4.1.2)
+  - RxSwiftForms (0.9.4):
+    - RxCocoa (~> 4.0)
+    - RxSwift (~> 4.0)
 
 DEPENDENCIES:
   - RxCocoa (~> 4.0)
   - RxSwift (~> 4.0)
+  - RxSwiftForms (from `.`)
+
+EXTERNAL SOURCES:
+  RxSwiftForms:
+    :path: .
 
 SPEC CHECKSUMS:
   RxCocoa: d88ba0f1f6abf040011a9eb4b539324fc426843a
   RxSwift: e49536837d9901277638493ea537394d4b55f570
+  RxSwiftForms: 0f4f21bd45e61acd6d978cc783a531958b1adbf0
 
-PODFILE CHECKSUM: 5df7034cbdb5fe2ebed8072896029458dc1f8bff
+PODFILE CHECKSUM: 87b42e4363208045e69dae080c6baa866d1d0f84
 
 COCOAPODS: 1.4.0

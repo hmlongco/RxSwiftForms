@@ -8,6 +8,7 @@
 
 import UIKit
 import RxSwift
+import RxSwiftForms
 
 class CreditCardViewController: UIViewController, Dismissible {
 
