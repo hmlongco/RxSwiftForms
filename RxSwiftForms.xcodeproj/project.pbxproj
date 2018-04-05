@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		19E8A11E91946CF282BC9DE0 /* Pods_RxSwiftFormsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D95BF64A96A81978DAA2268 /* Pods_RxSwiftFormsTests.framework */; };
+		4CCBD8DE20759E2D008DF35C /* FxErrorLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCBD8DD20759E2D008DF35C /* FxErrorLabel.swift */; };
 		4CD09ED62067E08E00A7FBB0 /* RxSwiftForms.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CD09ECC2067E08E00A7FBB0 /* RxSwiftForms.framework */; };
 		4CD09EDB2067E08E00A7FBB0 /* RxSwiftFormsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD09EDA2067E08E00A7FBB0 /* RxSwiftFormsTests.swift */; };
 		4CD09EDD2067E08E00A7FBB0 /* RxSwiftForms.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CD09ECF2067E08E00A7FBB0 /* RxSwiftForms.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -194,6 +195,7 @@
 /* Begin PBXFileReference section */
 		491432E8F71DC4754BA6B3C5 /* Pods-RxSwiftFormsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwiftFormsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RxSwiftFormsTests/Pods-RxSwiftFormsTests.release.xcconfig"; sourceTree = "<group>"; };
 		4C76F8A0207408F100F9E784 /* CHANGELOG.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = CHANGELOG.md; sourceTree = SOURCE_ROOT; };
+		4CCBD8DD20759E2D008DF35C /* FxErrorLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FxErrorLabel.swift; sourceTree = "<group>"; };
 		4CD09ECC2067E08E00A7FBB0 /* RxSwiftForms.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxSwiftForms.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CD09ECF2067E08E00A7FBB0 /* RxSwiftForms.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RxSwiftForms.h; sourceTree = "<group>"; };
 		4CD09ED02067E08E00A7FBB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -595,6 +597,7 @@
 			children = (
 				4CD09F1E2067E4E300A7FBB0 /* FxCheckbox.swift */,
 				4CD09F232067E4E300A7FBB0 /* FxDisclosureButton.swift */,
+				4CCBD8DD20759E2D008DF35C /* FxErrorLabel.swift */,
 				4CD09F1C2067E4E300A7FBB0 /* FxInputAccessoryView.swift */,
 				4CD09F182067E4E300A7FBB0 /* FxInputAccessoryViewHideNext.swift */,
 				4CD09F1A2067E4E300A7FBB0 /* UISegmentedControl+Fx.swift */,
@@ -1355,6 +1358,7 @@
 				4CD09F452067E4E300A7FBB0 /* FxForm+InputAccessoryView.swift in Sources */,
 				4CD4F872207280810090669A /* MetaTextBecameFirstResponderHandler.swift in Sources */,
 				4CD09F2A2067E4E300A7FBB0 /* FxValueText.swift in Sources */,
+				4CCBD8DE20759E2D008DF35C /* FxErrorLabel.swift in Sources */,
 				4CD09F272067E4E300A7FBB0 /* FxValueGeneric.swift in Sources */,
 				4CD09F542067E4E300A7FBB0 /* UISlider+Fx.swift in Sources */,
 				4CD09F2B2067E4E300A7FBB0 /* FxFields+Rx.swift in Sources */,
