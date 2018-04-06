@@ -1,5 +1,9 @@
 # RxSwiftForms Changelog
 
+### 0.9.5
+
+* Add FxErrorLabel
+
 ### 0.9.4
 
 * Fix error line color bug in Border and Underline decorators
