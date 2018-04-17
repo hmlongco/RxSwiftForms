@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		19E8A11E91946CF282BC9DE0 /* Pods_RxSwiftFormsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D95BF64A96A81978DAA2268 /* Pods_RxSwiftFormsTests.framework */; };
 		4C9F63C92085668D0035B5AF /* MetaTextErrorTextColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C9F63C82085668D0035B5AF /* MetaTextErrorTextColor.swift */; };
+		4C9F63CC208645290035B5AF /* FxErrorLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCBD8DD20759E2D008DF35C /* FxErrorLabel.swift */; };
+		4C9F63CD208645680035B5AF /* MetaTextDecoratorMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD4F86E207280810090669A /* MetaTextDecoratorMessage.swift */; };
+		4C9F63CE2086457C0035B5AF /* MetaTextErrorTextColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C9F63C82085668D0035B5AF /* MetaTextErrorTextColor.swift */; };
 		4CCBD8DE20759E2D008DF35C /* FxErrorLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCBD8DD20759E2D008DF35C /* FxErrorLabel.swift */; };
 		4CD09ED62067E08E00A7FBB0 /* RxSwiftForms.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CD09ECC2067E08E00A7FBB0 /* RxSwiftForms.framework */; };
 		4CD09EDB2067E08E00A7FBB0 /* RxSwiftFormsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD09EDA2067E08E00A7FBB0 /* RxSwiftFormsTests.swift */; };
@@ -1213,13 +1216,11 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-RsSwiftFormsDemo/Pods-RsSwiftFormsDemo-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
 				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
-				"${BUILT_PRODUCTS_DIR}/RxSwiftForms/RxSwiftForms.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwiftForms.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -1422,6 +1423,7 @@
 				4CD4F92E207281500090669A /* FxFields.swift in Sources */,
 				4CD4F917207281500090669A /* FxField+Keyboard.swift in Sources */,
 				4CD4F8A4207281190090669A /* EmptyViewController.swift in Sources */,
+				4C9F63CD208645680035B5AF /* MetaTextDecoratorMessage.swift in Sources */,
 				4CD4F943207281500090669A /* MetaTextBehaviorFilter.swift in Sources */,
 				4CD4F93F207281500090669A /* MetaTextDecoratorTintPlaceholder.swift in Sources */,
 				4CD4F8B1207281190090669A /* ContactFormReactiveViewModel.swift in Sources */,
@@ -1432,6 +1434,7 @@
 				4CD4F909207281500090669A /* FxForm+Validation.swift in Sources */,
 				4CD4F911207281500090669A /* FxValueGeneric.swift in Sources */,
 				4CD4F910207281500090669A /* FxValue.swift in Sources */,
+				4C9F63CC208645290035B5AF /* FxErrorLabel.swift in Sources */,
 				4CD4F8A9207281190090669A /* LoginFormViewController.swift in Sources */,
 				4CD4F936207281500090669A /* UIView+Fx.swift in Sources */,
 				4CD4F933207281500090669A /* UITextField+Fx.swift in Sources */,
@@ -1444,6 +1447,7 @@
 				4CD4F90B207281500090669A /* FxForm+Tabbing.swift in Sources */,
 				4CD4F919207281500090669A /* FxField+Binding.swift in Sources */,
 				4CD4F8AD207281190090669A /* MaterialReflectionViewModel.swift in Sources */,
+				4C9F63CE2086457C0035B5AF /* MetaTextErrorTextColor.swift in Sources */,
 				4CD4F91F207281500090669A /* FxField+Message.swift in Sources */,
 				4CD4F926207281500090669A /* FxViewScrolling.swift in Sources */,
 				4CD4F923207281500090669A /* FxField.swift in Sources */,

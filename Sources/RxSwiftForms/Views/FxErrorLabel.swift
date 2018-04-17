@@ -9,7 +9,6 @@
 import UIKit
 import RxSwift
 import RxCocoa
-import RxSwiftForms
 
 open class FxErrorLabel: UILabel, FxErrorHandling {
 
