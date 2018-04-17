@@ -54,7 +54,7 @@ open class MetaTextDecoratorMessage: MetaTextBehaviorErrorHandling, MetaTextDeco
     internal var labelTopConstraint: NSLayoutConstraint? = nil
     internal var labelLeftConstraint: NSLayoutConstraint? = nil
 
-    init() {
+    public init() {
 
     }
 

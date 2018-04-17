@@ -19,7 +19,7 @@ open class MetaTextDecoratorShowPassword: NSObject, MetaTextDecorating {
     internal var showImage: UIImage?
     internal var hideImage: UIImage?
 
-    init(showImage: UIImage?, hideImage: UIImage?) {
+    public init(showImage: UIImage?, hideImage: UIImage?) {
         self.showImage = showImage
         self.hideImage = hideImage
     }

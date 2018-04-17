@@ -18,7 +18,7 @@ open class MetaTextResignedFirstResponderHandler: MetaTextBehaviorResponding {
     internal weak var textField: MetaTextField?
     internal let handler: (_ textField: MetaTextField) -> Void
 
-    init(_ handler: @escaping (_ textField: MetaTextField) -> Void) {
+    public init(_ handler: @escaping (_ textField: MetaTextField) -> Void) {
         self.handler = handler
     }
 

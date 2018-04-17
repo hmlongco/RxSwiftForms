@@ -18,7 +18,7 @@ open class MetaTextErrorHandler: MetaTextBehaviorErrorHandling {
     internal weak var textField: MetaTextField?
     internal let handler: (_ textField: MetaTextField, _ message: String?) -> Void
 
-    init(_ handler: @escaping (_ textField: MetaTextField, _ message: String?) -> Void) {
+    public init(_ handler: @escaping (_ textField: MetaTextField, _ message: String?) -> Void) {
         self.handler = handler
     }
 

@@ -19,7 +19,7 @@ open class MetaTextErrorBackgoundColor: MetaTextBehaviorErrorHandling {
     internal var existingColor: UIColor?
     internal let errorColor: UIColor
 
-    init(_ errorColor: UIColor) {
+    public init(_ errorColor: UIColor) {
         self.errorColor = errorColor
     }
 
