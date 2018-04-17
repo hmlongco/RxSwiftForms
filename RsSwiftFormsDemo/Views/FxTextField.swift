@@ -31,32 +31,42 @@ public class FxTextField: MetaTextField, FxErrorHandling {
         }
     }
 
+    // MARK: - Help Properties
+
+    public var helpMessage: String? = nil {
+        didSet { messageBehavior.helpMessage = helpMessage }
+    }
+
     // MARK: - Error Properties
 
     public var showErrorMessages: Bool = true {
         didSet {
             if showErrorMessages {
-                add(behavior: errorMessageBehavior)
+                add(behavior: messageBehavior)
             } else {
-                removeBehavior(name: errorMessageBehavior.name)
+                removeBehavior(name: messageBehavior.name)
             }
         }
     }
 
     public var errorMessage: String? = nil {
-        didSet { errorMessageBehavior.errorMessage = errorMessage }
+        didSet { messageBehavior.errorMessage = errorMessage }
     }
 
     public var errorFont: UIFont = UIFont.preferredFont(forTextStyle: .footnote) {
-        didSet { errorMessageBehavior.errorFont = errorFont }
+        didSet { messageBehavior.font = errorFont }
     }
 
     public var errorColor: UIColor = .red  {
-        didSet { errorMessageBehavior.errorColor = errorColor }
+        didSet { messageBehavior.errorColor = errorColor }
+    }
+
+    public var errorOffset: CGFloat = 0.0 {
+        didSet { messageBehavior.offset = errorOffset }
     }
 
     public var errorPadding: CGFloat = 3.0 {
-        didSet { errorMessageBehavior.errorPadding = errorPadding }
+        didSet { messageBehavior.padding = errorPadding }
     }
 
     // MARK: - Lifecycle
@@ -72,9 +82,9 @@ public class FxTextField: MetaTextField, FxErrorHandling {
     }
 
     public func initFxTextField() {
-        add(behavior: errorMessageBehavior)
+        add(behavior: messageBehavior)
     }
 
-    internal let errorMessageBehavior = MetaTextErrorMessage()
+    internal let messageBehavior = MetaTextDecoratorMessage()
 
 }

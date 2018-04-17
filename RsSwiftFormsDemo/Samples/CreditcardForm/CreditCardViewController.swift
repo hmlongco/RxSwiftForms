@@ -53,9 +53,10 @@ class CreditCardViewController: UIViewController, Dismissible {
 
     func setupForm() {
         form = FxForm(viewModel.fields, viewController: self, scrollView: scrollView)
-            .autoBind()
+            .autoBind { (_) -> [FxFieldBindings] in
+                return [.error]
+            }
             .autoBindErrorColors()
-            .autoNext()
             .addInputAccessoryView()
     }
 

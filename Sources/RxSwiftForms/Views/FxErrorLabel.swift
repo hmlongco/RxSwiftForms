@@ -11,19 +11,19 @@ import RxSwift
 import RxCocoa
 import RxSwiftForms
 
-class FxErrorLabel: UILabel, FxErrorHandling {
+open class FxErrorLabel: UILabel, FxErrorHandling {
 
-    var errorMessage: String? {
+    public var errorMessage: String? {
         didSet {
             handleErrorMessage(errorMessage)
         }
     }
 
-    var autoShowHide = true
+    public var autoShowHide = true
 
     private var animatingErrorMessage = false
 
-    func showErrorMessage(_ message: String?) {
+    public func showErrorMessage(_ message: String?) {
 
         guard animatingErrorMessage == false else {
             DispatchQueue.main.asyncAfter(deadline: .now() + 0.1) {
@@ -48,7 +48,7 @@ class FxErrorLabel: UILabel, FxErrorHandling {
         }
     }
 
-    func handleErrorMessage(_ message: String?) {
+    public func handleErrorMessage(_ message: String?) {
         if autoShowHide {
             showErrorMessage(message)
         }

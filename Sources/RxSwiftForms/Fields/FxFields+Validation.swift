@@ -17,7 +17,7 @@ public extension FxFields {
         list.forEach { $0.clearError() }
     }
 
-    /// Returns the validation state of all managed fields.
+    /// Returns the validation state of all managed fields, and sets field validation state accordingly.
     /// ```
     /// if fields.isValid() {
     ///     save()
@@ -26,6 +26,17 @@ public extension FxFields {
     @discardableResult
     public func isValid() -> Bool {
         return list.reduce(true) { $1.isValid() && $0 }
+    }
+
+    /// Returns the validation state of all managed fields. Does not trigger field error messages.
+    /// ```
+    /// if fields.checkValidation() {
+    ///     save()
+    /// }
+    /// ```
+    @discardableResult
+    public func checkValidation() -> Bool {
+        return list.reduce(true) { ($1.checkValidation() == nil) && $0 }
     }
 
     /// Returns a list of all managed fields with errors.

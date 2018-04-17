@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		19E8A11E91946CF282BC9DE0 /* Pods_RxSwiftFormsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D95BF64A96A81978DAA2268 /* Pods_RxSwiftFormsTests.framework */; };
+		4C9F63C92085668D0035B5AF /* MetaTextErrorTextColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C9F63C82085668D0035B5AF /* MetaTextErrorTextColor.swift */; };
 		4CCBD8DE20759E2D008DF35C /* FxErrorLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCBD8DD20759E2D008DF35C /* FxErrorLabel.swift */; };
 		4CD09ED62067E08E00A7FBB0 /* RxSwiftForms.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CD09ECC2067E08E00A7FBB0 /* RxSwiftForms.framework */; };
 		4CD09EDB2067E08E00A7FBB0 /* RxSwiftFormsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD09EDA2067E08E00A7FBB0 /* RxSwiftFormsTests.swift */; };
@@ -78,7 +79,7 @@
 		4CD4F87B207280810090669A /* MetaTextBehaviorFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD4F86A207280810090669A /* MetaTextBehaviorFilter.swift */; };
 		4CD4F87C207280810090669A /* MetaTextBehaviorMaxLength.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD4F86B207280810090669A /* MetaTextBehaviorMaxLength.swift */; };
 		4CD4F87D207280810090669A /* MetaTextBehaviorMaskedNumeric.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD4F86C207280810090669A /* MetaTextBehaviorMaskedNumeric.swift */; };
-		4CD4F87E207280810090669A /* MetaTextErrorMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD4F86E207280810090669A /* MetaTextErrorMessage.swift */; };
+		4CD4F87E207280810090669A /* MetaTextDecoratorMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD4F86E207280810090669A /* MetaTextDecoratorMessage.swift */; };
 		4CD4F87F207280810090669A /* MetaTextErrorBackgoundColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD4F86F207280810090669A /* MetaTextErrorBackgoundColor.swift */; };
 		4CD4F880207280810090669A /* MetaTextErrorHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD4F870207280810090669A /* MetaTextErrorHandler.swift */; };
 		4CD4F881207280810090669A /* MetaText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD4F871207280810090669A /* MetaText.swift */; };
@@ -166,7 +167,6 @@
 		4CD4F943207281500090669A /* MetaTextBehaviorFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD4F8FF2072814F0090669A /* MetaTextBehaviorFilter.swift */; };
 		4CD4F944207281500090669A /* MetaTextBehaviorMaxLength.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD4F9002072814F0090669A /* MetaTextBehaviorMaxLength.swift */; };
 		4CD4F945207281500090669A /* MetaTextBehaviorMaskedNumeric.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD4F9012072814F0090669A /* MetaTextBehaviorMaskedNumeric.swift */; };
-		4CD4F946207281500090669A /* MetaTextErrorMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD4F9032072814F0090669A /* MetaTextErrorMessage.swift */; };
 		4CD4F947207281500090669A /* MetaTextErrorBackgoundColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD4F9042072814F0090669A /* MetaTextErrorBackgoundColor.swift */; };
 		4CD4F948207281500090669A /* MetaTextErrorHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD4F9052072814F0090669A /* MetaTextErrorHandler.swift */; };
 		4CD4F949207281500090669A /* MetaText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD4F9062072814F0090669A /* MetaText.swift */; };
@@ -195,6 +195,7 @@
 /* Begin PBXFileReference section */
 		491432E8F71DC4754BA6B3C5 /* Pods-RxSwiftFormsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwiftFormsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RxSwiftFormsTests/Pods-RxSwiftFormsTests.release.xcconfig"; sourceTree = "<group>"; };
 		4C76F8A0207408F100F9E784 /* CHANGELOG.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = CHANGELOG.md; sourceTree = SOURCE_ROOT; };
+		4C9F63C82085668D0035B5AF /* MetaTextErrorTextColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetaTextErrorTextColor.swift; sourceTree = "<group>"; };
 		4CCBD8DD20759E2D008DF35C /* FxErrorLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FxErrorLabel.swift; sourceTree = "<group>"; };
 		4CD09ECC2067E08E00A7FBB0 /* RxSwiftForms.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxSwiftForms.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CD09ECF2067E08E00A7FBB0 /* RxSwiftForms.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RxSwiftForms.h; sourceTree = "<group>"; };
@@ -270,7 +271,7 @@
 		4CD4F86A207280810090669A /* MetaTextBehaviorFilter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetaTextBehaviorFilter.swift; sourceTree = "<group>"; };
 		4CD4F86B207280810090669A /* MetaTextBehaviorMaxLength.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetaTextBehaviorMaxLength.swift; sourceTree = "<group>"; };
 		4CD4F86C207280810090669A /* MetaTextBehaviorMaskedNumeric.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetaTextBehaviorMaskedNumeric.swift; sourceTree = "<group>"; };
-		4CD4F86E207280810090669A /* MetaTextErrorMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetaTextErrorMessage.swift; sourceTree = "<group>"; };
+		4CD4F86E207280810090669A /* MetaTextDecoratorMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetaTextDecoratorMessage.swift; sourceTree = "<group>"; };
 		4CD4F86F207280810090669A /* MetaTextErrorBackgoundColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetaTextErrorBackgoundColor.swift; sourceTree = "<group>"; };
 		4CD4F870207280810090669A /* MetaTextErrorHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetaTextErrorHandler.swift; sourceTree = "<group>"; };
 		4CD4F871207280810090669A /* MetaText.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetaText.swift; sourceTree = "<group>"; };
@@ -358,7 +359,6 @@
 		4CD4F8FF2072814F0090669A /* MetaTextBehaviorFilter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetaTextBehaviorFilter.swift; sourceTree = "<group>"; };
 		4CD4F9002072814F0090669A /* MetaTextBehaviorMaxLength.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetaTextBehaviorMaxLength.swift; sourceTree = "<group>"; };
 		4CD4F9012072814F0090669A /* MetaTextBehaviorMaskedNumeric.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetaTextBehaviorMaskedNumeric.swift; sourceTree = "<group>"; };
-		4CD4F9032072814F0090669A /* MetaTextErrorMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetaTextErrorMessage.swift; sourceTree = "<group>"; };
 		4CD4F9042072814F0090669A /* MetaTextErrorBackgoundColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetaTextErrorBackgoundColor.swift; sourceTree = "<group>"; };
 		4CD4F9052072814F0090669A /* MetaTextErrorHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetaTextErrorHandler.swift; sourceTree = "<group>"; };
 		4CD4F9062072814F0090669A /* MetaText.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetaText.swift; sourceTree = "<group>"; };
@@ -656,10 +656,11 @@
 			isa = PBXGroup;
 			children = (
 				4CD4F862207280810090669A /* MetaTextDecoratorBorder.swift */,
-				4CD4F863207280810090669A /* MetaTextDecoratorTintClearImage.swift */,
 				4CD4F864207280810090669A /* MetaTextDecoratorDisclosure.swift */,
-				4CD4F865207280810090669A /* MetaTextDecoratorTintPlaceholder.swift */,
+				4CD4F86E207280810090669A /* MetaTextDecoratorMessage.swift */,
 				4CD4F866207280810090669A /* MetaTextDecoratorShowPassword.swift */,
+				4CD4F863207280810090669A /* MetaTextDecoratorTintClearImage.swift */,
+				4CD4F865207280810090669A /* MetaTextDecoratorTintPlaceholder.swift */,
 				4CD4F867207280810090669A /* MetaTextDecoratorUnderline.swift */,
 			);
 			path = Decorators;
@@ -678,8 +679,8 @@
 		4CD4F86D207280810090669A /* Errors */ = {
 			isa = PBXGroup;
 			children = (
-				4CD4F86E207280810090669A /* MetaTextErrorMessage.swift */,
 				4CD4F86F207280810090669A /* MetaTextErrorBackgoundColor.swift */,
+				4C9F63C82085668D0035B5AF /* MetaTextErrorTextColor.swift */,
 				4CD4F870207280810090669A /* MetaTextErrorHandler.swift */,
 			);
 			path = Errors;
@@ -956,7 +957,6 @@
 		4CD4F9022072814F0090669A /* Errors */ = {
 			isa = PBXGroup;
 			children = (
-				4CD4F9032072814F0090669A /* MetaTextErrorMessage.swift */,
 				4CD4F9042072814F0090669A /* MetaTextErrorBackgoundColor.swift */,
 				4CD4F9052072814F0090669A /* MetaTextErrorHandler.swift */,
 			);
@@ -1339,6 +1339,7 @@
 				4CD09F322067E4E300A7FBB0 /* FxField+Enabled.swift in Sources */,
 				4CD09F3A2067E4E300A7FBB0 /* FxField+Hidden.swift in Sources */,
 				4CD4F878207280810090669A /* MetaTextDecoratorShowPassword.swift in Sources */,
+				4C9F63C92085668D0035B5AF /* MetaTextErrorTextColor.swift in Sources */,
 				4CD4F87D207280810090669A /* MetaTextBehaviorMaskedNumeric.swift in Sources */,
 				4CD09F582067E4E300A7FBB0 /* FxDisclosureButton.swift in Sources */,
 				4CD09F332067E4E300A7FBB0 /* FxField+Binding.swift in Sources */,
@@ -1352,7 +1353,7 @@
 				4CD4F880207280810090669A /* MetaTextErrorHandler.swift in Sources */,
 				4CD09F3C2067E4E300A7FBB0 /* FxField+Required.swift in Sources */,
 				4CD4F874207280810090669A /* MetaTextDecoratorBorder.swift in Sources */,
-				4CD4F87E207280810090669A /* MetaTextErrorMessage.swift in Sources */,
+				4CD4F87E207280810090669A /* MetaTextDecoratorMessage.swift in Sources */,
 				4CD09F442067E4E300A7FBB0 /* FxForm+Auto.swift in Sources */,
 				4CD09F252067E4E300A7FBB0 /* FxValues.swift in Sources */,
 				4CD09F452067E4E300A7FBB0 /* FxForm+InputAccessoryView.swift in Sources */,
@@ -1399,7 +1400,6 @@
 				4CD4F92C207281500090669A /* FxFields+Rx.swift in Sources */,
 				4CD4F8A2207281190090669A /* CreditCardViewController.swift in Sources */,
 				4CD4F90A207281500090669A /* FxForm+Binding.swift in Sources */,
-				4CD4F946207281500090669A /* MetaTextErrorMessage.swift in Sources */,
 				4CD4F8B0207281190090669A /* ContactFormReactiveViewController.swift in Sources */,
 				4CD4F913207281500090669A /* FxValueBool.swift in Sources */,
 				4CD4F90D207281500090669A /* FxForm+InputAccessoryView.swift in Sources */,

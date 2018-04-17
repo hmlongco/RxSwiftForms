@@ -81,6 +81,7 @@ class MaterialFormViewController: UIViewController, Dismissible {
 
         tagOptionalPlaceholders()
         swapStyles()
+        zipField.helpMessage = "5 or 9 digits"
         zipField.maskFormat = "99999-9999"
     }
 
@@ -223,8 +224,10 @@ class MaterialFormViewController: UIViewController, Dismissible {
             if let textfield = field.view as? FxTextField {
                 if MaterialFormViewController.material {
                     textfield.add(behavior: MetaTextDecoratorUnderline(color: textfield.tintColor, errorColor: .red))
+                    textfield.errorOffset = 0
                 } else {
                     textfield.add(behavior: MetaTextDecoratorBorder(color: .lightGray, editingColor: textfield.tintColor, errorColor: .red))
+                    textfield.errorOffset = 8
                 }
             }
         }
