@@ -61,11 +61,7 @@ public class FxTextField: MetaTextField, FxErrorHandling {
         didSet { messageBehavior.errorColor = errorColor }
     }
 
-    public var errorOffset: CGFloat = 0.0 {
-        didSet { messageBehavior.offset = errorOffset }
-    }
-
-    public var errorPadding: CGFloat = 3.0 {
+    public var errorPadding: CGFloat = 1.0 {
         didSet { messageBehavior.padding = errorPadding }
     }
 
@@ -82,9 +78,12 @@ public class FxTextField: MetaTextField, FxErrorHandling {
     }
 
     public func initFxTextField() {
+        messageBehavior.padding = 0.0
         add(behavior: messageBehavior)
+        add(behavior: placeholderDecorator)
     }
 
+    internal let placeholderDecorator = MetaTextErrorPlaceholder(color: .darkText, errorColor: UIColor.red)
     internal let messageBehavior = MetaTextDecoratorMessage()
 
 }

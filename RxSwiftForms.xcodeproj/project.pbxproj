@@ -12,6 +12,8 @@
 		4C9F63CC208645290035B5AF /* FxErrorLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCBD8DD20759E2D008DF35C /* FxErrorLabel.swift */; };
 		4C9F63CD208645680035B5AF /* MetaTextDecoratorMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD4F86E207280810090669A /* MetaTextDecoratorMessage.swift */; };
 		4C9F63CE2086457C0035B5AF /* MetaTextErrorTextColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C9F63C82085668D0035B5AF /* MetaTextErrorTextColor.swift */; };
+		4CAD2044208A36FE00F2C15E /* MetaTextErrorPlaceholder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CAD2043208A36FE00F2C15E /* MetaTextErrorPlaceholder.swift */; };
+		4CAD2046208A3AF900F2C15E /* MetaTextErrorPlaceholder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CAD2043208A36FE00F2C15E /* MetaTextErrorPlaceholder.swift */; };
 		4CCBD8DE20759E2D008DF35C /* FxErrorLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCBD8DD20759E2D008DF35C /* FxErrorLabel.swift */; };
 		4CD09ED62067E08E00A7FBB0 /* RxSwiftForms.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CD09ECC2067E08E00A7FBB0 /* RxSwiftForms.framework */; };
 		4CD09EDB2067E08E00A7FBB0 /* RxSwiftFormsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD09EDA2067E08E00A7FBB0 /* RxSwiftFormsTests.swift */; };
@@ -199,6 +201,7 @@
 		491432E8F71DC4754BA6B3C5 /* Pods-RxSwiftFormsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwiftFormsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RxSwiftFormsTests/Pods-RxSwiftFormsTests.release.xcconfig"; sourceTree = "<group>"; };
 		4C76F8A0207408F100F9E784 /* CHANGELOG.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = CHANGELOG.md; sourceTree = SOURCE_ROOT; };
 		4C9F63C82085668D0035B5AF /* MetaTextErrorTextColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetaTextErrorTextColor.swift; sourceTree = "<group>"; };
+		4CAD2043208A36FE00F2C15E /* MetaTextErrorPlaceholder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MetaTextErrorPlaceholder.swift; path = Sources/MetaTextField/Errors/MetaTextErrorPlaceholder.swift; sourceTree = SOURCE_ROOT; };
 		4CCBD8DD20759E2D008DF35C /* FxErrorLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FxErrorLabel.swift; sourceTree = "<group>"; };
 		4CD09ECC2067E08E00A7FBB0 /* RxSwiftForms.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxSwiftForms.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CD09ECF2067E08E00A7FBB0 /* RxSwiftForms.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RxSwiftForms.h; sourceTree = "<group>"; };
@@ -683,6 +686,7 @@
 			isa = PBXGroup;
 			children = (
 				4CD4F86F207280810090669A /* MetaTextErrorBackgoundColor.swift */,
+				4CAD2043208A36FE00F2C15E /* MetaTextErrorPlaceholder.swift */,
 				4C9F63C82085668D0035B5AF /* MetaTextErrorTextColor.swift */,
 				4CD4F870207280810090669A /* MetaTextErrorHandler.swift */,
 			);
@@ -1368,6 +1372,7 @@
 				4CD4F877207280810090669A /* MetaTextDecoratorTintPlaceholder.swift in Sources */,
 				4CD09F282067E4E300A7FBB0 /* FxValueNil.swift in Sources */,
 				4CD09F342067E4E300A7FBB0 /* FxField+Placeholder.swift in Sources */,
+				4CAD2044208A36FE00F2C15E /* MetaTextErrorPlaceholder.swift in Sources */,
 				4CD09F372067E4E300A7FBB0 /* FxField+Rx.swift in Sources */,
 				4CD09F392067E4E300A7FBB0 /* FxField+Message.swift in Sources */,
 				4CD09F312067E4E300A7FBB0 /* FxField+Keyboard.swift in Sources */,
@@ -1445,6 +1450,7 @@
 				4CD4F958207281C60090669A /* FxErrorMessageView.swift in Sources */,
 				4CD4F939207281500090669A /* FxValidationRules.swift in Sources */,
 				4CD4F90B207281500090669A /* FxForm+Tabbing.swift in Sources */,
+				4CAD2046208A3AF900F2C15E /* MetaTextErrorPlaceholder.swift in Sources */,
 				4CD4F919207281500090669A /* FxField+Binding.swift in Sources */,
 				4CD4F8AD207281190090669A /* MaterialReflectionViewModel.swift in Sources */,
 				4C9F63CE2086457C0035B5AF /* MetaTextErrorTextColor.swift in Sources */,

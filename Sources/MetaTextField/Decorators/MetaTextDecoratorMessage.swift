@@ -27,10 +27,6 @@ open class MetaTextDecoratorMessage: MetaTextBehaviorErrorHandling, MetaTextDeco
         didSet { label?.font = font }
     }
 
-    public var offset: CGFloat = 0.0 {
-        didSet { updateLabelPosition() }
-    }
-
     public var padding: CGFloat = 4.0 {
         didSet { updateLabelPosition() }
     }
@@ -132,7 +128,6 @@ open class MetaTextDecoratorMessage: MetaTextBehaviorErrorHandling, MetaTextDeco
         label.textColor = getColor()
         label.alpha = 0
         self.label = label
-        updateLabelProperties()
         textField?.addSubview(label)
         setupErrorConstraints()
         layoutLabel(animated: false)
@@ -161,6 +156,8 @@ open class MetaTextDecoratorMessage: MetaTextBehaviorErrorHandling, MetaTextDeco
 
     func layoutLabel(animated: Bool) {
         if hasMessage {
+            updateLabelProperties()
+            updateLabelPosition()
             showLabel(animated: animated)
         } else {
             hideLabel(animated: animated)
@@ -227,12 +224,12 @@ open class MetaTextDecoratorMessage: MetaTextBehaviorErrorHandling, MetaTextDeco
 
     func updateLabelPosition() {
         labelTopConstraint?.constant = labelPositionY()
-        labelLeftConstraint?.constant = offset
+        labelLeftConstraint?.constant = textField?.layoutMargins.left ?? 0
     }
 
     func updateLabelProperties() {
         label?.font = font
-        label?.textColor = errorColor
+        label?.textColor = getColor()
     }
 
     func updateLabelText() {

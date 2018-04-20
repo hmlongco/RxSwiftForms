@@ -61,6 +61,10 @@ open class MetaTextDecoratorUnderline: MetaTextDecoratingLayout, MetaTextDecorat
     }
 
     public func add(to textField: MetaTextField) -> Bool {
+        var margins = textField.layoutMargins
+        margins.left = 0
+        margins.right = 0
+        textField.layoutMargins = margins
         self.textField = textField
         setTextFieldProperties()
         return true

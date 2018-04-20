@@ -224,10 +224,9 @@ class MaterialFormViewController: UIViewController, Dismissible {
             if let textfield = field.view as? FxTextField {
                 if MaterialFormViewController.material {
                     textfield.add(behavior: MetaTextDecoratorUnderline(color: textfield.tintColor, errorColor: .red))
-                    textfield.errorOffset = 0
                 } else {
                     textfield.add(behavior: MetaTextDecoratorBorder(color: .lightGray, editingColor: textfield.tintColor, errorColor: .red))
-                    textfield.errorOffset = 8
+                    textfield.layoutMargins = UIEdgeInsets(top: 12, left: 14, bottom: 16, right: 14)
                 }
             }
         }
