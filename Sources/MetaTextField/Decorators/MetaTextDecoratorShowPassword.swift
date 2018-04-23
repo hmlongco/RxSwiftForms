@@ -29,6 +29,7 @@ open class MetaTextDecoratorShowPassword: NSObject, MetaTextDecorating {
 
         let imageView = UIImageView(image: textField.isSecureTextEntry ? showImage : hideImage)
         imageView.isUserInteractionEnabled = true
+        imageView.accessibilityLabel = textField.isSecureTextEntry ? "Show Password" : "Hide Password"
 
         textField.rightView = imageView
         textField.rightViewMode = .whileEditing
