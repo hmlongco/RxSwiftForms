@@ -39,7 +39,7 @@ open class MetaTextErrorPlaceholder: MetaTextDecoratingLayout, MetaTextBehaviorE
     private func tintPlaceholder() {
         guard let textField = textField else { return }
         let placeholder = textField.placeholder ?? ""
-        let attributes = [NSAttributedStringKey.foregroundColor: currentColor.withAlphaComponent(0.54)]
+        let attributes = [NSAttributedStringKey.foregroundColor: currentColor.withAlphaComponent(0.3)]
         textField.attributedPlaceholder = NSAttributedString(string: placeholder, attributes: attributes)
     }
 
