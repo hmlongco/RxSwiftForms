@@ -149,14 +149,14 @@ extension FxField {
     // MARK: - Internal Functions
 
     internal func performFieldToViewBinding() {
-        if let bindable = view as? FxBindableValue, let disposable = bindable.bindFieldToView(self) {
-            disposable.disposed(by: _disposeBag)
+        if let bindable = view as? FxBindableValue {
+            bindable.bindFieldToView(self)?.disposed(by: _disposeBag)
         }
     }
 
     internal func performViewToFieldBinding() {
-        if let bindable = view as? FxBindableValue, let disposable = bindable.bindViewToField(self) {
-            disposable.disposed(by: _disposeBag)
+        if let bindable = view as? FxBindableValue {
+            bindable.bindViewToField(self)?.disposed(by: _disposeBag)
         }
     }
 
