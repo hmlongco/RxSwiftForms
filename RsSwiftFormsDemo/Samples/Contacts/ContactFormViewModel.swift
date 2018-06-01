@@ -8,7 +8,6 @@
 
 import RxSwift
 import RxCocoa
-import RxSwiftForms
 
 enum ContactFormFields: String {
     case firstName
